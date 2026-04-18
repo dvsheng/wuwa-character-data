@@ -1,0 +1,2203 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_SkillQTE",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.0
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'SkillQTE'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.17,
+                "AnimPlayRate": 0.5,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'SkillQTE'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+                },
+                "StartPos": 0.34,
+                "AnimStartTime": 0.17,
+                "AnimEndTime": 0.66,
+                "AnimPlayRate": 0.95,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'SkillQTE'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+                },
+                "StartPos": 0.85578954,
+                "AnimStartTime": 0.66,
+                "AnimEndTime": 1.3,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddBuff_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddBuff_C'AM_SkillQTE:TsAnimNotifyStateAddBuff_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.12"
+          },
+          "Duration": 1.1898326,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 1.1898326,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 14,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateRotate_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateRotate_C'AM_SkillQTE:TsAnimNotifyStateRotate_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.24"
+          },
+          "Duration": 0.21699217,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.34,
+            "LinkValue": 0.21699217,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAbsoluteTimeStop_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAbsoluteTimeStop_C'AM_SkillQTE:TsAnimNotifyStateAbsoluteTimeStop_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.11"
+          },
+          "Duration": 1.1898326,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 1.1898326,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSetMovementMode_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSetMovementMode_C'AM_SkillQTE:TsAnimNotifyStateSetMovementMode_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.25"
+          },
+          "Duration": 1.1898326,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 1.1898326,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_SkillQTE:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.14"
+          },
+          "Duration": 1.1898326,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 1.1898326,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_SkillQTE:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.15"
+          },
+          "Duration": 1.1898326,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 1.1898326,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_SkillQTE:TsAnimNotifyStateAddTag_C_6'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.18"
+          },
+          "Duration": 1.1898326,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 1.1898326,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddBuff_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddBuff_C'AM_SkillQTE:TsAnimNotifyStateAddBuff_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.13"
+          },
+          "Duration": 1.1898326,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 1.1898326,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_SkillQTE:TsAnimNotifyStateAddTag_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.16"
+          },
+          "Duration": 1.1898326,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 1.1898326,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 15,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_SkillQTE:TsAnimNotifyWeaponHide_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.29"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 16,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_SkillQTE:TsAnimNotifyWeaponHide_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.27"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 17,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_SkillQTE:TsAnimNotifyStateSubMeshControl_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.26"
+          },
+          "Duration": 1.2004232,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 1.2004232,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 18,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyControllerShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyControllerShake_C'AM_SkillQTE:TsAnimNotifyControllerShake_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 20,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_SkillQTE:TsAnimNotifyStateAudioEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.20"
+          },
+          "Duration": 0.9761199,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 0.9761199,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 21,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_SkillQTE:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.19"
+          },
+          "Duration": 1.4618143,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 1.4807107,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 19,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.01889646,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_SkillQTE:AnimNotifyEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.068018734,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_SkillQTE:TsAnimNotifyStatePositionBranchTarget_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.22"
+          },
+          "Duration": 0.7472217,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 0.9834334,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.23621172,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_SkillQTE:AnimNotifyEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.3,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.34,
+          "LinkValue": 0.250099,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_SkillQTE:AnimNotifyEffect_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.06151515,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.34,
+          "SegmentLength": 0.5157895,
+          "LinkValue": 0.4293342,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_SkillQTE:AnimNotifyStateEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.6"
+          },
+          "Duration": 0.23197928,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.34,
+            "SegmentLength": 0.5157895,
+            "LinkValue": 0.75760865,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.34,
+          "SegmentLength": 0.5157895,
+          "LinkValue": 0.52562934,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_SkillQTE:TsAnimNotifyStateAddTag_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.17"
+          },
+          "Duration": 0.07298112,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.34,
+            "SegmentLength": 0.5157895,
+            "LinkValue": 0.7388503,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.34,
+          "SegmentLength": 0.5157895,
+          "LinkValue": 0.6658692,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_SkillQTE:TsAnimNotifyAudioEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.6799043,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.34,
+          "SegmentLength": 0.5157895,
+          "LinkValue": 0.6799043,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionTarget_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionTarget_C'AM_SkillQTE:TsAnimNotifyStatePositionTarget_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.23"
+          },
+          "Duration": 0.21520483,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 0.98269403,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.34,
+          "SegmentLength": 0.5157895,
+          "LinkValue": 0.7674892,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_SkillQTE:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.27397943,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.85578954,
+          "SegmentLength": 0.6399999,
+          "LinkValue": 0.9459353,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateGoThrough_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateGoThrough_C'AM_SkillQTE:TsAnimNotifyStateGoThrough_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.21"
+          },
+          "Duration": 0.2706083,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.85578954,
+            "SegmentLength": 0.6399999,
+            "LinkValue": 1.2706083,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SkillQTE'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.85578954,
+          "SegmentLength": 0.6399999,
+          "LinkValue": 1.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_SkillQTE:TsAnimNotifyAddBuff_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.85578954,
+          "SegmentLength": 0.6399999,
+          "LinkValue": 1.0001395,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_SkillQTE:AnimNotifyEffect_C_8'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.26727,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 18,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.85578954,
+          "SegmentLength": 0.6399999,
+          "LinkValue": 1.190254,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_SkillQTE:AnimNotifyEffect_C_7'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.957234,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 16,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.85578954,
+          "SegmentLength": 0.6399999,
+          "LinkValue": 1.191187,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_SkillQTE:TsAnimNotifyWeaponHide_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.28"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.959867,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 17,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.85578954,
+          "SegmentLength": 0.6399999,
+          "LinkValue": 1.1955969,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SkillQTE'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SkillQTE.4"
+          }
+        }
+      ],
+      "SequenceLength": 1.4957895,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1BulanteMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/R2T1BulanteMd10011/Model/R2T1BulanteMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "23AAFD7A-477AAE97-5C2AEABC-527DE104"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/Common/Element/DA_Fx_Group_Element_Post.DA_Fx_Group_Element_Post",
+        "SubPathString": ""
+      },
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/Common/Element/DA_Fx_Group_Boom_Element_IceFire.DA_Fx_Group_Boom_Element_IceFire",
+        "SubPathString": ""
+      },
+      "Scale": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      },
+      "SocketName": "HitCase",
+      "exportIndex": 21
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/Common/Element/DA_Fx_Group_Element_Post01.DA_Fx_Group_Element_Post01",
+        "SubPathString": ""
+      },
+      "exportIndex": 22
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1BulanteMd10011/DA_Fx_Group_R1b_Shoudao.DA_Fx_Group_R1b_Shoudao",
+        "SubPathString": ""
+      },
+      "Rotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "SocketName": "WeaponProp02",
+      "exportIndex": 31
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1BulanteMd10011/DA_Fx_Group_R1a_ShouQiang.DA_Fx_Group_R1a_ShouQiang",
+        "SubPathString": ""
+      },
+      "Rotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "Attached": false,
+      "SocketName": "WeaponProp01",
+      "exportIndex": 30
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "FasterStop": false,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1BulanteMd10011/DA_Fx_Group_R1Air_Rush_Trail.DA_Fx_Group_R1Air_Rush_Trail",
+        "SubPathString": ""
+      },
+      "SocketName": "Bip001Spine",
+      "exportIndex": 23,
+      "CurrentTimeLength": 0.39074814
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1206008001,
+      "exportIndex": 29
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_bulante_skill_qte.play_vo_bulante_skill_qte",
+        "SubPathString": ""
+      },
+      "exportIndex": 25
+    }
+  },
+  {
+    "Type": "TsAnimNotifyControllerShake_C",
+    "Name": "TsAnimNotifyControllerShake_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.TsAnimNotifyControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyControllerShake_C'Default__TsAnimNotifyControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.3"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_BLT_Attack03'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/Data/ControllerShake/FF_BLT_Attack03.0"
+      },
+      "exportIndex": 16
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1206400100",
+      "exportIndex": 27
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAbsoluteTimeStop_C",
+    "Name": "TsAnimNotifyStateAbsoluteTimeStop_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAbsoluteTimeStop.TsAnimNotifyStateAbsoluteTimeStop_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAbsoluteTimeStop_C'Default__TsAnimNotifyStateAbsoluteTimeStop_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAbsoluteTimeStop.4"
+    },
+    "Properties": {
+      "角色战斗机制停止": false,
+      "怪物战斗机制停止": false,
+      "exportIndex": 6,
+      "CurrentTimeLength": 0.91627747
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddBuff_C",
+    "Name": "TsAnimNotifyStateAddBuff_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.TsAnimNotifyStateAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddBuff_C'Default__TsAnimNotifyStateAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.4"
+    },
+    "Properties": {
+      "BuffId": 1206808041,
+      "exportIndex": 4,
+      "CurrentTimeLength": 0.9164775
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddBuff_C",
+    "Name": "TsAnimNotifyStateAddBuff_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.TsAnimNotifyStateAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddBuff_C'Default__TsAnimNotifyStateAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.4"
+    },
+    "Properties": {
+      "BuffId": 1206006004,
+      "exportIndex": 11,
+      "CurrentTimeLength": 0.91627747
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.逻辑状态标识.无敌.通用无敌"
+      },
+      "exportIndex": 8,
+      "CurrentTimeLength": 0.91627747
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.BaseRole.状态通用标识.武器切换到手"
+      },
+      "exportIndex": 9,
+      "CurrentTimeLength": 0.91627747
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1BulanteMd10011.技能ID.戏码钩索飞斩1"
+      },
+      "exportIndex": 12,
+      "CurrentTimeLength": 0.91627747
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.功能制作.QTE.连携技能触发效果"
+      },
+      "exportIndex": 24,
+      "CurrentTimeLength": 0.2505083
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.Common.BUFF通用标识.不能切人"
+      },
+      "exportIndex": 10,
+      "CurrentTimeLength": 0.91627747
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_bulante_bat_skillqte.play_role_bulante_bat_skillqte",
+        "SubPathString": ""
+      },
+      "KeepAlive": true,
+      "exportIndex": 18,
+      "CurrentTimeLength": 0.897481
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_bulante_bat_skill_ds_00_start.play_role_bulante_bat_skill_ds_00_start",
+        "SubPathString": ""
+      },
+      "exportIndex": 17,
+      "CurrentTimeLength": 0.91627747
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateGoThrough_C",
+    "Name": "TsAnimNotifyStateGoThrough_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.TsAnimNotifyStateGoThrough_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateGoThrough_C'Default__TsAnimNotifyStateGoThrough_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.5"
+    },
+    "Properties": {
+      "OldGoThroughPriority": 50.0,
+      "OldHitPriority": 50.0,
+      "LeftTime": 0.14848241,
+      "IsEnd": true,
+      "exportIndex": 28,
+      "CurrentTimeLength": 0.8521874
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "MoveCurve": {
+        "ObjectName": "CurveFloat'SC_Bulante_SpeedCurve_UpStart'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/Data/SC_Bulante_SpeedCurve_UpStart.0"
+      },
+      "Distance": 0.0,
+      "MaxSpeed": 800.0,
+      "是否永远面向目标": false,
+      "忽略Z轴方向": false,
+      "永远修正Z轴": true,
+      "MinHeightFromTargetFloor": 20.0,
+      "exportIndex": 20,
+      "CurrentTimeLength": 0.68016577
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionTarget_C",
+    "Name": "TsAnimNotifyStatePositionTarget_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionTarget.TsAnimNotifyStatePositionTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionTarget_C'Default__TsAnimNotifyStatePositionTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionTarget.6"
+    },
+    "Properties": {
+      "最小距离": 100.0,
+      "达成条件后终止逻辑": true,
+      "exportIndex": 26,
+      "CurrentTimeLength": 0.14888829
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateRotate_C",
+    "Name": "TsAnimNotifyStateRotate_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.TsAnimNotifyStateRotate_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateRotate_C'Default__TsAnimNotifyStateRotate_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.7"
+    },
+    "Properties": {
+      "旋转速度": 3000.0,
+      "是否自动朝向目标": true,
+      "是否平滑旋转": true,
+      "exportIndex": 5,
+      "CurrentTimeLength": 0.23809111
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSetMovementMode_C",
+    "Name": "TsAnimNotifyStateSetMovementMode_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSetMovementMode.TsAnimNotifyStateSetMovementMode_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSetMovementMode_C'Default__TsAnimNotifyStateSetMovementMode_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSetMovementMode.4"
+    },
+    "Properties": {
+      "EnterMode": "MOVE_Flying",
+      "LeaveMode": "MOVE_Falling",
+      "exportIndex": 7,
+      "CurrentTimeLength": 0.91627747
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "BulanteGunCase01",
+      "开始是否可见": true,
+      "exportIndex": 15,
+      "CurrentTimeLength": 0.91627747
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "WeaponIndex": 1,
+      "HideEffect": false,
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "WeaponIndex": 0,
+      "HideEffect": false,
+      "exportIndex": 32
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SkillQTE'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SkillQTE.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "Hide": false,
+      "WeaponIndex": 0,
+      "HideEffect": false,
+      "exportIndex": 13
+    }
+  }
+]

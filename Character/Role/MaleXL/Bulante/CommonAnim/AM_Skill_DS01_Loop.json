@@ -1,0 +1,586 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Skill_DS01_Loop",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.0
+      },
+      "BlendOut": {
+        "BlendTime": 0.0
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "Default",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.2,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.2,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Skill_DS01_Loop:TsAnimNotifyStateAddTag_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.4"
+          },
+          "Duration": 0.2,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.2,
+            "LinkValue": 0.2,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.2,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Skill_DS01_Loop:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.1"
+          },
+          "Duration": 0.2,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.2,
+            "LinkValue": 0.2,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.2,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_Skill_DS01_Loop:TsAnimNotifyStateSubMeshControl_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.7"
+          },
+          "Duration": 0.2,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.2,
+            "LinkValue": 0.2,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.2,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateGoThrough_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateGoThrough_C'AM_Skill_DS01_Loop:TsAnimNotifyStateGoThrough_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.5"
+          },
+          "Duration": 0.2,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.2,
+            "LinkValue": 0.2,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": -1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": -1.0,
+          "SegmentLength": -1.0,
+          "LinkValue": -9.313226E-10,
+          "LinkedSequence": null
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateRotate_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateRotate_C'AM_Skill_DS01_Loop:TsAnimNotifyStateRotate_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.6"
+          },
+          "Duration": 0.2,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.2,
+            "LinkValue": 0.2,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.2,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Skill_DS01_Loop:TsAnimNotifyStateAddTag_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.3"
+          },
+          "Duration": 0.2,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.2,
+            "LinkValue": 0.2,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.2,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Skill_DS01_Loop:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.2"
+          },
+          "Duration": 0.2,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.2,
+            "LinkValue": 0.2,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill_DS_01_Loop'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Skill_DS_01_Loop.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": -1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": -1.0,
+          "SegmentLength": -1.0,
+          "LinkValue": -9.313226E-10,
+          "LinkedSequence": null
+        }
+      ],
+      "SequenceLength": 0.2,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1BulanteMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/R2T1BulanteMd10011/Model/R2T1BulanteMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "23AAFD7A-477AAE97-5C2AEABC-527DE104"
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.逻辑状态标识.跌落无伤"
+      },
+      "exportIndex": 3,
+      "CurrentTimeLength": 0.086826265
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.功能制作.禁止体力恢复.技能禁止恢复"
+      },
+      "exportIndex": 8,
+      "CurrentTimeLength": 0.08662626
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1BulanteMd10011.技能ID.0空中落地攻击"
+      },
+      "exportIndex": 7,
+      "CurrentTimeLength": 0.08662626
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1BulanteMd10011.状态标识.空中状态标识"
+      },
+      "exportIndex": 2,
+      "CurrentTimeLength": 0.086826265
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateGoThrough_C",
+    "Name": "TsAnimNotifyStateGoThrough_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.TsAnimNotifyStateGoThrough_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateGoThrough_C'Default__TsAnimNotifyStateGoThrough_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.5"
+    },
+    "Properties": {
+      "FirstGoThroughPriority": 31,
+      "OldGoThroughPriority": 50.0,
+      "OldHitPriority": 50.0,
+      "LeftTime": -0.0153329,
+      "IsEnd": true,
+      "exportIndex": 5,
+      "CurrentTimeLength": 0.08662626
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateRotate_C",
+    "Name": "TsAnimNotifyStateRotate_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.TsAnimNotifyStateRotate_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateRotate_C'Default__TsAnimNotifyStateRotate_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.7"
+    },
+    "Properties": {
+      "是否自动朝向目标": true,
+      "是否平滑旋转": true,
+      "exportIndex": 6,
+      "CurrentTimeLength": 0.08662626
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill_DS01_Loop'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_Skill_DS01_Loop.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "BulanteGunCase01",
+      "开始是否可见": true,
+      "exportIndex": 4,
+      "CurrentTimeLength": 0.08662626
+    }
+  }
+]

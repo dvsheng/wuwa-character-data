@@ -1,0 +1,2122 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Burst_Fall_Rouge",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.35
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Burst01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 4.66,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Burst_Fall_Rouge:TsAnimNotifyStateAddTag_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.17"
+          },
+          "Duration": 3.9558067,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 4.66,
+            "LinkValue": 3.9558067,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 14,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Burst_Fall_Rouge:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Burst_Fall_Rouge:TsAnimNotifyAddBuff_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_Burst_Fall_Rouge:TsAnimNotifyStatePositionBranchTarget_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.21"
+          },
+          "Duration": 0.033333335,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 4.66,
+            "LinkValue": 0.033333335,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifySwitchSequenceCamera_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySwitchSequenceCamera_C'AM_Burst_Fall_Rouge:TsAnimNotifySwitchSequenceCamera_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.24"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAbsoluteTimeStop_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAbsoluteTimeStop_C'AM_Burst_Fall_Rouge:TsAnimNotifyStateAbsoluteTimeStop_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.11"
+          },
+          "Duration": 2.4138129,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 4.66,
+            "LinkValue": 2.4138129,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateBurst_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateBurst_C'AM_Burst_Fall_Rouge:TsAnimNotifyStateBurst_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.18"
+          },
+          "Duration": 3.9559712,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 4.66,
+            "LinkValue": 3.9559712,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateTimeStopRequest_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateTimeStopRequest_C'AM_Burst_Fall_Rouge:TsAnimNotifyStateTimeStopRequest_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.23"
+          },
+          "Duration": 3.9559712,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 4.66,
+            "LinkValue": 3.9559712,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateGoThrough",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateGoThrough_C'AM_Burst_Fall_Rouge:TsAnimNotifyStateGoThrough_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.19"
+          },
+          "Duration": 2.4122043,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 4.66,
+            "LinkValue": 2.4122043,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Burst_Fall_Rouge:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.12"
+          },
+          "Duration": 3.520144,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 4.66,
+            "LinkValue": 3.520144,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Burst_Fall_Rouge:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.13"
+          },
+          "Duration": 3.520144,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 4.66,
+            "LinkValue": 3.520144,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Burst_Fall_Rouge:TsAnimNotifyStateAddTag_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.14"
+          },
+          "Duration": 3.520144,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 4.66,
+            "LinkValue": 3.520144,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Burst_Fall_Rouge:TsAnimNotifyWeaponHide_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.25"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Burst_Fall_Rouge:TsAnimNotifyWeaponHide_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.28"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Burst_Fall_Rouge:TsAnimNotifyStateAddTag_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.15"
+          },
+          "Duration": 3.9559712,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 4.66,
+            "LinkValue": 3.9559712,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 15,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Burst_Fall_Rouge:TsAnimNotifyStateAddTag_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.16"
+          },
+          "Duration": 3.9559712,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 4.66,
+            "LinkValue": 3.9559712,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 16,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Burst_Fall_Rouge:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.26820144,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.26820144,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Burst_Fall_Rouge:TsAnimNotifyWeaponHide_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.29"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 0.5637526,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyControllerShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyControllerShake_C'AM_Burst_Fall_Rouge:TsAnimNotifyControllerShake_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 2.2496212,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Burst_Fall_Rouge:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 2.499723,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Burst_Fall_Rouge:TsAnimNotifyWeaponHide_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.26"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 2.9880586,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Burst_Fall_Rouge:TsAnimNotifyWeaponHide_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.27"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 2.9967248,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_Burst_Fall_Rouge:TsAnimNotifyStateSubMeshControl_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.22"
+          },
+          "Duration": 1.1237779,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 4.66,
+            "LinkValue": 4.6264863,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 3.5027084,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Burst_Fall_Rouge:TsAnimNotifyAddBuff_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 3.5190504,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_Burst_Fall_Rouge:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 3.9559712,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 3.9559712,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_Burst_Fall_Rouge:TsAnimNotifyStateNextAtt_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.20"
+          },
+          "Duration": 0.7040286,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 4.66,
+            "LinkValue": 4.66,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 3.9559712,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Burst_Fall_Rouge:TsAnimNotifyAddBuff_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.66,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 4.2125854,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Burst_Fall_Rouge:TsAnimNotifyAddBuff_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.3582735,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": true,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 4.333839,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Burst_Fall_Rouge:AnimNotifyEffect_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 3.4262328,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 4.66,
+          "LinkValue": 4.6035995,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/Burst01.6"
+          }
+        }
+      ],
+      "SequenceLength": 4.66,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1BulanteMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/R2T1BulanteMd10011/Model/R2T1BulanteMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "23AAFD7A-477AAE97-5C2AEABC-527DE104"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1BulanteMd10011/DA_Fx_Group_R1a_ShouQiang.DA_Fx_Group_R1a_ShouQiang",
+        "SubPathString": ""
+      },
+      "Rotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "Attached": false,
+      "SocketName": "WeaponProp02",
+      "exportIndex": 35
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1206909002,
+      "exportIndex": 9
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1206808071,
+      "exportIndex": 30
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1206111004,
+      "exportIndex": 34
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 12068080719,
+      "exportIndex": 33
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_bulante_burst_burst01.play_vo_bulante_burst_burst01",
+        "SubPathString": ""
+      },
+      "exportIndex": 23
+    }
+  },
+  {
+    "Type": "TsAnimNotifyControllerShake_C",
+    "Name": "TsAnimNotifyControllerShake_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.TsAnimNotifyControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyControllerShake_C'Default__TsAnimNotifyControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.3"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_BLT_Burst'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/Data/ControllerShake/FF_BLT_Burst.0"
+      },
+      "exportIndex": 25
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 31
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1206300666",
+      "exportIndex": 26
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1206300000",
+      "exportIndex": 8
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAbsoluteTimeStop_C",
+    "Name": "TsAnimNotifyStateAbsoluteTimeStop_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAbsoluteTimeStop.TsAnimNotifyStateAbsoluteTimeStop_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAbsoluteTimeStop_C'Default__TsAnimNotifyStateAbsoluteTimeStop_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAbsoluteTimeStop.4"
+    },
+    "Properties": {
+      "副本计时停止": true,
+      "exportIndex": 12,
+      "CurrentTimeLength": 2.4207785
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "行为状态.逻辑状态.不会入水"
+      },
+      "exportIndex": 16,
+      "CurrentTimeLength": 3.2667115
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "行为状态.逻辑状态.不会被击落"
+      },
+      "exportIndex": 17,
+      "CurrentTimeLength": 3.2667115
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "行为状态.逻辑状态.取消游泳检测"
+      },
+      "exportIndex": 18,
+      "CurrentTimeLength": 3.2667115
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1BulanteMd10011.状态标识.空中状态标识"
+      },
+      "exportIndex": 21,
+      "CurrentTimeLength": 3.2667115
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.BaseRole.状态通用标识.武器切换到手"
+      },
+      "exportIndex": 22,
+      "CurrentTimeLength": 3.2667115
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "行为状态.位置状态.空中"
+      },
+      "exportIndex": 7,
+      "CurrentTimeLength": 3.2669113
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateBurst_C",
+    "Name": "TsAnimNotifyStateBurst_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateBurst.TsAnimNotifyStateBurst_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateBurst_C'Default__TsAnimNotifyStateBurst_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateBurst.4"
+    },
+    "Properties": {
+      "exportIndex": 13,
+      "CurrentTimeLength": 3.2667115
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateGoThrough_C",
+    "Name": "TsAnimNotifyStateGoThrough_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.TsAnimNotifyStateGoThrough_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateGoThrough_C'Default__TsAnimNotifyStateGoThrough_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.5"
+    },
+    "Properties": {
+      "FirstGoThroughPriority": 41,
+      "OldGoThroughPriority": 50.0,
+      "OldHitPriority": 1000.0,
+      "LeftTime": -0.0014748685,
+      "IsEnd": true,
+      "exportIndex": 15,
+      "CurrentTimeLength": 2.4207785
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 32,
+      "CurrentTimeLength": 0.7040286
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "Distance": 315.0,
+      "MaxSpeed": 9000.0,
+      "允许反向移动": true,
+      "exportIndex": 10,
+      "CurrentTimeLength": 0.047344837
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "BulanteGunCase01",
+      "开始是否可见": true,
+      "exportIndex": 29,
+      "CurrentTimeLength": 1.1320758
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateTimeStopRequest_C",
+    "Name": "TsAnimNotifyStateTimeStopRequest_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateTimeStopRequest.TsAnimNotifyStateTimeStopRequest_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateTimeStopRequest_C'Default__TsAnimNotifyStateTimeStopRequest_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateTimeStopRequest.4"
+    },
+    "Properties": {
+      "exportIndex": 14,
+      "CurrentTimeLength": 3.2667115
+    }
+  },
+  {
+    "Type": "TsAnimNotifySwitchSequenceCamera_C",
+    "Name": "TsAnimNotifySwitchSequenceCamera_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySwitchSequenceCamera.TsAnimNotifySwitchSequenceCamera_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySwitchSequenceCamera_C'Default__TsAnimNotifySwitchSequenceCamera_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySwitchSequenceCamera.4"
+    },
+    "Properties": {
+      "特写镜头配置": {
+        "BlendOutTime_4_B229F83544CCA82D68E7B9867CC519D0": 1.6,
+        "CameraSequence_11_EA0F02DF4948AFF0A951AB8E0F790CEC": {
+          "ObjectName": "LevelSequence'SC_Bulante_Burst01'",
+          "ObjectPath": "Client/Content/Aki/Character/SequenceCamera/Fight/Bulante/SC_Bulante_Burst01.20"
+        },
+        "IsHideHud_13_3FD8AC824B783C3AC1386394935251D1": true,
+        "VisibleChild_26_E1BC75D64F4C322DD3D258A5F6B6F888": [
+          "EBattleUIChild::NewEnumerator16"
+        ],
+        "HideHudTime_28_D37870A24D62DBDE4DBCD593374C8C9B": -1.0,
+        "EnableSpecificSequenceTime_30_C30B0DDE4FC51270656237A7AC01DAEA": true,
+        "SpecificSequenceTime_33_90C52F1D4FA038826487E38A87172200": 2.9
+      },
+      "CameraAttachSocket": "Root",
+      "CameraDetectSocket": "Bip001Neck",
+      "bResetLockOnCamera": true,
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "WeaponIndex": 1,
+      "HideEffect": false,
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "WeaponIndex": 1,
+      "HideEffect": false,
+      "exportIndex": 27
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "WeaponIndex": 0,
+      "HideEffect": false,
+      "exportIndex": 28
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "WeaponIndex": 0,
+      "HideEffect": false,
+      "exportIndex": 20
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst_Fall_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/RougeAnim/AM_Burst_Fall_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "Hide": false,
+      "WeaponIndex": 0,
+      "HideEffect": false,
+      "exportIndex": 24
+    }
+  }
+]

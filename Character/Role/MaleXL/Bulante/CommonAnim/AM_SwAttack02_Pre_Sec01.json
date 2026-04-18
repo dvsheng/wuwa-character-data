@@ -1,0 +1,1187 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_SwAttack02_Pre_Sec01",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.0
+      },
+      "BlendOut": {
+        "BlendTime": 0.0
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.46666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_SwAttack02_Pre_Sec01:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.7"
+          },
+          "Duration": 0.46666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.46666667,
+            "LinkValue": 0.46666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_SwAttack02_Pre_Sec01:TsAnimNotifyAddBuff_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_SwAttack02_Pre_Sec01:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_SwAttack02_Pre_Sec01:TsAnimNotifyCameraModify_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_SwAttack02_Pre_Sec01:TsAnimNotifyStatePositionBranchTarget_C_9'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.9"
+          },
+          "Duration": 0.4666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": -1.0,
+            "SegmentLength": -1.0,
+            "LinkValue": 0.4666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSetMovementMode_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSetMovementMode_C'AM_SwAttack02_Pre_Sec01:TsAnimNotifyStateSetMovementMode_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.10"
+          },
+          "Duration": 0.466667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": -1.0,
+            "SegmentLength": -1.0,
+            "LinkValue": 0.466667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_SwAttack02_Pre_Sec01:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.6"
+          },
+          "Duration": 0.46666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.46666667,
+            "LinkValue": 0.46666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_SwAttack02_Pre_Sec01:TsAnimNotifyStateSubMeshControl_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.11"
+          },
+          "Duration": 0.466667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": -1.0,
+            "SegmentLength": -1.0,
+            "LinkValue": 0.466667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_SwAttack02_Pre_Sec01:TsAnimNotifyWeaponHide_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.13"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_SwAttack02_Pre_Sec01:TsAnimNotifyWeaponHide_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.12"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_SwAttack02_Pre_Sec01:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.8"
+          },
+          "Duration": 0.44730768,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.46666667,
+            "LinkValue": 0.454231,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.0069233216,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyControllerShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyControllerShake_C'AM_SwAttack02_Pre_Sec01:TsAnimNotifyControllerShake_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.012203772,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_SwAttack02_Pre_Sec01:TsAnimNotifyReSkillEvent_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.19999999,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.46666667,
+          "LinkValue": 0.31904107,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'SwAttack02_Pre_Sec01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/SwAttack02_Pre_Sec01.0"
+          }
+        }
+      ],
+      "SequenceLength": 0.46666667,
+      "AnimOrigin": "1",
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1BulanteMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/R2T1BulanteMd10011/Model/R2T1BulanteMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "23AAFD7A-477AAE97-5C2AEABC-527DE104"
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1206808021,
+      "exportIndex": 1
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.2,
+      "淡入时间": 0.6,
+      "淡出时间": 2.5,
+      "打断淡出时间": 0.65,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 1,
+        "IsModifiedArmLength_73_1686AE5842DD198072484BB2D855CAEB": true,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 750.0,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 150.0,
+        "IsModifiedArmRotationRoll_93_6CBBDC9043D8BF5E4EC3AB8E5473C625": false,
+        "IsModifiedArmRotationPitch_94_6C16441D44C806A072B75DA882811D0C": true,
+        "IsModifiedArmRotationYaw_95_FBE820DB4C8D5B75CEF242854F6F3774": true,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -10.0,
+          "Yaw": -38.0,
+          "Roll": 0.0
+        },
+        "IsModifiedCameraFov_53_1A8D869C4A5886B266452BBCB07BA93A": true,
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 70.0,
+        "StopModifyOnMontageEnd_61_E5E58E644EDFAC8B5A53C08F375C0567": false,
+        "ResetFinalArmRotation_70_56DCE7204671EC361892799BE39735C5": false,
+        "ResetFinalArmLengthToSpecificValue_207_E55092A1464EA622173DBCBEF34A8EF9": 666.0,
+        "IsForcePlayModify_177_F5B3348F48031F5374647B85AB011967": true
+      },
+      "条件": [
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator2",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 2000.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": false,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator7",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": true,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator1",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": true,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [
+            "怪物.common.状态标识.强化强锁",
+            "怪物.common.状态标识.强化软锁"
+          ],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": true,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "exportIndex": 2
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.2,
+      "淡入时间": 1.0,
+      "淡出时间": 2.5,
+      "打断淡出时间": 0.65,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 1,
+        "IsModifiedArmLength_73_1686AE5842DD198072484BB2D855CAEB": true,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 550.0,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 160.0,
+        "IsModifiedArmRotationRoll_93_6CBBDC9043D8BF5E4EC3AB8E5473C625": false,
+        "IsModifiedArmRotationPitch_94_6C16441D44C806A072B75DA882811D0C": true,
+        "IsModifiedArmRotationYaw_95_FBE820DB4C8D5B75CEF242854F6F3774": true,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -12.0,
+          "Yaw": 40.0,
+          "Roll": 0.0
+        },
+        "IsModifiedCameraFov_53_1A8D869C4A5886B266452BBCB07BA93A": true,
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 72.0,
+        "StopModifyOnMontageEnd_61_E5E58E644EDFAC8B5A53C08F375C0567": false,
+        "ResetFinalArmLength_72_0D8B0AFC4AA34A5415C9C6AC3D25FE4E": true,
+        "ResetFinalArmLengthToSpecificValue_207_E55092A1464EA622173DBCBEF34A8EF9": 666.0
+      },
+      "条件": [
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator2",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 2000.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": false,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator7",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": false,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator1",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": true,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [
+            "怪物.common.状态标识.强化强锁",
+            "怪物.common.状态标识.强化软锁"
+          ],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": true,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "exportIndex": 3
+    }
+  },
+  {
+    "Type": "TsAnimNotifyControllerShake_C",
+    "Name": "TsAnimNotifyControllerShake_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.TsAnimNotifyControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyControllerShake_C'Default__TsAnimNotifyControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.3"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_BLT_Swing'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/Data/ControllerShake/FF_BLT_Swing.0"
+      },
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1206020001",
+      "子弹出生位置偏移": {
+        "X": 50.0,
+        "Y": 0.0,
+        "Z": -20.0
+      },
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1BulanteMd10011.技能ID.钩索飞斩"
+      },
+      "exportIndex": 6,
+      "CurrentTimeLength": 0.41665795
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.BaseRole.状态通用标识.武器切换到手"
+      },
+      "exportIndex": 0,
+      "CurrentTimeLength": 0.41685793
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_bulante_bat_swattack02_pre_sec01.play_role_bulante_bat_swattack02_pre_sec01",
+        "SubPathString": ""
+      },
+      "exportIndex": 10,
+      "CurrentTimeLength": 0.40983462
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "MoveCurve": {
+        "ObjectName": "CurveFloat'SC_Bulante_SpeedCurve_UpStart'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/Data/SC_Bulante_SpeedCurve_UpStart.0"
+      },
+      "Distance": 80.0,
+      "MaxSpeed": 2200.0,
+      "是否永远面向目标": false,
+      "忽略Z轴方向": false,
+      "永远修正Z轴": true,
+      "忽略双方半径": true,
+      "TargetOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -100.0
+      },
+      "MinHeightFromTargetFloor": 20.0,
+      "exportIndex": 4,
+      "CurrentTimeLength": 0.41665795
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSetMovementMode_C",
+    "Name": "TsAnimNotifyStateSetMovementMode_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSetMovementMode.TsAnimNotifyStateSetMovementMode_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSetMovementMode_C'Default__TsAnimNotifyStateSetMovementMode_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSetMovementMode.4"
+    },
+    "Properties": {
+      "EnterMode": "MOVE_Flying",
+      "LeaveMode": "MOVE_Falling",
+      "exportIndex": 5,
+      "CurrentTimeLength": 0.41665795
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "BulanteGunCase01",
+      "开始是否可见": true,
+      "exportIndex": 7,
+      "CurrentTimeLength": 0.41665795
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "WeaponIndex": 1,
+      "HideEffect": false,
+      "exportIndex": 9
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_SwAttack02_Pre_Sec01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Bulante/CommonAnim/AM_SwAttack02_Pre_Sec01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "Hide": false,
+      "WeaponIndex": 0,
+      "HideEffect": false,
+      "exportIndex": 8
+    }
+  }
+]
