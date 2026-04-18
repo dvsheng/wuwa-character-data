@@ -1,0 +1,288 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Stand1_Action01",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Stand1_Action01",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Stand1_Action01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Stand1.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Stand1.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.3,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1_Action01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Stand1_Action01.1"
+                },
+                "StartPos": 0.3,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 22.0,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Stand1_Action01:AnimNotifyEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Stand1_Action01.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Stand1_Action01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.29999995,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/BaseAnim/Stand1.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateAddMaterialControllerData_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateAddMaterialControllerData_C'AM_Stand1_Action01:AnimNotifyStateAddMaterialControllerData_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Stand1_Action01.3"
+          },
+          "Duration": 22.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Stand1_Action01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.3,
+            "SegmentLength": 22.0,
+            "LinkValue": 22.3,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Stand1_Action01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Stand1_Action01.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Stand1_Action01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.3,
+          "SegmentLength": 22.0,
+          "LinkValue": 0.3,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1_Action01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Stand1_Action01.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Stand1_Action01:AnimNotifyEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Stand1_Action01.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 16.8,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Stand1_Action01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.3,
+          "SegmentLength": 22.0,
+          "LinkValue": 16.8,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1_Action01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Stand1_Action01.1"
+          }
+        }
+      ],
+      "SequenceLength": 22.3,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1LupaMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/R2T1LupaMd10011/Model/R2T1LupaMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "BC931070-47208F47-E6FAF699-934CCA32"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Stand1_Action01.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1LupaMd10011/DA_Fx_Group_Stand1_Action01_Huo.DA_Fx_Group_Stand1_Action01_Huo",
+        "SubPathString": ""
+      },
+      "SocketName": "Bip001Spine2",
+      "exportIndex": 4
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Stand1_Action01.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1LupaMd10011/DA_Fx_Group_Stand1_Action01_Huo.DA_Fx_Group_Stand1_Action01_Huo",
+        "SubPathString": ""
+      },
+      "SocketName": "Bip001Spine2",
+      "exportIndex": 6
+    }
+  },
+  {
+    "Type": "AnimNotifyStateAddMaterialControllerData_C",
+    "Name": "AnimNotifyStateAddMaterialControllerData_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyStateAddMaterialControllerData.AnimNotifyStateAddMaterialControllerData_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Stand1_Action01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Stand1_Action01.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateAddMaterialControllerData_C'Default__AnimNotifyStateAddMaterialControllerData_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyStateAddMaterialControllerData.4"
+    },
+    "Properties": {
+      "MaterialAssetData": {
+        "ObjectName": "PD_CharacterControllerData_C'DA_Fx_Lupa_Stand1_Action01_PifFeng'",
+        "ObjectPath": "Client/Content/Aki/Effect/MaterialController/DA_Character/Lupa/DA_Fx_Lupa_Stand1_Action01_PifFeng.1"
+      },
+      "exportIndex": 5,
+      "CurrentTimeLength": 3.5825405
+    }
+  }
+]

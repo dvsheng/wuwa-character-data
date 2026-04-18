@@ -1,0 +1,1526 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Attack01",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 11.933333,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_Attack01:TsAnimNotifyStateSubMeshControl_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.19"
+          },
+          "Duration": 11.933333,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.933333,
+            "LinkValue": 11.933333,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_Attack01:TsAnimNotifyStatePositionBranchTarget_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.16"
+          },
+          "Duration": 0.16839613,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.933333,
+            "LinkValue": 0.16839613,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateChangeSlot_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateChangeSlot_C'AM_Attack01:TsAnimNotifyStateChangeSlot_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.10"
+          },
+          "Duration": 0.13620225,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.933333,
+            "LinkValue": 0.13620225,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Attack01:TsAnimNotifyWeaponHide_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.20"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "场景物件交互",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSceneInteract_C'AM_Attack01:TsAnimNotifyStateSceneInteract_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.18"
+          },
+          "Duration": 11.933133,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.933333,
+            "LinkValue": 11.933133,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Attack01:TsAnimNotifyStateAudioEvent_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.9"
+          },
+          "Duration": 0.26666668,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.933333,
+            "LinkValue": 0.3,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.033333335,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Attack01:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.7"
+          },
+          "Duration": 0.2649558,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.933333,
+            "LinkValue": 0.29828912,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.033333335,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateChangeSlot_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateChangeSlot_C'AM_Attack01:TsAnimNotifyStateChangeSlot_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.12"
+          },
+          "Duration": 0.06729761,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.933333,
+            "LinkValue": 0.23349981,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.1662022,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Attack01:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.10000001,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.16876933,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_Attack01:TsAnimNotifyStatePositionBranchTarget_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.17"
+          },
+          "Duration": 0.06626937,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.933333,
+            "LinkValue": 0.29907978,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.23281041,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateChangeSlot_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateChangeSlot_C'AM_Attack01:TsAnimNotifyStateChangeSlot_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.13"
+          },
+          "Duration": 0.9333334,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.933333,
+            "LinkValue": 1.1976006,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.26426718,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Attack01:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.29,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.29,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Attack01:TsAnimNotifyReSkillEvent_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.33333334,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.29870617,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Attack01:TsAnimNotifyReSkillEvent_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.333333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.466728,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_Attack01:TsAnimNotifyStateNextAtt_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.15"
+          },
+          "Duration": 0.63347745,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.933333,
+            "LinkValue": 1.1666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 0.5331893,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Attack01:TsAnimNotifyStateAudioEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.8"
+          },
+          "Duration": 5.359333,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.933333,
+            "LinkValue": 6.426534,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 1.0672011,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_Attack01:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.1666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 1.1666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateChangeSlot_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateChangeSlot_C'AM_Attack01:TsAnimNotifyStateChangeSlot_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.11"
+          },
+          "Duration": 0.90000004,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.933333,
+            "LinkValue": 2.1333334,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 1.2333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateChangeSlot_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateChangeSlot_C'AM_Attack01:TsAnimNotifyStateChangeSlot_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.14"
+          },
+          "Duration": 9.766666,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 11.933333,
+            "LinkValue": 11.933333,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 2.1666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyFightStand_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyFightStand_C'AM_Attack01:TsAnimNotifyFightStand_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 11.500001,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 11.933333,
+          "LinkValue": 11.500001,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Attack01.4"
+          }
+        }
+      ],
+      "SequenceLength": 11.933333,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1LupaMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/R2T1LupaMd10011/Model/R2T1LupaMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "D1A378FA-4A46C51B-4EBF58AB-2E8ED986"
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_lupa_atk_atk01.play_vo_lupa_atk_atk01",
+        "SubPathString": ""
+      },
+      "TagProbabilityInfo": {
+        "DefaultProbability_10_745EC015436DEFB2B292A79C081F3E4F": 0.3
+      },
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 20
+    }
+  },
+  {
+    "Type": "TsAnimNotifyFightStand_C",
+    "Name": "TsAnimNotifyFightStand_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.TsAnimNotifyFightStand_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyFightStand_C'Default__TsAnimNotifyFightStand_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.3"
+    },
+    "Properties": {
+      "exportIndex": 23
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "120710101",
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "120710102",
+      "exportIndex": 16
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "120710103",
+      "exportIndex": 17
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_lupa_am_attack01.play_lupa_am_attack01",
+        "SubPathString": ""
+      },
+      "KeepAlive": true,
+      "FadeDuration": 50,
+      "TagProbabilityInfo": {
+        "TagProbability_15_717CFA424B383E7CBB53C2A5731D30CA": [
+          {
+            "GameplayTag_2_C6124A754A7A00A48BD1DFBD9F130812": {
+              "TagName": "角色.f1b6169c.状态标识.f6100ffe"
+            },
+            "Probability_5_6CCE81FE4F80F36D7CBB95BC18FC12EE": 0.0,
+            "CooldownTime_9_514E7EBC44AD5303577DE88D1EBBD1F3": 0
+          }
+        ]
+      },
+      "exportIndex": 10,
+      "CurrentTimeLength": 0.1538332
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_lupa_bat_attack01_foley.play_role_lupa_bat_attack01_foley",
+        "SubPathString": ""
+      },
+      "exportIndex": 19,
+      "CurrentTimeLength": 5.366738
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_lupa_am_attack01_sp.play_lupa_am_attack01_sp",
+        "SubPathString": ""
+      },
+      "KeepAlive": true,
+      "TagProbabilityInfo": {
+        "DefaultProbability_10_745EC015436DEFB2B292A79C081F3E4F": 0.0,
+        "TagProbability_15_717CFA424B383E7CBB53C2A5731D30CA": [
+          {
+            "GameplayTag_2_C6124A754A7A00A48BD1DFBD9F130812": {
+              "TagName": "角色.f1b6169c.状态标识.f6100ffe"
+            },
+            "Probability_5_6CCE81FE4F80F36D7CBB95BC18FC12EE": 1.0,
+            "CooldownTime_9_514E7EBC44AD5303577DE88D1EBBD1F3": 0
+          }
+        ]
+      },
+      "exportIndex": 9,
+      "CurrentTimeLength": 0.1538332
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateChangeSlot_C",
+    "Name": "TsAnimNotifyStateChangeSlot_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.TsAnimNotifyStateChangeSlot_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateChangeSlot_C'Default__TsAnimNotifyStateChangeSlot_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.4"
+    },
+    "Properties": {
+      "ComponentName": "OtherCase3",
+      "SwitchToSlotName": "WeaponProp02",
+      "exportIndex": 6,
+      "CurrentTimeLength": 0.14267053
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateChangeSlot_C",
+    "Name": "TsAnimNotifyStateChangeSlot_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.TsAnimNotifyStateChangeSlot_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateChangeSlot_C'Default__TsAnimNotifyStateChangeSlot_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.4"
+    },
+    "Properties": {
+      "ComponentName": "OtherCase3",
+      "SwitchToSlotName": "WeaponProp05",
+      "exportIndex": 21,
+      "CurrentTimeLength": 0.9133773
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateChangeSlot_C",
+    "Name": "TsAnimNotifyStateChangeSlot_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.TsAnimNotifyStateChangeSlot_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateChangeSlot_C'Default__TsAnimNotifyStateChangeSlot_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.4"
+    },
+    "Properties": {
+      "ComponentName": "OtherCase3",
+      "SwitchToSlotName": "WeaponProp05",
+      "exportIndex": 11,
+      "CurrentTimeLength": 0.020964324
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateChangeSlot_C",
+    "Name": "TsAnimNotifyStateChangeSlot_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.TsAnimNotifyStateChangeSlot_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateChangeSlot_C'Default__TsAnimNotifyStateChangeSlot_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.4"
+    },
+    "Properties": {
+      "ComponentName": "OtherCase3",
+      "SwitchToSlotName": "WeaponProp01",
+      "exportIndex": 14,
+      "CurrentTimeLength": 0.9453875
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateChangeSlot_C",
+    "Name": "TsAnimNotifyStateChangeSlot_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.TsAnimNotifyStateChangeSlot_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateChangeSlot_C'Default__TsAnimNotifyStateChangeSlot_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.4"
+    },
+    "Properties": {
+      "ComponentName": "OtherCase3",
+      "SwitchToSlotName": "WeaponProp02",
+      "exportIndex": 22,
+      "CurrentTimeLength": 9.766666
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 18,
+      "CurrentTimeLength": 0.6542667
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "Distance": 120.0,
+      "MaxSpeed": 1800.0,
+      "exportIndex": 5,
+      "CurrentTimeLength": 0.18706653
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "Distance": 120.0,
+      "MaxSpeed": 1800.0,
+      "exportIndex": 13,
+      "CurrentTimeLength": 0.08691409
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSceneInteract_C",
+    "Name": "TsAnimNotifyStateSceneInteract_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.TsAnimNotifyStateSceneInteract_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSceneInteract_C'Default__TsAnimNotifyStateSceneInteract_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.4"
+    },
+    "Properties": {
+      "SocketName": "WeaponProp02",
+      "DataAssetRef": {
+        "AssetPathName": "/Game/Aki/Data/Fight/SceneInteract/Role/Lupa/DA_PropSceneInteract_Lupa_Biaoqiang2.DA_PropSceneInteract_Lupa_Biaoqiang2",
+        "SubPathString": ""
+      },
+      "exportIndex": 8,
+      "CurrentTimeLength": 0.18706653
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "OtherCase3",
+      "开始是否可见": true,
+      "结束特效": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1LupaMd10011/DA_Fx_Group_Weapon_End.DA_Fx_Group_Weapon_End",
+        "SubPathString": ""
+      },
+      "exportIndex": 4,
+      "CurrentTimeLength": 0.18726653
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack01'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Attack01.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "HideEffect": false,
+      "exportIndex": 7
+    }
+  }
+]

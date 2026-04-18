@@ -1,0 +1,1733 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Skill01_Sp",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.06
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Skill01_Sp'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.9666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Skill01_Sp:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.13"
+          },
+          "Duration": 0.8333334,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.9666667,
+            "LinkValue": 0.8333334,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Skill01_Sp:TsAnimNotifyChangeSkillPriority_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateRotate_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateRotate_C'AM_Skill01_Sp:TsAnimNotifyStateRotate_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.20"
+          },
+          "Duration": 0.16810754,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.9666667,
+            "LinkValue": 0.16810754,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Skill01_Sp:TsAnimNotifyWeaponHide_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.22"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Skill01_Sp:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.01,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.01,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_Skill01_Sp:TsAnimNotifyStateSubMeshControl_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.21"
+          },
+          "Duration": 0.6333334,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.9666667,
+            "LinkValue": 0.70000005,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.06666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateChangeSlot_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateChangeSlot_C'AM_Skill01_Sp:TsAnimNotifyStateChangeSlot_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.16"
+          },
+          "Duration": 0.6333334,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.9666667,
+            "LinkValue": 0.70000005,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.06666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Skill01_Sp:AnimNotifyEffect_C_7'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.06858137,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.06858137,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Skill01_Sp:TsAnimNotifyCameraModify_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.10000001,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.10000001,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Skill01_Sp:AnimNotifyEffect_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.16666666,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 0.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.16666666,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Skill01_Sp:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.16666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.16666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Skill01_Sp:TsAnimNotifyCameraModify_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.16666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.16666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateCurveMove_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateCurveMove_C'AM_Skill01_Sp:TsAnimNotifyStateCurveMove_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.18"
+          },
+          "Duration": 0.2002608,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.9666667,
+            "LinkValue": 0.40000004,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.19973923,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateCurveMove_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateCurveMove_C'AM_Skill01_Sp:TsAnimNotifyStateCurveMove_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.17"
+          },
+          "Duration": 0.20000002,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.9666667,
+            "LinkValue": 0.40000004,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.20000002,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Skill01_Sp:TsAnimNotifyStateAudioEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.14"
+          },
+          "Duration": 1.4962258,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.9666667,
+            "LinkValue": 1.7771084,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 14,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.28088254,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Skill01_Sp:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.12"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.5,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.6333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Skill01_Sp:AnimNotifyEffect_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.6333333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 0.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.6333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Skill01_Sp:AnimNotifyEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.6333333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 0.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.6333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Skill01_Sp:TsAnimNotifyStateAudioEvent_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.15"
+          },
+          "Duration": 1.191752,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.9666667,
+            "LinkValue": 1.8273013,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 15,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.63554925,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Skill01_Sp:TsAnimNotifyChangeSkillPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.73333335,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.73333335,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_Skill01_Sp:TsAnimNotifyStateNextAtt_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.19"
+          },
+          "Duration": 1.0145957,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.9666667,
+            "LinkValue": 1.8204575,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Skill01_Sp'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 0.8058618,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_Skill01_Sp:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.8207575,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.9666667,
+          "LinkValue": 1.8207575,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Skill01_Sp'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/Skill01_Sp.4"
+          }
+        }
+      ],
+      "SequenceLength": 1.9666667,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1LupaMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/R2T1LupaMd10011/Model/R2T1LupaMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "9C4B5503-4B1A7C1C-EECCB6A7-CAC9CFE0"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/MB1ShanghenMd10011/DA_Fx_Group_MBa51_B_Gedang01.DA_Fx_Group_MBa51_B_Gedang01",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 50.0,
+        "Z": 80.0
+      },
+      "Attached": false,
+      "exportIndex": 21
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Block_Perfect.DA_Fx_Group_Block_Perfect",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 50.0,
+        "Z": 80.0
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 20
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/DataAsset/PostProcess/R2T1ChangLiMd10011/DA_Fx_Post_S_Burst02.DA_Fx_Post_S_Burst02",
+        "SubPathString": ""
+      },
+      "exportIndex": 13
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "RightOrLeftFoot": false,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1LupaMd10011/DA_Fx_Group_R1s1_Smoke.DA_Fx_Group_R1s1_Smoke",
+        "SubPathString": ""
+      },
+      "SocketName": "Root",
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_lupa_skill_skill01_pro.play_vo_lupa_skill_skill01_pro",
+        "SubPathString": ""
+      },
+      "TagProbabilityInfo": {
+        "DefaultProbability_10_745EC015436DEFB2B292A79C081F3E4F": 0.5
+      },
+      "exportIndex": 8
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.06,
+      "淡入时间": 0.1,
+      "淡出时间": 0.3,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 59,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 100.0,
+        "IsModifiedArmRotationPitch_94_6C16441D44C806A072B75DA882811D0C": true,
+        "IsModifiedArmRotationYaw_95_FBE820DB4C8D5B75CEF242854F6F3774": true,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -20.0,
+          "Yaw": 25.0,
+          "Roll": 0.0
+        },
+        "IsModifiedCameraOffsetX_96_CCEBEC98498BB408B5BA0AB0BD15F414": true,
+        "IsModifiedCameraOffsetY_97_F5766DB146F88618F570C4A1F04A00F7": true,
+        "IsModifiedCameraOffsetZ_98_E6E0795348BE5A8749FB348FAD18D836": true,
+        "IsModifiedCameraFov_53_1A8D869C4A5886B266452BBCB07BA93A": true,
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 75.0,
+        "OverrideCameraInput_59_0083E3164D765950CF70528078BF8218": true
+      },
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.2,
+      "淡入时间": 0.3,
+      "淡出时间": 0.1,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 60,
+        "IsModifiedArmLength_73_1686AE5842DD198072484BB2D855CAEB": true,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 720.0,
+        "IsModifiedArmRotation_76_570606324FC53E504274BDA6F59BD5C3": false,
+        "IsModifiedArmRotationPitch_94_6C16441D44C806A072B75DA882811D0C": true,
+        "IsModifiedArmRotationYaw_95_FBE820DB4C8D5B75CEF242854F6F3774": true,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -20.0,
+          "Yaw": 25.0,
+          "Roll": 0.0
+        },
+        "IsModifiedCameraOffset_79_43F688EC4B642A9CB92B0A8548187E16": true,
+        "IsModifiedCameraOffsetX_96_CCEBEC98498BB408B5BA0AB0BD15F414": true,
+        "IsModifiedCameraOffsetY_97_F5766DB146F88618F570C4A1F04A00F7": true,
+        "IsModifiedCameraOffsetZ_98_E6E0795348BE5A8749FB348FAD18D836": true,
+        "CameraOffset_80_EB37D424428EBE421F9AAEB064701EAD": {
+          "X": 0.0,
+          "Y": -100.0,
+          "Z": 50.0
+        },
+        "IsModifiedCameraFov_53_1A8D869C4A5886B266452BBCB07BA93A": true,
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 65.0,
+        "OverrideCameraInput_59_0083E3164D765950CF70528078BF8218": true
+      },
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 2.0,
+      "exportIndex": 23
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 6.0,
+      "exportIndex": 5
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 25
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "120761100",
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "120761101",
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.逻辑状态标识.霸体"
+      },
+      "exportIndex": 4,
+      "CurrentTimeLength": 0.8132162
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_lupa_am_skill01_sp_01.play_lupa_am_skill01_sp_01",
+        "SubPathString": ""
+      },
+      "FadeDuration": 100,
+      "exportIndex": 18,
+      "CurrentTimeLength": 0.53223366
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_lupa_am_skill01_sp_02.play_lupa_am_skill01_sp_02",
+        "SubPathString": ""
+      },
+      "FadeDuration": 100,
+      "exportIndex": 22,
+      "CurrentTimeLength": 0.17756695
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateChangeSlot_C",
+    "Name": "TsAnimNotifyStateChangeSlot_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.TsAnimNotifyStateChangeSlot_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateChangeSlot_C'Default__TsAnimNotifyStateChangeSlot_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateChangeSlot.4"
+    },
+    "Properties": {
+      "ComponentName": "OtherCase3",
+      "SwitchToSlotName": "WeaponProp05",
+      "exportIndex": 10,
+      "CurrentTimeLength": 0.6541539
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateCurveMove_C",
+    "Name": "TsAnimNotifyStateCurveMove_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateCurveMove.TsAnimNotifyStateCurveMove_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateCurveMove_C'Default__TsAnimNotifyStateCurveMove_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateCurveMove.5"
+    },
+    "Properties": {
+      "技能条件": [
+        {
+          "ConditionType_31_FDE61D77427DCD4BC0F2A7AA3D27695C": "ESkillBehaviorConditionType::NewEnumerator1",
+          "IgnoreZ_37_F6CCC57746F2CC2ECC2C2C8B8697BAE3": false,
+          "Sign_72_F5B15D704A9FA4243D4D888D6E838352": false,
+          "ComparisonLogic_41_BFD626EA4ADC6ECB646CA6B4C474889C": "ESkillBehaviorComparisonLogic::NewEnumerator0",
+          "Value_45_2649759445759C286E73938D5318AA99": 600.0,
+          "RangeL_47_7B13704A41AF164405A70085BB8683AB": 0.0,
+          "RangeR_49_6D00959F40FAE4F69CAF15A1F177BDD9": 0.0,
+          "AttributeId1_57_B049A05E4E70C63D62BE2BA6A045D0AB": 0,
+          "AttributeId2_55_F810A3BA4E7646BDF7859F8D04BC9E20": 0,
+          "AttributeRate_61_C001B3DF4577447AB9519DA1B72FF66F": 0,
+          "TagToCheck_64_464EE5B34705853741899A9D4F266404": [],
+          "AnyTag_67_51D28A91427519B4E10E76B922EE7E9B": false,
+          "Reverse_35_73079DDF426EC7983ADE55B35FEC138A": false
+        },
+        {
+          "ConditionType_31_FDE61D77427DCD4BC0F2A7AA3D27695C": "ESkillBehaviorConditionType::NewEnumerator1",
+          "IgnoreZ_37_F6CCC57746F2CC2ECC2C2C8B8697BAE3": false,
+          "Sign_72_F5B15D704A9FA4243D4D888D6E838352": false,
+          "ComparisonLogic_41_BFD626EA4ADC6ECB646CA6B4C474889C": "ESkillBehaviorComparisonLogic::NewEnumerator6",
+          "Value_45_2649759445759C286E73938D5318AA99": 1500.0,
+          "RangeL_47_7B13704A41AF164405A70085BB8683AB": 0.0,
+          "RangeR_49_6D00959F40FAE4F69CAF15A1F177BDD9": 0.0,
+          "AttributeId1_57_B049A05E4E70C63D62BE2BA6A045D0AB": 0,
+          "AttributeId2_55_F810A3BA4E7646BDF7859F8D04BC9E20": 0,
+          "AttributeRate_61_C001B3DF4577447AB9519DA1B72FF66F": 0,
+          "TagToCheck_64_464EE5B34705853741899A9D4F266404": [],
+          "AnyTag_67_51D28A91427519B4E10E76B922EE7E9B": false,
+          "Reverse_35_73079DDF426EC7983ADE55B35FEC138A": false
+        }
+      ],
+      "位置基准目标": "EPositionDatumTarget::NewEnumerator1",
+      "偏移方向基准": "EOffsetDirectionDatum::NewEnumerator2",
+      "目标位置偏移": {
+        "X": -550.0,
+        "Y": 0.0,
+        "Z": 100.0
+      },
+      "exportIndex": 17,
+      "CurrentTimeLength": 0.21512815
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateCurveMove_C",
+    "Name": "TsAnimNotifyStateCurveMove_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateCurveMove.TsAnimNotifyStateCurveMove_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateCurveMove_C'Default__TsAnimNotifyStateCurveMove_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateCurveMove.5"
+    },
+    "Properties": {
+      "技能条件": [
+        {
+          "ConditionType_31_FDE61D77427DCD4BC0F2A7AA3D27695C": "ESkillBehaviorConditionType::NewEnumerator1",
+          "IgnoreZ_37_F6CCC57746F2CC2ECC2C2C8B8697BAE3": false,
+          "Sign_72_F5B15D704A9FA4243D4D888D6E838352": false,
+          "ComparisonLogic_41_BFD626EA4ADC6ECB646CA6B4C474889C": "ESkillBehaviorComparisonLogic::NewEnumerator0",
+          "Value_45_2649759445759C286E73938D5318AA99": 1500.0,
+          "RangeL_47_7B13704A41AF164405A70085BB8683AB": 0.0,
+          "RangeR_49_6D00959F40FAE4F69CAF15A1F177BDD9": 0.0,
+          "AttributeId1_57_B049A05E4E70C63D62BE2BA6A045D0AB": 0,
+          "AttributeId2_55_F810A3BA4E7646BDF7859F8D04BC9E20": 0,
+          "AttributeRate_61_C001B3DF4577447AB9519DA1B72FF66F": 0,
+          "TagToCheck_64_464EE5B34705853741899A9D4F266404": [],
+          "AnyTag_67_51D28A91427519B4E10E76B922EE7E9B": false,
+          "Reverse_35_73079DDF426EC7983ADE55B35FEC138A": false
+        }
+      ],
+      "位置基准目标": "EPositionDatumTarget::NewEnumerator1",
+      "偏移方向基准": "EOffsetDirectionDatum::NewEnumerator2",
+      "目标位置偏移": {
+        "X": -950.0,
+        "Y": 0.0,
+        "Z": 100.0
+      },
+      "exportIndex": 16,
+      "CurrentTimeLength": 0.21538894
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 24,
+      "CurrentTimeLength": 0.0072544217
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateRotate_C",
+    "Name": "TsAnimNotifyStateRotate_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.TsAnimNotifyStateRotate_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateRotate_C'Default__TsAnimNotifyStateRotate_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.7"
+    },
+    "Properties": {
+      "旋转速度": 1080.0,
+      "是否自动朝向目标": true,
+      "是否平滑旋转": true,
+      "exportIndex": 6,
+      "CurrentTimeLength": 0.17568228
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "OtherCase3",
+      "开始是否可见": true,
+      "exportIndex": 9,
+      "CurrentTimeLength": 0.6541539
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Skill01_Sp'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Lupa/CommonAnim/AM_Skill01_Sp.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "HideEffect": false,
+      "exportIndex": 7
+    }
+  }
+]
