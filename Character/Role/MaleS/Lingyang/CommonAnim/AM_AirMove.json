@@ -1,0 +1,734 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_AirMove",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.03
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "Loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AirMove'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.2666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_AirMove:TsAnimNotifyStateNextAtt_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.7"
+          },
+          "Duration": 1.2635545,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirMove'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.2666667,
+            "LinkValue": 1.2635545,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirMove'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "ANS_ShowSpecMesh_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "ANS_ShowSpecMesh_C'AM_AirMove:ANS_ShowSpecMesh_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.1"
+          },
+          "Duration": 1.3666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirMove'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": -1.0,
+            "SegmentLength": -1.0,
+            "LinkValue": 1.3666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateRotate",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateRotate_C'AM_AirMove:TsAnimNotifyStateRotate_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.8"
+          },
+          "Duration": 0.16662705,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirMove'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.2666667,
+            "LinkValue": 0.16662705,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirMove'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2666667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateKeepAwayFromGround_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateKeepAwayFromGround_C'AM_AirMove:TsAnimNotifyStateKeepAwayFromGround_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.6"
+          },
+          "Duration": 0.33845955,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirMove'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.2666667,
+            "LinkValue": 0.50285983,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirMove'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2666667,
+          "LinkValue": 0.1644003,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_AirMove:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.4"
+          },
+          "Duration": 0.09982593,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirMove'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.2666667,
+            "LinkValue": 0.2655886,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirMove'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2666667,
+          "LinkValue": 0.16576268,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_AirMove:TsAnimNotifyAddBuff_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.39999998,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2666667,
+          "LinkValue": 0.39999998,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_AirMove:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.5"
+          },
+          "Duration": 0.666335,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirMove'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.2666667,
+            "LinkValue": 1.2666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirMove'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2666667,
+          "LinkValue": 0.60033166,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSetHitPriority_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSetHitPriority_C'AM_AirMove:TsAnimNotifyStateSetHitPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.9"
+          },
+          "Duration": 0.5639987,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirMove'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": -1.0,
+            "SegmentLength": -1.0,
+            "LinkValue": 1.2666669,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2666667,
+          "LinkValue": 0.7026682,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "发送动画通知广播",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySendGamePlayEvent_C'AM_AirMove:TsAnimNotifySendGamePlayEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2666667,
+          "LinkValue": 1.0666666,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirMove'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AirMove.0"
+          }
+        }
+      ],
+      "SequenceLength": 1.2666667,
+      "RawCurveData": {
+        "FloatCurves": [
+          {
+            "FloatCurve": {
+              "Keys": [
+                {
+                  "InterpMode": "RCIM_Constant",
+                  "TangentMode": "RCTM_Auto",
+                  "TangentWeightMode": "RCTWM_WeightedNone",
+                  "Time": 0.33333334,
+                  "Value": 1.0,
+                  "ArriveTangent": 0.0,
+                  "ArriveTangentWeight": 0.0,
+                  "LeaveTangent": 0.0,
+                  "LeaveTangentWeight": 0.0
+                }
+              ],
+              "DefaultValue": 3.4028235E+38,
+              "PreInfinityExtrap": "RCCE_Constant",
+              "PostInfinityExtrap": "RCCE_Constant"
+            },
+            "Name": {
+              "DisplayName": "ShowLionHead"
+            },
+            "CurveTypeFlags": 4
+          }
+        ]
+      },
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1LingyangMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/R2T1LingyangMd10011/Model/R2T1LingyangMd10011_Skeleton.14"
+      }
+    },
+    "SkeletonGuid": "CF27C0D0-47150B72-ABC93F9C-B78ECA0D"
+  },
+  {
+    "Type": "ANS_ShowSpecMesh_C",
+    "Name": "ANS_ShowSpecMesh_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Role/MaleS/Lingyang/Abilities/ANS_ShowSpecMesh.ANS_ShowSpecMesh_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirMove'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+    },
+    "Template": {
+      "ObjectName": "ANS_ShowSpecMesh_C'Default__ANS_ShowSpecMesh_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/Abilities/ANS_ShowSpecMesh.3"
+    },
+    "Properties": {
+      "MeshName": "OtherCase1",
+      "HideMeshWhenEnd": false,
+      "Montage to Play": {
+        "ObjectName": "AnimMontage'AM_LionHead_AirMove'",
+        "ObjectPath": "Client/Content/Aki/Character/Weapon/Prop/Role/Lingyangprop/BaseAnim/AM_LionHead_AirMove.0"
+      },
+      "LionHeadAction": "BPE_LionHeadAction::NewEnumerator12",
+      "exportIndex": 3
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirMove'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 110413001,
+      "exportIndex": 7
+    }
+  },
+  {
+    "Type": "TsAnimNotifySendGamePlayEvent_C",
+    "Name": "TsAnimNotifySendGamePlayEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.TsAnimNotifySendGamePlayEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirMove'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySendGamePlayEvent_C'Default__TsAnimNotifySendGamePlayEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.3"
+    },
+    "Properties": {
+      "事件Tag": {
+        "TagName": "角色.R2T1AwuMd10011.状态.梅花桩辅二"
+      },
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirMove'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1AwuMd10011.状态.梅花桩主桩"
+      },
+      "exportIndex": 6
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirMove'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1AwuMd10011.状态.可跳桩"
+      },
+      "exportIndex": 8
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateKeepAwayFromGround_C",
+    "Name": "TsAnimNotifyStateKeepAwayFromGround_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateKeepAwayFromGround.TsAnimNotifyStateKeepAwayFromGround_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirMove'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateKeepAwayFromGround_C'Default__TsAnimNotifyStateKeepAwayFromGround_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateKeepAwayFromGround.5"
+    },
+    "Properties": {
+      "距离水平面最小高度": 80.0,
+      "距离水平面最大高度": 200.0,
+      "exportIndex": 5
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirMove'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 9
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateRotate_C",
+    "Name": "TsAnimNotifyStateRotate_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.TsAnimNotifyStateRotate_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirMove'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateRotate_C'Default__TsAnimNotifyStateRotate_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.7"
+    },
+    "Properties": {
+      "旋转速度": 1000.0,
+      "exportIndex": 4
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSetHitPriority_C",
+    "Name": "TsAnimNotifyStateSetHitPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSetHitPriority.TsAnimNotifyStateSetHitPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirMove'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleS/Lingyang/CommonAnim/AM_AirMove.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSetHitPriority_C'Default__TsAnimNotifyStateSetHitPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSetHitPriority.4"
+    },
+    "Properties": {
+      "HitPriority": 100,
+      "exportIndex": 10
+    }
+  }
+]
