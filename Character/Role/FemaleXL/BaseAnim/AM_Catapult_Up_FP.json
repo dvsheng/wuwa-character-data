@@ -1,0 +1,848 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Catapult_Up_FP",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.2
+      },
+      "BlendOut": {
+        "BlendTime": 0.5
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Fp_Jump_walk'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Fp_Jump_walk'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.3,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Fp_Jump_walk'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+                },
+                "StartPos": 0.3,
+                "AnimStartTime": 0.3,
+                "AnimEndTime": 0.6666667,
+                "AnimPlayRate": 0.7,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Catapult_Up_FP:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.9"
+          },
+          "Duration": 0.82380956,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.3,
+            "SegmentLength": 0.52380955,
+            "LinkValue": 0.82380956,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Fp_Jump_walk'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Fp_Jump_walk'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Catapult_Up_FP:TsAnimNotifyAddBuff_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Fp_Jump_walk'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Catapult_Up_FP:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.01,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Fp_Jump_walk'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Catapult_Up_FP:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.10"
+          },
+          "Duration": 0.8139002,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.3,
+            "SegmentLength": 0.52380955,
+            "LinkValue": 0.8171412,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Fp_Jump_walk'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.00324101,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Fp_Jump_walk'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateInteractionRotateToLocation_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateInteractionRotateToLocation_C'AM_Catapult_Up_FP:TsAnimNotifyStateInteractionRotateToLocation_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.11"
+          },
+          "Duration": 0.04437123,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.3,
+            "LinkValue": 0.054669,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Fp_Jump_walk'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0102977725,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Fp_Jump_walk'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCatapult_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCatapult_C'AM_Catapult_Up_FP:TsAnimNotifyCatapult_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.05660777,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Fp_Jump_walk'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Catapult_Up_FP:TsAnimNotifyAddBuff_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.0708927,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Fp_Jump_walk'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Catapult_Up_FP:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.8"
+          },
+          "Duration": 0.5943859,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.3,
+            "SegmentLength": 0.52380955,
+            "LinkValue": 0.6666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Fp_Jump_walk'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.3,
+          "LinkValue": 0.07228077,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Fp_Jump_walk'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyRoleFinishInteract_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyRoleFinishInteract_C'AM_Catapult_Up_FP:TsAnimNotifyRoleFinishInteract_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.535677,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.3,
+          "SegmentLength": 0.52380955,
+          "LinkValue": 0.7436138,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Fp_Jump_walk'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_Catapult_Up_FP:TsAnimNotifyAddBuff_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.3,
+          "SegmentLength": 0.52380955,
+          "LinkValue": 0.7788009,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Fp_Jump_walk'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Catapult_Up_FP:TsAnimNotifyChangeSkillPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.779589,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.3,
+          "SegmentLength": 0.52380955,
+          "LinkValue": 0.7794378,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Fp_Jump_walk'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/Jiabeilina_FP/CommonAnim/Fp_Jump_walk.0"
+          }
+        }
+      ],
+      "SequenceLength": 0.82380956,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1BaiLianMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaiLian/R2T1BaiLianMd10011/Model/R2T1BaiLianMd10011_Skeleton.15"
+      }
+    },
+    "SkeletonGuid": "1ACCD283-4AFA57C9-504524A5-568FE034"
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 611600016,
+      "exportIndex": 7
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 611600017,
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 611600009,
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 1.0,
+      "淡入时间": 0.2,
+      "淡出时间": 0.2,
+      "相机修改配置": {
+        "IsModifiedArmRotation_76_570606324FC53E504274BDA6F59BD5C3": false,
+        "IsLockInput_86_CDDE4FA4418F23E40016969CB0D3623C": true,
+        "IsForcePlayModify_177_F5B3348F48031F5374647B85AB011967": true
+      },
+      "exportIndex": 8
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCatapult_C",
+    "Name": "TsAnimNotifyCatapult_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCatapult.TsAnimNotifyCatapult_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCatapult_C'Default__TsAnimNotifyCatapult_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCatapult.3"
+    },
+    "Properties": {
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "exportIndex": 16,
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyRoleFinishInteract_C",
+    "Name": "TsAnimNotifyRoleFinishInteract_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyRoleFinishInteract.TsAnimNotifyRoleFinishInteract_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyRoleFinishInteract_C'Default__TsAnimNotifyRoleFinishInteract_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyRoleFinishInteract.3"
+    },
+    "Properties": {
+      "Type": "ERoleInteractType::NewEnumerator2",
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "关卡.Common.镜头.跑酷镜头.前跳"
+      },
+      "exportIndex": 13,
+      "CurrentTimeLength": 0.62488663
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.a3a29b2d.a14c17ee.8528c149"
+      },
+      "exportIndex": 6,
+      "CurrentTimeLength": 0.6972674
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_tprefab_sm_pro_parkour_bounceplant_fps_jihuo.play_tprefab_sm_pro_parkour_bounceplant_fps_jihuo",
+        "SubPathString": ""
+      },
+      "Follow": false,
+      "KeepAlive": true,
+      "exportIndex": 9,
+      "CurrentTimeLength": 0.6939264
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateInteractionRotateToLocation_C",
+    "Name": "TsAnimNotifyStateInteractionRotateToLocation_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateInteractionRotateToLocation.TsAnimNotifyStateInteractionRotateToLocation_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Catapult_Up_FP'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up_FP.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateInteractionRotateToLocation_C'Default__TsAnimNotifyStateInteractionRotateToLocation_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateInteractionRotateToLocation.4"
+    },
+    "Properties": {
+      "RotateSpeed": 633.0604,
+      "Rotator": 8.000481,
+      "exportIndex": 10,
+      "CurrentTimeLength": 0.06434885
+    }
+  }
+]
