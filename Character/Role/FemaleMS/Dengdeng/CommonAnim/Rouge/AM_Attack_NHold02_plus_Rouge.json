@@ -1,0 +1,722 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Attack_NHold02_plus_Rouge",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.2
+      },
+      "BlendOut": {
+        "BlendTime": 0.3
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack_Hold02'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 3.8,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Attack_NHold02_plus_Rouge:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.6"
+          },
+          "Duration": 1.1452459,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.8,
+            "LinkValue": 1.1452459,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Attack_NHold02_plus_Rouge:TsAnimNotifyWeaponHide_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.8,
+            "LinkValue": 0.0,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": true,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateRotate_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateRotate_C'AM_Attack_NHold02_plus_Rouge:TsAnimNotifyStateRotate_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.8"
+          },
+          "Duration": 0.5728114,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.8,
+            "LinkValue": 0.5728114,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Attack_NHold02_plus_Rouge:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.8,
+            "LinkValue": 0.579468,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8,
+          "LinkValue": 0.579468,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Attack_NHold02_plus_Rouge:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.8,
+            "LinkValue": 0.58,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": false,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8,
+          "LinkValue": 0.58,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_Attack_NHold02_plus_Rouge:TsAnimNotifyStateNextAtt_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.7"
+          },
+          "Duration": 0.14431328,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.8,
+            "LinkValue": 0.8443132,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8,
+          "LinkValue": 0.6999999,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraShake_C'AM_Attack_NHold02_plus_Rouge:TsAnimNotifyCameraShake_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.8,
+            "LinkValue": 0.73052937,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8,
+          "LinkValue": 0.73052937,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_Attack_NHold02_plus_Rouge:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.8,
+            "LinkValue": 1.3439788,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8,
+          "LinkValue": 1.3439788,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyFightStand_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyFightStand_C'AM_Attack_NHold02_plus_Rouge:TsAnimNotifyFightStand_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 3.8,
+            "LinkValue": 3.2117002,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_Hold02'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.8,
+          "LinkValue": 3.2117002,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_Hold02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Attack_Hold02.6"
+          }
+        }
+      ],
+      "SequenceLength": 3.8,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1DengDengMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/R2T1DengDengMd10011/Model/R2T1DengDengMd10011_Skeleton.13"
+      }
+    },
+    "SkeletonGuid": "EB6562D8-483921E8-6E9C72B8-7B009234"
+  },
+  {
+    "Type": "TsAnimNotifyCameraShake_C",
+    "Name": "TsAnimNotifyCameraShake_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.TsAnimNotifyCameraShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraShake_C'Default__TsAnimNotifyCameraShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.3"
+    },
+    "Properties": {
+      "震动配置": {
+        "ObjectName": "BlueprintGeneratedClass'NCS_Down_Lv3_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/Common/Data/CameraShake/Camera/Down/NCS_Down_Lv3.0"
+      },
+      "bForSelf": true,
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 13
+    }
+  },
+  {
+    "Type": "TsAnimNotifyFightStand_C",
+    "Name": "TsAnimNotifyFightStand_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.TsAnimNotifyFightStand_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyFightStand_C'Default__TsAnimNotifyFightStand_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.3"
+    },
+    "Properties": {
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1504132",
+      "exportIndex": 10
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1504032",
+      "exportIndex": 10
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1DengDengMd10011.状态标识.红剑用标识A"
+      },
+      "exportIndex": 7,
+      "CurrentTimeLength": 0.5695617
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 11,
+      "CurrentTimeLength": 0.14998019
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateRotate_C",
+    "Name": "TsAnimNotifyStateRotate_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.TsAnimNotifyStateRotate_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateRotate_C'Default__TsAnimNotifyStateRotate_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.7"
+    },
+    "Properties": {
+      "旋转速度": 300.0,
+      "是否自动朝向目标": true,
+      "是否平滑旋转": true,
+      "exportIndex": 9,
+      "CurrentTimeLength": 0.5693617
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_NHold02_plus_Rouge'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleMS/Dengdeng/CommonAnim/Rouge/AM_Attack_NHold02_plus_Rouge.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "exportIndex": 8
+    }
+  }
+]
