@@ -1,0 +1,430 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Airattack_Start",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.0
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Airattack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.53333336,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Airattack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/Airattack_Start.2"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Airattack_Start'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/Airattack_Start.2"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.53333336,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Airattack_Start:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.3"
+          },
+          "Duration": 0.6,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Airattack_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": -1.0,
+            "SegmentLength": -1.0,
+            "LinkValue": 0.6,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Airattack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.53333336,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Airattack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/Airattack_Start.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Airattack_Start:TsAnimNotifyChangeSkillPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.033333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Airattack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.53333336,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Airattack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/Airattack_Start.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePositionBranchTarget_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'AM_Airattack_Start:TsAnimNotifyStatePositionBranchTarget_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.4"
+          },
+          "Duration": 0.53333336,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Airattack_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.53333336,
+            "LinkValue": 0.53333336,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Airattack_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/Airattack_Start.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Airattack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.53333336,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Airattack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/Airattack_Start.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Airattack_Start:TsAnimNotifyWeaponHide_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Airattack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.53333336,
+          "LinkValue": 0.011379116,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Airattack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/Airattack_Start.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "ANS_Yinlin_Beam_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "ANS_Yinlin_Beam_C'AM_Airattack_Start:ANS_Yinlin_Beam_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.1"
+          },
+          "Duration": 0.46744007,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Airattack_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": -1.0,
+            "SegmentLength": -1.0,
+            "LinkValue": 0.53333354,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Airattack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.53333336,
+          "LinkValue": 0.065893486,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Airattack_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/Airattack_Start.2"
+          }
+        }
+      ],
+      "SequenceLength": 0.53333336,
+      "AnimOrigin": "701",
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1YinlinMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/R2T1YinlinMd10011/Model/R2T1YinlinMd10011_Skeleton.14"
+      }
+    },
+    "SkeletonGuid": "DACCF354-4DA326AF-459E1785-8E7C07A6"
+  },
+  {
+    "Type": "ANS_Yinlin_Beam_C",
+    "Name": "ANS_Yinlin_Beam_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Role/FemaleM/YinLin/Abilities/ANS_Yinlin_Beam.ANS_Yinlin_Beam_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Airattack_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+    },
+    "Template": {
+      "ObjectName": "ANS_Yinlin_Beam_C'Default__ANS_Yinlin_Beam_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/Abilities/ANS_Yinlin_Beam.3"
+    },
+    "Properties": {
+      "Sockets": [
+        {
+          "Type_7_DA8ECF014270BE6D5191B693E3FF88D9": "EYinlin_Type::NewEnumerator0",
+          "SocketName_8_EDB49CB749CF764844F38DAA2A66D1F2": "WeaponProp02"
+        },
+        {
+          "Type_7_DA8ECF014270BE6D5191B693E3FF88D9": "EYinlin_Type::NewEnumerator0",
+          "SocketName_8_EDB49CB749CF764844F38DAA2A66D1F2": "Bip001LToe0"
+        },
+        {
+          "Type_7_DA8ECF014270BE6D5191B693E3FF88D9": "EYinlin_Type::NewEnumerator0",
+          "SocketName_8_EDB49CB749CF764844F38DAA2A66D1F2": "Bip001RToe0"
+        },
+        {
+          "Type_7_DA8ECF014270BE6D5191B693E3FF88D9": "EYinlin_Type::NewEnumerator1",
+          "SocketName_8_EDB49CB749CF764844F38DAA2A66D1F2": "Bip001"
+        }
+      ],
+      "exportIndex": 8
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Airattack_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 8.0,
+      "exportIndex": 5,
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Airattack_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.功能制作.禁止体力恢复.技能禁止恢复"
+      },
+      "exportIndex": 4
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePositionBranchTarget_C",
+    "Name": "TsAnimNotifyStatePositionBranchTarget_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.TsAnimNotifyStatePositionBranchTarget_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Airattack_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePositionBranchTarget_C'Default__TsAnimNotifyStatePositionBranchTarget_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePositionBranchTarget.6"
+    },
+    "Properties": {
+      "Distance": 400.0,
+      "MaxSpeed": 800.0,
+      "是否永远面向目标": false,
+      "允许反向移动": true,
+      "exportIndex": 6
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Airattack_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/YinLin/CommonAnim/AM_Airattack_Start.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "HideEffect": false,
+      "exportIndex": 7
+    }
+  }
+]
