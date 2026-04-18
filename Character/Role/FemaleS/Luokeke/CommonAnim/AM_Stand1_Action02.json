@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Stand1_Action02",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleS/Luokeke/CommonAnim/AM_Stand1_Action02",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Stand1_Action02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Luokeke/CommonAnim/AM_Stand1_Action02.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 14.2,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Stand1_Action02'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Luokeke/CommonAnim/Stand1_Action02.6"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1_Action02'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Luokeke/CommonAnim/Stand1_Action02.6"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 14.2,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Stand1'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/BaseAnim/Stand1.0"
+                },
+                "StartPos": 14.2,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.6666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "SequenceLength": 16.866667,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1LuokekeMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Luokeke/R2T1LuokekeMd10011/Model/R2T1LuokekeMd10011_Skeleton.7"
+      }
+    },
+    "SkeletonGuid": "C31DD50C-449567E9-40EC488C-9B0AA250"
+  }
+]
