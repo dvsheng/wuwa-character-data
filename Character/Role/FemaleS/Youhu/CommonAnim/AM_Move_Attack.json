@@ -1,0 +1,964 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Move_Attack",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.3
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack10'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.4,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Move_Attack:TsAnimNotifyChangeSkillPriority_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Move_Attack:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.9"
+          },
+          "Duration": 0.49850196,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.4,
+            "LinkValue": 0.49850196,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack10'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Move_Attack:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.8"
+          },
+          "Duration": 0.5053526,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.4,
+            "LinkValue": 0.5053526,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack10'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Move_Attack:TsAnimNotifyWeaponHide_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.13"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.9,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Move_Attack:TsAnimNotifyStateAddTag_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.10"
+          },
+          "Duration": 0.49971303,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.4,
+            "LinkValue": 0.49971303,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack10'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Move_Attack:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.10000001,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 0.10000001,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Move_Attack:TsAnimNotifyReSkillEvent_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.23333329,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 0.23840712,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateGoThrough_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateGoThrough_C'AM_Move_Attack:TsAnimNotifyStateGoThrough_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.11"
+          },
+          "Duration": 0.16666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.4,
+            "LinkValue": 0.46666652,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack10'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 0.29999986,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Move_Attack:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.3,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 0.3,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_Move_Attack:TsAnimNotifyStateNextAtt_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.12"
+          },
+          "Duration": 0.26666668,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.4,
+            "LinkValue": 0.9333333,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack10'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 0.66666657,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Move_Attack:TsAnimNotifyChangeSkillPriority_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.66666657,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 0.66666657,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_Move_Attack:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.93333316,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 0.93333316,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyFightStand_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyFightStand_C'AM_Move_Attack:TsAnimNotifyFightStand_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4,
+          "LinkValue": 1.9689019,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Attack10.2"
+          }
+        }
+      ],
+      "SequenceLength": 2.4,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1YouHuMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/R2T1YouHuMd10011/Model/R2T1YouHuMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "BD0B7AE1-49E8D522-BA8483A4-C6CC521E"
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_youhu_atk_heavyatk01.play_vo_youhu_atk_heavyatk01",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 4.0,
+      "exportIndex": 6
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 2.0,
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "TsAnimNotifyFightStand_C",
+    "Name": "TsAnimNotifyFightStand_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.TsAnimNotifyFightStand_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyFightStand_C'Default__TsAnimNotifyFightStand_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.3"
+    },
+    "Properties": {
+      "exportIndex": 16
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1106030001",
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1106030002",
+      "exportIndex": 10
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1YouHuMd10011.逻辑.动作前摇"
+      },
+      "exportIndex": 8,
+      "CurrentTimeLength": 0.5339548
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1YouHuMd10011.逻辑.替换技能.不可释放"
+      },
+      "exportIndex": 7,
+      "CurrentTimeLength": 0.5339548
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.逻辑状态标识.无敌.通用无敌"
+      },
+      "exportIndex": 7,
+      "CurrentTimeLength": 0.5339548
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateGoThrough_C",
+    "Name": "TsAnimNotifyStateGoThrough_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.TsAnimNotifyStateGoThrough_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateGoThrough_C'Default__TsAnimNotifyStateGoThrough_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.5"
+    },
+    "Properties": {
+      "OldGoThroughPriority": 50.0,
+      "OldHitPriority": 50.0,
+      "LeftTime": -0.016589668,
+      "IsEnd": true,
+      "exportIndex": 11,
+      "CurrentTimeLength": 0.19241914
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 13,
+      "CurrentTimeLength": 0.075550556
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Move_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "exportIndex": 9
+    }
+  }
+]

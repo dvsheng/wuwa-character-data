@@ -1,0 +1,988 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Burst01_Rogue",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.3
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Burst01'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 5.6666665,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifySwitchSequenceCamera_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySwitchSequenceCamera_C'AM_Burst01_Rogue:TsAnimNotifySwitchSequenceCamera_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.12"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Burst01_Rogue:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.7"
+          },
+          "Duration": 3.901628,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 5.6666665,
+            "LinkValue": 3.901628,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_Burst01_Rogue:TsAnimNotifyWeaponHide_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.13"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Burst01_Rogue:TsAnimNotifyStateAddTag_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.8"
+          },
+          "Duration": 3.8881922,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 5.6666665,
+            "LinkValue": 3.8881922,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Burst01_Rogue:TsAnimNotifyStateAddTag_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.10"
+          },
+          "Duration": 5.6666665,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 5.6666665,
+            "LinkValue": 5.6666665,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateTimeStopRequest_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateTimeStopRequest_C'AM_Burst01_Rogue:TsAnimNotifyStateTimeStopRequest_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.11"
+          },
+          "Duration": 3.9061065,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 5.6666665,
+            "LinkValue": 3.9061065,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Burst01_Rogue:TsAnimNotifyStateAddTag_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.9"
+          },
+          "Duration": 5.5810895,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 5.6666665,
+            "LinkValue": 5.5810895,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Burst01'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_Burst01_Rogue:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.03333333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 0.03333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyControllerShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyControllerShake_C'AM_Burst01_Rogue:TsAnimNotifyControllerShake_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 2.698144,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Burst01_Rogue:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.733333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 2.733333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifySendGamePlayEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySendGamePlayEvent_C'AM_Burst01_Rogue:TsAnimNotifySendGamePlayEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 3.9128237,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_Burst01_Rogue:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 4.8333335,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 3.9889598,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyFightStand_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyFightStand_C'AM_Burst01_Rogue:TsAnimNotifyFightStand_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.6666665,
+          "LinkValue": 4.3486266,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Burst01'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/Burst01.8"
+          }
+        }
+      ],
+      "SequenceLength": 5.6666665,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1YouHuMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/R2T1YouHuMd10011/Model/R2T1YouHuMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "BD0B7AE1-49E8D522-BA8483A4-C6CC521E"
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_youhu_burst_burst.play_vo_youhu_burst_burst",
+        "SubPathString": ""
+      },
+      "exportIndex": 18
+    }
+  },
+  {
+    "Type": "TsAnimNotifyControllerShake_C",
+    "Name": "TsAnimNotifyControllerShake_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.TsAnimNotifyControllerShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyControllerShake_C'Default__TsAnimNotifyControllerShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyControllerShake.3"
+    },
+    "Properties": {
+      "Effect": {
+        "ObjectName": "KuroForceFeedbackEffect'FF_Common_Lv3_Long'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/Common/Data/GamePadShake/CommonShake/FF_Common_Lv3_Long.0"
+      },
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 22
+    }
+  },
+  {
+    "Type": "TsAnimNotifyFightStand_C",
+    "Name": "TsAnimNotifyFightStand_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.TsAnimNotifyFightStand_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyFightStand_C'Default__TsAnimNotifyFightStand_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.3"
+    },
+    "Properties": {
+      "exportIndex": 23
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1106200001",
+      "exportIndex": 20
+    }
+  },
+  {
+    "Type": "TsAnimNotifySendGamePlayEvent_C",
+    "Name": "TsAnimNotifySendGamePlayEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.TsAnimNotifySendGamePlayEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySendGamePlayEvent_C'Default__TsAnimNotifySendGamePlayEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.3"
+    },
+    "Properties": {
+      "事件Tag": {
+        "TagName": "Rogue.Role.Common.QTE切出"
+      },
+      "exportIndex": 21
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1YouHuMd10011.逻辑.动作前摇"
+      },
+      "exportIndex": 12,
+      "CurrentTimeLength": 3.901728
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1YouHuMd10011.技能.大招"
+      },
+      "exportIndex": 14,
+      "CurrentTimeLength": 3.888292
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.通用镜头.忽略大招镜头"
+      },
+      "exportIndex": 17,
+      "CurrentTimeLength": 5.5811896
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.通用镜头.忽略碰撞隐藏"
+      },
+      "exportIndex": 15,
+      "CurrentTimeLength": 5.6666665
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateTimeStopRequest_C",
+    "Name": "TsAnimNotifyStateTimeStopRequest_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateTimeStopRequest.TsAnimNotifyStateTimeStopRequest_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateTimeStopRequest_C'Default__TsAnimNotifyStateTimeStopRequest_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateTimeStopRequest.4"
+    },
+    "Properties": {
+      "exportIndex": 16,
+      "CurrentTimeLength": 3.9062064
+    }
+  },
+  {
+    "Type": "TsAnimNotifySwitchSequenceCamera_C",
+    "Name": "TsAnimNotifySwitchSequenceCamera_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySwitchSequenceCamera.TsAnimNotifySwitchSequenceCamera_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySwitchSequenceCamera_C'Default__TsAnimNotifySwitchSequenceCamera_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySwitchSequenceCamera.4"
+    },
+    "Properties": {
+      "特写镜头配置": {
+        "BlendOutTime_4_B229F83544CCA82D68E7B9867CC519D0": 0.7,
+        "CameraSequence_11_EA0F02DF4948AFF0A951AB8E0F790CEC": {
+          "ObjectName": "LevelSequence'SC_Youhu_Brust01'",
+          "ObjectPath": "Client/Content/Aki/Character/SequenceCamera/Fight/Youhu/SC_Youhu_Brust01.14"
+        },
+        "IsHideHud_13_3FD8AC824B783C3AC1386394935251D1": true,
+        "VisibleChild_26_E1BC75D64F4C322DD3D258A5F6B6F888": [
+          "EBattleUIChild::NewEnumerator11",
+          "EBattleUIChild::NewEnumerator16"
+        ],
+        "EnableSpecificSequenceTime_30_C30B0DDE4FC51270656237A7AC01DAEA": true,
+        "SpecificSequenceTime_33_90C52F1D4FA038826487E38A87172200": 4.3
+      },
+      "CameraAttachSocket": "Root",
+      "IsShowExtraSphere": true,
+      "bResetLockOnCamera": true,
+      "生效客户端": "ESequenceCameraAnsEffectiveClientType::NewEnumerator1",
+      "IsIgnoreCharacterCollision": true,
+      "强制播放Sequence": true,
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Burst01_Rogue'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleS/Youhu/CommonAnim/AM_Burst01_Rogue.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "exportIndex": 13
+    }
+  }
+]
