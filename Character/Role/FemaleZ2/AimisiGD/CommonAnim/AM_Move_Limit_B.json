@@ -1,0 +1,795 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Move_Limit_B",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.4,
+        "BlendOption": "EAlphaBlendOption::HermiteCubic"
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.33,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Move_Limit_B'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.33,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "BP_KuroCharacterGhost_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateGhost_C'AM_Move_Limit_B:AnimNotifyStateGhost_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.2"
+          },
+          "Duration": 0.035253547,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.33,
+            "LinkValue": 0.035253547,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.33,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddBuff",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddBuff_C'AM_Move_Limit_B:TsAnimNotifyStateAddBuff_C_9'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.7"
+          },
+          "Duration": 0.642348,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.33,
+            "LinkValue": 0.642348,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.33,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Move_Limit_B:TsAnimNotifyStateAddTag_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.8"
+          },
+          "Duration": 0.255835,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.33,
+            "LinkValue": 0.255835,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.33,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "BP_KuroSpawnBlueprint_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Move_Limit_B:AnimNotifyEffect_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.001,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.33,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateCleanBurstCamera_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateCleanBurstCamera_C'AM_Move_Limit_B:TsAnimNotifyStateCleanBurstCamera_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.9"
+          },
+          "Duration": 0.499642,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.33,
+            "LinkValue": 0.499642,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.33,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddBuff",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddBuff_C'AM_Move_Limit_B:TsAnimNotifyStateAddBuff_C_10'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.5"
+          },
+          "Duration": 0.37649703,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.33,
+            "LinkValue": 0.505815,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.33,
+          "LinkValue": 0.129318,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddBuff",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddBuff_C'AM_Move_Limit_B:TsAnimNotifyStateAddBuff_C_11'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.6"
+          },
+          "Duration": 0.365965,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.33,
+            "LinkValue": 0.495283,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.33,
+          "LinkValue": 0.129318,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_Move_Limit_B:TsAnimNotifyStateNextAtt_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.10"
+          },
+          "Duration": 0.4,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.33,
+            "LinkValue": 0.73768115,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Move_Limit_B'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.33,
+          "LinkValue": 0.33768114,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyChangeSkillPriority",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyChangeSkillPriority_C'AM_Move_Limit_B:TsAnimNotifyChangeSkillPriority_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.33768114,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.33,
+          "LinkValue": 0.33768114,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_Move_Limit_B:TsAnimNotifyEndSkill_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.57823133,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.33,
+          "LinkValue": 0.57823133,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_B'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/BaseAnim/Move_Limit_B.8"
+          }
+        }
+      ],
+      "SequenceLength": 2.33,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1AimisiGDMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/R2T1AimisiGDMd10011/Model/R2T1AimisiGDMd10011_Skeleton.7"
+      }
+    },
+    "SkeletonGuid": "F459A7C0-4C42C4B6-2EA04F9E-47FD9ADC"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Jixianshanbi_Start_02.DA_Fx_Group_Jixianshanbi_Start_02",
+        "SubPathString": ""
+      },
+      "PlayNeedTags": [
+        {
+          "Key": {
+            "TagName": "行为状态.逻辑状态.前台"
+          },
+          "Value": true
+        }
+      ],
+      "NeedAnyTag": true,
+      "SocketName": "Bip001Spine1",
+      "exportIndex": 13
+    }
+  },
+  {
+    "Type": "AnimNotifyStateGhost_C",
+    "Name": "AnimNotifyStateGhost_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateGhost.AnimNotifyStateGhost_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateGhost_C'Default__AnimNotifyStateGhost_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateGhost.5"
+    },
+    "Properties": {
+      "SpawnRate": 30.0,
+      "GhostLifeTime": 0.5,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/DataAsset/Ghost/DA_Fx_Ghost_R2T1PlayerFemaleMd10011.DA_Fx_Ghost_R2T1PlayerFemaleMd10011",
+        "SubPathString": ""
+      },
+      "exportIndex": 10,
+      "CurrentTimeLength": 0.00059171935
+    }
+  },
+  {
+    "Type": "TsAnimNotifyChangeSkillPriority_C",
+    "Name": "TsAnimNotifyChangeSkillPriority_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.TsAnimNotifyChangeSkillPriority_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyChangeSkillPriority_C'Default__TsAnimNotifyChangeSkillPriority_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyChangeSkillPriority.3"
+    },
+    "Properties": {
+      "Priority": 2.0,
+      "exportIndex": 18,
+      "NeedSimulate": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddBuff_C",
+    "Name": "TsAnimNotifyStateAddBuff_C_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.TsAnimNotifyStateAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddBuff_C'Default__TsAnimNotifyStateAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.4"
+    },
+    "Properties": {
+      "BuffId": 3099,
+      "exportIndex": 15,
+      "CurrentTimeLength": 0.38940215
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddBuff_C",
+    "Name": "TsAnimNotifyStateAddBuff_C_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.TsAnimNotifyStateAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddBuff_C'Default__TsAnimNotifyStateAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.4"
+    },
+    "Properties": {
+      "BuffId": 3100,
+      "exportIndex": 16,
+      "CurrentTimeLength": 0.37275207
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddBuff_C",
+    "Name": "TsAnimNotifyStateAddBuff_C_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.TsAnimNotifyStateAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddBuff_C'Default__TsAnimNotifyStateAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.4"
+    },
+    "Properties": {
+      "BuffId": 3110,
+      "exportIndex": 11,
+      "CurrentTimeLength": 0.00059171935
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.R2T1YangyangMd10011.过程标识.不可闪避"
+      },
+      "exportIndex": 12,
+      "CurrentTimeLength": 0.00059171935
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateCleanBurstCamera_C",
+    "Name": "TsAnimNotifyStateCleanBurstCamera_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateCleanBurstCamera.TsAnimNotifyStateCleanBurstCamera_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateCleanBurstCamera_C'Default__TsAnimNotifyStateCleanBurstCamera_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateCleanBurstCamera.5"
+    },
+    "Properties": {
+      "隐藏敌对目标Mesh": false,
+      "隐藏敌对目标特效": false,
+      "exportIndex": 14,
+      "CurrentTimeLength": 0.00059171935
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Move_Limit_B'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleZ2/AimisiGD/CommonAnim/AM_Move_Limit_B.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 17,
+      "CurrentTimeLength": 0.41407886
+    }
+  }
+]
