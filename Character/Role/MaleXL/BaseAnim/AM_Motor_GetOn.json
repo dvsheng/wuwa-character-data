@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Motor_GetOn",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleXL/BaseAnim/AM_Motor_GetOn",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.0
+      },
+      "BlendOut": {
+        "BlendTime": 0.0
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Motor_GetOn'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/BaseAnim/AM_Motor_GetOn.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.8333333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Motor_GetOn'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Gameplay/Motor/CommonAnim/Motor_GetOn.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Motor_GetOn'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Gameplay/Motor/CommonAnim/Motor_GetOn.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.8333333,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "SequenceLength": 0.8333333,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1QiushuiMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Qiushui/R2T1QiushuiMd10011/Model/R2T1QiushuiMd10011_Skeleton.14"
+      }
+    },
+    "SkeletonGuid": "153B2231-4884E678-916EFDAA-05F812E1"
+  }
+]
