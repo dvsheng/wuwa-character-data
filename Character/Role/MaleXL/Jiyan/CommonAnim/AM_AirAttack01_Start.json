@@ -1,0 +1,829 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_AirAttack01_Start",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AirAttack01_Start'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.2,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyAddBuff_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAddBuff_C'AM_AirAttack01_Start:TsAnimNotifyAddBuff_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_AirAttack01_Start:AnimNotifyStateEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.2"
+          },
+          "Duration": 0.6880858,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.2,
+            "LinkValue": 0.6880858,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack01_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_AirAttack01_Start:AnimNotifyStateEffect_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.3"
+          },
+          "Duration": 0.6856362,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.2,
+            "LinkValue": 0.6856362,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack01_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_AirAttack01_Start:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.7"
+          },
+          "Duration": 0.69849634,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.2,
+            "LinkValue": 0.69849634,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack01_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_AirAttack01_Start:TsAnimNotifyWeaponHide_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2,
+          "LinkValue": 0.008336592,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyWeaponHide",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_AirAttack01_Start:TsAnimNotifyWeaponHide_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2,
+          "LinkValue": 0.00956144,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateRoleRotate",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateRoleRotate_C'AM_AirAttack01_Start:TsAnimNotifyStateRoleRotate_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.9"
+          },
+          "Duration": 0.10093361,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.2,
+            "LinkValue": 0.33893716,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack01_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2,
+          "LinkValue": 0.23800355,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AirAttack01_Start:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.19110405,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2,
+          "LinkValue": 0.33535087,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_AirAttack01_Start:TsAnimNotifyStateNextAtt_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.8"
+          },
+          "Duration": 0.7562672,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 1.2,
+            "LinkValue": 1.155919,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AirAttack01_Start'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2,
+          "LinkValue": 0.39965174,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AirAttack01_Start:AnimNotifyEffect_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 3.038777,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2,
+          "LinkValue": 0.683799,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_AirAttack01_Start:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.17579179,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 1.2,
+          "LinkValue": 0.69849604,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AirAttack01_Start'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AirAttack01_Start.1"
+          }
+        }
+      ],
+      "SequenceLength": 1.2,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1JiyanMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/R2T1JiyanMd10011/Model/R2T1JiyanMd10011_Skeleton.13"
+      }
+    },
+    "SkeletonGuid": "89AB3191-4F3DE357-B1F15982-2A938D80"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1JiyanMd10011/DA_Fx_Group_Qiang_End.DA_Fx_Group_Qiang_End",
+        "SubPathString": ""
+      },
+      "SocketName": "WeaponProp01"
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1JiyanMd10011/Qiang/DA_Fx_Group_Qiang_NoEnd.DA_Fx_Group_Qiang_NoEnd",
+        "SubPathString": ""
+      },
+      "SocketName": "WeaponProp02"
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1JiyanMd10011/DA_Fx_Group_Qiang_End.DA_Fx_Group_Qiang_End",
+        "SubPathString": ""
+      },
+      "PlayOnEnd": true,
+      "WithOutTag": [
+        "角色.R2T1JiyanMd10011.技能标识.持枪",
+        "角色.Common.技能通用标识.闪避.前闪"
+      ],
+      "Scale": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Attached": false,
+      "SocketName": "WeaponProp02"
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAddBuff_C",
+    "Name": "TsAnimNotifyAddBuff_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.TsAnimNotifyAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAddBuff_C'Default__TsAnimNotifyAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAddBuff.3"
+    },
+    "Properties": {
+      "BuffId": 1404201011
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1404100005"
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.功能制作.禁止体力恢复.技能禁止恢复"
+      }
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateRoleRotate_C",
+    "Name": "TsAnimNotifyStateRoleRotate_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRoleRotate.TsAnimNotifyStateRoleRotate_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateRoleRotate_C'Default__TsAnimNotifyStateRoleRotate_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRoleRotate.5"
+    },
+    "Properties": {
+      "是否自动朝向目标": true,
+      "旋转速度": 90.0
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "WeaponIndex": 0,
+      "HideEffect": false
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AirAttack01_Start'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_AirAttack01_Start.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "WeaponIndex": 1,
+      "HideEffect": false
+    }
+  }
+]

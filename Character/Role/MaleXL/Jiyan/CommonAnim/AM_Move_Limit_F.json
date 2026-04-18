@@ -1,0 +1,63 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Move_Limit_F",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_Move_Limit_F",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.0
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/CommonAnim/AM_Move_Limit_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.233333,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Move_Limit_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/BaseAnim/Move_Limit_F.1"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Move_Limit_F'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/BaseAnim/Move_Limit_F.1"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.233333,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "SequenceLength": 2.233333,
+      "AnimOrigin": "27401",
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1JiyanMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/MaleXL/Jiyan/R2T1JiyanMd10011/Model/R2T1JiyanMd10011_Skeleton.13"
+      }
+    },
+    "SkeletonGuid": "89AB3191-4F3DE357-B1F15982-2A938D80"
+  }
+]
