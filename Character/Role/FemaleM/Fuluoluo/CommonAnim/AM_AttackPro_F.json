@@ -1,0 +1,2657 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_AttackPro_F",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F",
+    "Properties": {
+      "BlendOut": {
+        "BlendTime": 0.0
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AttackPro_F'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.5,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'AttackPro_F'",
+                  "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+                },
+                "StartPos": 0.5,
+                "AnimStartTime": 1.0,
+                "AnimEndTime": 7.1,
+                "AnimPlayRate": 1.15,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_AttackPro_F:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.21"
+          },
+          "Duration": 0.043678146,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.5,
+            "LinkValue": 0.043678146,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 15,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_AttackPro_F:TsAnimNotifyWeaponHide_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.28"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateHideMesh_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateHideMesh_C'AM_AttackPro_F:TsAnimNotifyStateHideMesh_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.23"
+          },
+          "Duration": 0.5,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.5,
+            "SegmentLength": 5.304348,
+            "LinkValue": 0.5,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_AttackPro_F:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.20"
+          },
+          "Duration": 0.5,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.5,
+            "SegmentLength": 5.304348,
+            "LinkValue": 0.5,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateGoThrough_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateGoThrough_C'AM_AttackPro_F:TsAnimNotifyStateGoThrough_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.22"
+          },
+          "Duration": 0.53333336,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.5,
+            "SegmentLength": 5.304348,
+            "LinkValue": 0.53333336,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_AttackPro_F:AnimNotifyStateEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.8"
+          },
+          "Duration": 3.5779445,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.5,
+            "SegmentLength": 5.304348,
+            "LinkValue": 3.5779445,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 21,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_AttackPro_F:AnimNotifyStateEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.9"
+          },
+          "Duration": 3.5779445,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.5,
+            "SegmentLength": 5.304348,
+            "LinkValue": 3.5779445,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 22,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AttackPro_F:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.18"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.033333335,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.033333335,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyCameraModify",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_AttackPro_F:TsAnimNotifyCameraModify_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.12"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.033333335,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 17,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.033333335,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyCameraModify",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_AttackPro_F:TsAnimNotifyCameraModify_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.13"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.033333335,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 18,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.033333335,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyCameraModify",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_AttackPro_F:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.03338619,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 19,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.03338619,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_AttackPro_F:TsAnimNotifyReSkillEvent_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.19"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.03356589,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.03356589,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AttackPro_F:AnimNotifyEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.307398,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.11118856,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyAudioEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyAudioEvent_C'AM_AttackPro_F:TsAnimNotifyAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.133664,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.133664,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyCameraShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraShake_C'AM_AttackPro_F:TsAnimNotifyCameraShake_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.14"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.15,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 14,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.15,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AttackPro_F:AnimNotifyEffect_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.343781,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.16803683,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AttackPro_F:AnimNotifyEffect_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.409642,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.2709455,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyCameraShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraShake_C'AM_AttackPro_F:TsAnimNotifyCameraShake_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.15"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.375,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 14,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.375,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AttackPro_F:AnimNotifyEffect_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.478828,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.37904748,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AttackPro_F:AnimNotifyEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.46740666,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.46740666,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AttackPro_F:AnimNotifyEffect_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.543412,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.47996128,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyWeaponHide_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyWeaponHide_C'AM_AttackPro_F:TsAnimNotifyWeaponHide_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.29"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.5,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.5,
+          "SegmentLength": 5.304348,
+          "LinkValue": 0.5,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "TsAnimNotifyStateRotate_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateRotate_C'AM_AttackPro_F:TsAnimNotifyStateRotate_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.25"
+          },
+          "Duration": 0.100000024,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.5,
+            "SegmentLength": 5.304348,
+            "LinkValue": 0.6,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.5,
+          "SegmentLength": 5.304348,
+          "LinkValue": 0.5,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_AttackPro_F:AnimNotifyEffect_C_6'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.50079286,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.5,
+          "SegmentLength": 5.304348,
+          "LinkValue": 0.50079286,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateSubMeshControl_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSubMeshControl_C'AM_AttackPro_F:TsAnimNotifyStateSubMeshControl_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.27"
+          },
+          "Duration": 2.670895,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.5,
+            "SegmentLength": 5.304348,
+            "LinkValue": 3.5723221,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.5,
+          "SegmentLength": 5.304348,
+          "LinkValue": 0.9014271,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-08,
+          "NotifyName": "场景物件交互",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateSceneInteract_C'AM_AttackPro_F:TsAnimNotifyStateSceneInteract_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.26"
+          },
+          "Duration": 2.670895,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.5,
+            "SegmentLength": 5.304348,
+            "LinkValue": 3.5723221,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 20,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.5,
+          "SegmentLength": 5.304348,
+          "LinkValue": 0.9014271,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateNextAtt_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateNextAtt_C'AM_AttackPro_F:TsAnimNotifyStateNextAtt_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.24"
+          },
+          "Duration": 1.0015857,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.5,
+            "SegmentLength": 5.304348,
+            "LinkValue": 2.2702608,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'AttackPro_F'",
+              "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.5,
+          "SegmentLength": 5.304348,
+          "LinkValue": 1.2686752,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyEndSkill_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyEndSkill_C'AM_AttackPro_F:TsAnimNotifyEndSkill_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.16"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.6693095,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.5,
+          "SegmentLength": 5.304348,
+          "LinkValue": 1.6693095,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyFightStand_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyFightStand_C'AM_AttackPro_F:TsAnimNotifyFightStand_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.17"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 5.7709894,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.5,
+          "SegmentLength": 5.304348,
+          "LinkValue": 5.7709894,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'AttackPro_F'",
+            "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AttackPro_F.2"
+          }
+        }
+      ],
+      "SequenceLength": 5.804348,
+      "Skeleton": {
+        "ObjectName": "Skeleton'R2T1FuluoluoMd10011_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/R2T1FuluoluoMd10011/Model/R2T1FuluoluoMd10011_Skeleton.11"
+      }
+    },
+    "SkeletonGuid": "CC79961E-4821B693-09A36788-FA183CC9"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1FuluoluoMd10011/DA_Fx_Group_R1Air_Flash02.DA_Fx_Group_R1Air_Flash02",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 80.0
+      },
+      "Scale": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 2.0
+      },
+      "SocketName": "Root",
+      "exportIndex": 22
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1FuluoluoMd10011/DA_Fx_Group_R1a04_Ci02.DA_Fx_Group_R1a04_Ci02",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 153.06181
+      },
+      "Rotation": {
+        "Pitch": 25.432974,
+        "Yaw": -178.80687,
+        "Roll": -1.976166
+      },
+      "Scale": {
+        "X": 0.3,
+        "Y": 0.3,
+        "Z": 0.3
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1FuluoluoMd10011/DA_Fx_Group_R1a04_Ci02.DA_Fx_Group_R1a04_Ci02",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 186.19116
+      },
+      "Rotation": {
+        "Pitch": 28.3713,
+        "Yaw": 23.223764,
+        "Roll": -17.822641
+      },
+      "Scale": {
+        "X": 0.3,
+        "Y": 0.3,
+        "Z": 0.3
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 18
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1FuluoluoMd10011/DA_Fx_Group_R1a04_Ci02.DA_Fx_Group_R1a04_Ci02",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 108.78482
+      },
+      "Rotation": {
+        "Pitch": 12.420856,
+        "Yaw": 36.307713,
+        "Roll": -6.650397
+      },
+      "Scale": {
+        "X": 0.3,
+        "Y": 0.3,
+        "Z": 0.3
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1FuluoluoMd10011/DA_Fx_Group_R1a04_Ci02.DA_Fx_Group_R1a04_Ci02",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 150.12747
+      },
+      "Rotation": {
+        "Pitch": 12.336756,
+        "Yaw": 116.54309,
+        "Roll": -6.781406
+      },
+      "Scale": {
+        "X": 0.4,
+        "Y": 0.4,
+        "Z": 0.4
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 21
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1FuluoluoMd10011/DA_Fx_Group_R1a04_Ci02.DA_Fx_Group_R1a04_Ci02",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 124.749435
+      },
+      "Rotation": {
+        "Pitch": 12.209926,
+        "Yaw": -57.458908,
+        "Roll": -10.716202
+      },
+      "Scale": {
+        "X": 0.3,
+        "Y": 0.3,
+        "Z": 0.3
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 23
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1FuluoluoMd10011/DA_Fx_Group_R1a01_Cy01.DA_Fx_Group_R1a01_Cy01",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 80.0
+      },
+      "SocketName": "Root",
+      "exportIndex": 26
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1FuluoluoMd10011/DA_Fx_Group_R1Air_Flash01.DA_Fx_Group_R1Air_Flash01",
+        "SubPathString": ""
+      },
+      "PlayOnEnd": true,
+      "WithOutTag": [
+        "角色.Common.技能通用标识.闪避"
+      ],
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 85.0
+      },
+      "SocketName": "Root",
+      "exportIndex": 8,
+      "CurrentTimeLength": 3.5832603
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/R2T1FuluoluoMd10011/DA_Fx_Group_R1a04_Wind01.DA_Fx_Group_R1a04_Wind01",
+        "SubPathString": ""
+      },
+      "PlayOnEnd": true,
+      "WithOutTag": [
+        "角色.Common.技能通用标识.闪避"
+      ],
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 20.0
+      },
+      "Scale": {
+        "X": 0.35,
+        "Y": 0.35,
+        "Z": 0.35
+      },
+      "AttachLocationOnly": true,
+      "SocketName": "Root",
+      "exportIndex": 9,
+      "CurrentTimeLength": 3.5832603
+    }
+  },
+  {
+    "Type": "TsAnimNotifyAudioEvent_C",
+    "Name": "TsAnimNotifyAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.TsAnimNotifyAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyAudioEvent_C'Default__TsAnimNotifyAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyAudioEvent.3"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vo_fuluoluo_atk_atk04.play_vo_fuluoluo_atk_atk04",
+        "SubPathString": ""
+      },
+      "TagProbabilityInfo": {
+        "DefaultProbability_10_745EC015436DEFB2B292A79C081F3E4F": 0.5
+      },
+      "exportIndex": 16
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.88,
+      "淡入时间": 0.05,
+      "淡出时间": 0.2,
+      "打断淡出时间": 0.15,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 1,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 800.0,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 250.0,
+        "IsModifiedArmRotationRoll_93_6CBBDC9043D8BF5E4EC3AB8E5473C625": false,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -25.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "IsModifiedCameraFov_53_1A8D869C4A5886B266452BBCB07BA93A": true,
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 85.0,
+        "OverrideCameraInput_59_0083E3164D765950CF70528078BF8218": true,
+        "ResetFinalArmLength_72_0D8B0AFC4AA34A5415C9C6AC3D25FE4E": true,
+        "ResetFinalArmLengthToSpecificValue_207_E55092A1464EA622173DBCBEF34A8EF9": 560.0,
+        "IsForcePlayModify_177_F5B3348F48031F5374647B85AB011967": true
+      },
+      "条件": [
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator2",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 1500.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": false,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator1",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": true,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [
+            "怪物.common.状态标识.强化强锁",
+            "怪物.common.状态标识.强化软锁"
+          ],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": true,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator0",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [
+            "行为状态.方向状态.注视方向"
+          ],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": true,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator8",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": true,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 1200.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "exportIndex": 13
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.42,
+      "淡入时间": 0.6,
+      "淡出时间": 0.17,
+      "打断淡出时间": 0.15,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 1,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 900.0,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 250.0,
+        "IsModifiedArmRotationRoll_93_6CBBDC9043D8BF5E4EC3AB8E5473C625": false,
+        "IsModifiedArmRotationPitch_94_6C16441D44C806A072B75DA882811D0C": true,
+        "IsModifiedArmRotationYaw_95_FBE820DB4C8D5B75CEF242854F6F3774": true,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -25.0,
+          "Yaw": 180.0,
+          "Roll": 0.0
+        },
+        "IsModifiedCameraFov_53_1A8D869C4A5886B266452BBCB07BA93A": true,
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 85.0,
+        "OverrideCameraInput_59_0083E3164D765950CF70528078BF8218": true,
+        "ResetFinalArmRotationToSpecificYaw_219_AB00A6984671B8AA7BA7B48F8A5737BC": 165.0,
+        "ResetFinalArmLength_72_0D8B0AFC4AA34A5415C9C6AC3D25FE4E": true,
+        "ResetFinalArmLengthToSpecificValue_207_E55092A1464EA622173DBCBEF34A8EF9": 560.0,
+        "IsLockInput_86_CDDE4FA4418F23E40016969CB0D3623C": true,
+        "IsForcePlayModify_177_F5B3348F48031F5374647B85AB011967": true
+      },
+      "条件": [
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator2",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 1500.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": false,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator7",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": false,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator1",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": true,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [
+            "怪物.common.状态标识.强化强锁",
+            "怪物.common.状态标识.强化软锁"
+          ],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": true,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator0",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [
+            "行为状态.方向状态.注视方向"
+          ],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": true,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator8",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": false,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 1200.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.42,
+      "淡入时间": 0.6,
+      "淡出时间": 0.17,
+      "打断淡出时间": 0.15,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 1,
+        "ArmLength_74_192752C04380D5CAF2EB7E910DC5C9C5": 800.0,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 250.0,
+        "IsModifiedArmRotationRoll_93_6CBBDC9043D8BF5E4EC3AB8E5473C625": false,
+        "IsModifiedArmRotationPitch_94_6C16441D44C806A072B75DA882811D0C": true,
+        "IsModifiedArmRotationYaw_95_FBE820DB4C8D5B75CEF242854F6F3774": true,
+        "ArmRotation_77_B66F0D944DE7F4829886B997E0B1B89F": {
+          "Pitch": -25.0,
+          "Yaw": -180.0,
+          "Roll": 0.0
+        },
+        "IsModifiedCameraFov_53_1A8D869C4A5886B266452BBCB07BA93A": true,
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 85.0,
+        "OverrideCameraInput_59_0083E3164D765950CF70528078BF8218": true,
+        "ResetFinalArmLength_72_0D8B0AFC4AA34A5415C9C6AC3D25FE4E": true,
+        "ResetFinalArmLengthToSpecificValue_207_E55092A1464EA622173DBCBEF34A8EF9": 560.0,
+        "IsLockInput_86_CDDE4FA4418F23E40016969CB0D3623C": true,
+        "IsForcePlayModify_177_F5B3348F48031F5374647B85AB011967": true
+      },
+      "条件": [
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator7",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": true,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator2",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 1500.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": false,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator1",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": true,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [
+            "怪物.common.状态标识.强化强锁",
+            "怪物.common.状态标识.强化软锁"
+          ],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": true,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator0",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [
+            "行为状态.方向状态.注视方向"
+          ],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": true,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 0.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator8",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": false,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 1200.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraShake_C",
+    "Name": "TsAnimNotifyCameraShake_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.TsAnimNotifyCameraShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraShake_C'Default__TsAnimNotifyCameraShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.3"
+    },
+    "Properties": {
+      "震动配置": {
+        "ObjectName": "BlueprintGeneratedClass'CS_FLL_AttackPro_1_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/Data/Camera/CS_FLL_AttackPro_1.0"
+      },
+      "bForSelf": true,
+      "exportIndex": 17
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraShake_C",
+    "Name": "TsAnimNotifyCameraShake_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.TsAnimNotifyCameraShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraShake_C'Default__TsAnimNotifyCameraShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.3"
+    },
+    "Properties": {
+      "震动配置": {
+        "ObjectName": "BlueprintGeneratedClass'CS_FLL_AttackPro_1_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/Data/Camera/CS_FLL_AttackPro_1.0"
+      },
+      "bForSelf": true,
+      "exportIndex": 20
+    }
+  },
+  {
+    "Type": "TsAnimNotifyEndSkill_C",
+    "Name": "TsAnimNotifyEndSkill_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.TsAnimNotifyEndSkill_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyEndSkill_C'Default__TsAnimNotifyEndSkill_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyEndSkill.3"
+    },
+    "Properties": {
+      "exportIndex": 33
+    }
+  },
+  {
+    "Type": "TsAnimNotifyFightStand_C",
+    "Name": "TsAnimNotifyFightStand_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.TsAnimNotifyFightStand_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyFightStand_C'Default__TsAnimNotifyFightStand_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyFightStand.3"
+    },
+    "Properties": {
+      "exportIndex": 34
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1608004016",
+      "exportIndex": 10
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "1608004017",
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "角色.BaseRole.状态通用标识.葫芦.葫芦隐藏"
+      },
+      "exportIndex": 6,
+      "CurrentTimeLength": 0.5129053
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_fuluoluo_bat_attackf_ex.play_role_fuluoluo_bat_attackf_ex",
+        "SubPathString": ""
+      },
+      "KeepAlive": true,
+      "exportIndex": 3,
+      "CurrentTimeLength": 0.47684038
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateGoThrough_C",
+    "Name": "TsAnimNotifyStateGoThrough_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.TsAnimNotifyStateGoThrough_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateGoThrough_C'Default__TsAnimNotifyStateGoThrough_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateGoThrough.5"
+    },
+    "Properties": {
+      "FirstGoThroughPriority": 71,
+      "OldGoThroughPriority": 50.0,
+      "OldHitPriority": 50.0,
+      "LeftTime": -0.015232254,
+      "IsEnd": true,
+      "exportIndex": 7,
+      "CurrentTimeLength": 0.544121
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateHideMesh_C",
+    "Name": "TsAnimNotifyStateHideMesh_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateHideMesh.TsAnimNotifyStateHideMesh_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateHideMesh_C'Default__TsAnimNotifyStateHideMesh_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateHideMesh.4"
+    },
+    "Properties": {
+      "HideChildren": false,
+      "exportIndex": 5,
+      "CurrentTimeLength": 0.5129053
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateNextAtt_C",
+    "Name": "TsAnimNotifyStateNextAtt_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.TsAnimNotifyStateNextAtt_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateNextAtt_C'Default__TsAnimNotifyStateNextAtt_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateNextAtt.4"
+    },
+    "Properties": {
+      "exportIndex": 32,
+      "CurrentTimeLength": 1.0127095
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateRotate_C",
+    "Name": "TsAnimNotifyStateRotate_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.TsAnimNotifyStateRotate_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateRotate_C'Default__TsAnimNotifyStateRotate_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.7"
+    },
+    "Properties": {
+      "旋转速度": 2500.0,
+      "是否自动朝向目标": true,
+      "是否平滑旋转": true,
+      "exportIndex": 25,
+      "CurrentTimeLength": 0.11183983
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSceneInteract_C",
+    "Name": "TsAnimNotifyStateSceneInteract_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.TsAnimNotifyStateSceneInteract_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSceneInteract_C'Default__TsAnimNotifyStateSceneInteract_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSceneInteract.4"
+    },
+    "Properties": {
+      "SocketName": "WeaponProp06",
+      "DataAssetRef": {
+        "AssetPathName": "/Game/Aki/Data/Fight/SceneInteract/Role/Fuluoluo/DA_PropSceneInteract1.DA_PropSceneInteract1",
+        "SubPathString": ""
+      },
+      "exportIndex": 29,
+      "CurrentTimeLength": 2.6819332
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateSubMeshControl_C",
+    "Name": "TsAnimNotifyStateSubMeshControl_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.TsAnimNotifyStateSubMeshControl_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateSubMeshControl_C'Default__TsAnimNotifyStateSubMeshControl_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateSubMeshControl.4"
+    },
+    "Properties": {
+      "MeshName": "OtherCase2",
+      "开始是否可见": true,
+      "exportIndex": 28,
+      "CurrentTimeLength": 2.6819332
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "HideEffect": false,
+      "exportIndex": 4
+    }
+  },
+  {
+    "Type": "TsAnimNotifyWeaponHide_C",
+    "Name": "TsAnimNotifyWeaponHide_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.TsAnimNotifyWeaponHide_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_AttackPro_F'",
+      "ObjectPath": "Client/Content/Aki/Character/Role/FemaleM/Fuluoluo/CommonAnim/AM_AttackPro_F.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyWeaponHide_C'Default__TsAnimNotifyWeaponHide_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyWeaponHide.3"
+    },
+    "Properties": {
+      "Hide": false,
+      "HideEffect": false,
+      "exportIndex": 24
+    }
+  }
+]
