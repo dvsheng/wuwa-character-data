@@ -1,0 +1,497 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Vision_ME1SiXiao1",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1SiXiao1_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetDisplayName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_StringToText_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "K2Node_Event_EndPlayReason",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "Enum": {
+          "ObjectName": "Enum'EEndPlayReason'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 64,
+          "Struct": {
+            "ObjectName": "ScriptStruct'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Format_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveEndPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1SiXiao1_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.3"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveEndPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ByteProperty",
+        "Name": "EndPlayReason",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "Enum'EEndPlayReason'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1SiXiao1_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.3"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_BaseVision_C:ReceiveBeginPlay'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.4"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_BaseVision_C:ReceiveBeginPlay'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.4"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Vision_ME1SiXiao1_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.7"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Vision_ME1SiXiao1_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.10"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Vision_ME1SiXiao1_C:InheritableComponentHandler'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.7"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Vision_ME1SiXiao1_C:ExecuteUbergraph_BP_Vision_ME1SiXiao1'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.7"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Vision_ME1SiXiao1_C:ReceiveBeginPlay'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.2"
+      },
+      {
+        "ObjectName": "Function'BP_Vision_ME1SiXiao1_C:ReceiveEndPlay'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.1"
+      },
+      {
+        "ObjectName": "Function'BP_Vision_ME1SiXiao1_C:ExecuteUbergraph_BP_Vision_ME1SiXiao1'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "OwnerLocation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SelfLocation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "BP_Fx_ConnectLine_Array",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "BP_Fx_ConnectLine_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'BP_Fx_ConnectLine_C'",
+            "ObjectPath": "Client/Content/Aki/Effect/BluePrint/BP_FX_Common/BP_Fx_ConnectLine.8"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "As Ts Base Character",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "As Ts Base Character",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+            "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "b_ArrayAdd",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "b_ArrayRemove",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Array Index",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "TempIndex",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "Debug",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Vision_ME1SiXiao1": {
+        "ObjectName": "Function'BP_Vision_ME1SiXiao1_C:ExecuteUbergraph_BP_Vision_ME1SiXiao1'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.0"
+      },
+      "ReceiveEndPlay": {
+        "ObjectName": "Function'BP_Vision_ME1SiXiao1_C:ReceiveEndPlay'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.1"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_Vision_ME1SiXiao1_C:ReceiveBeginPlay'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.2"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Vision_ME1SiXiao1_C'Default__BP_Vision_ME1SiXiao1_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.4"
+    }
+  },
+  {
+    "Type": "BP_Vision_ME1SiXiao1_C",
+    "Name": "Default__BP_Vision_ME1SiXiao1_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.BP_Vision_ME1SiXiao1_C'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1",
+    "Template": {
+      "ObjectName": "BP_BaseVision_C'Default__BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.8"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "OwnerLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "SelfLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "DtHitEffect": {
+        "ObjectName": "DataTable'DT_HitEffect'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/Data/DT_HitEffect.0"
+      },
+      "DtBaseMovementSetting": {
+        "ObjectName": "DataTable'DT_BaseMovementSetting'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1SiXiaoMd00201/Data/DT_BaseMovementSetting.0"
+      },
+      "DtNewBulletDataMain": {
+        "ObjectName": "DataTable'DT_ReBulletDataMain'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/Data/DT_ReBulletDataMain.0"
+      },
+      "FkData": {
+        "ObjectName": "FK_Shake_AssestData_C'FK_Shake_Data'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1SiXiaoMd00201/Data/FK_Shake_Data.0"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Vision_ME1SiXiao1_C:CharacterMesh0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.11"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CharacterMovementComponent'Default__BP_Vision_ME1SiXiao1_C:CharMoveComp'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.6"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_ME1SiXiao1_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.5"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_ME1SiXiao1_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.5"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_ME1SiXiao1_C'Default__BP_Vision_ME1SiXiao1_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.4"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_BaseVision_C:CollisionCylinder'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.9"
+    },
+    "Properties": {
+      "CapsuleRadius": 88.0
+    }
+  },
+  {
+    "Type": "CharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_ME1SiXiao1_C'Default__BP_Vision_ME1SiXiao1_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.4"
+    },
+    "Template": {
+      "ObjectName": "CharacterMovementComponent'Default__BP_BaseVision_C:CharMoveComp'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.10"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1SiXiao1_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.3"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1SiXiao1_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.3"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision_ME1SiXiao1_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.10"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Vision_ME1SiXiao1_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.8"
+      },
+      "VariableGuid": "CA0683DB-4FCC2230-79FBE3B2-4A627270",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_ME1SiXiao1_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.3"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Vision_ME1SiXiao1_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.9"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_ME1SiXiao1_C'Default__BP_Vision_ME1SiXiao1_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.4"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__BP_BaseVision_C:CharacterMesh0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.15"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_ME1SiXiaoMd00201_Vision_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1SiXiaoMd00201/ABP_ME1SiXiaoMd00201_Vision.0"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'ME1SiXiaoMd00201'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Elite/ME1SiXiaoMd00201/Model/ME1SiXiaoMd00201.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_ME1SiXiao1_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_ME1Sixiao/MD00101/BP_Vision_ME1SiXiao1.5"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -88.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  }
+]

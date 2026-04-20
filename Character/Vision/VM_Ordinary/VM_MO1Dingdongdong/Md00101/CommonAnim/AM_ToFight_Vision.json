@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_ToFight_Vision",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Dingdongdong/Md00101/CommonAnim/AM_ToFight_Vision",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_ToFight_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Dingdongdong/Md00101/CommonAnim/AM_ToFight_Vision.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.4333334,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'PatrolToFight_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Dingdongdong/Md00101/CommonAnim/PatrolToFight_2.1"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'PatrolToFight_2'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Dingdongdong/Md00101/CommonAnim/PatrolToFight_2.1"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 2.4333334,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "SequenceLength": 2.4333334,
+      "Skeleton": {
+        "ObjectName": "Skeleton'MO1DingdongdongMd00201_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1DingdongdongMd00201/Model/MO1DingdongdongMd00201_Skeleton.6"
+      }
+    },
+    "SkeletonGuid": "CC72A0AD-4AC67FD2-11B2B294-F2C6CC56"
+  }
+]

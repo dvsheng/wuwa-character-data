@@ -1,0 +1,305 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Vision_MO1Lugui_Attack",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00101/CommonAnim/AM_Vision_MO1Lugui_Attack",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.3,
+        "BlendOption": "EAlphaBlendOption::HermiteCubic"
+      },
+      "BlendOut": {
+        "BlendTime": 0.3,
+        "BlendOption": "EAlphaBlendOption::HermiteCubic"
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "1",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_MO1Lugui_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00101/CommonAnim/AM_Vision_MO1Lugui_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1LuguiMd00201/CommonAnim/Attack02.6"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack02'",
+                  "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1LuguiMd00201/CommonAnim/Attack02.6"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 1.5,
+                "AnimEndTime": 2.0,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack03'",
+                  "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1LuguiMd00201/CommonAnim/Attack03.1"
+                },
+                "StartPos": 0.5,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.53333336,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 2
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack04'",
+                  "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1LuguiMd00201/CommonAnim/Attack04.2"
+                },
+                "StartPos": 1.5666667,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 1.533334,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateRotate",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateRotate_C'AM_Vision_MO1Lugui_Attack:TsAnimNotifyStateRotate_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00101/CommonAnim/AM_Vision_MO1Lugui_Attack.3"
+          },
+          "Duration": 1.5666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Vision_MO1Lugui_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00101/CommonAnim/AM_Vision_MO1Lugui_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 1.5666667,
+            "SegmentLength": 1.533334,
+            "LinkValue": 1.5666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack04'",
+              "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1LuguiMd00201/CommonAnim/Attack04.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_MO1Lugui_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00101/CommonAnim/AM_Vision_MO1Lugui_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.5,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack02'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1LuguiMd00201/CommonAnim/Attack02.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStatePosition",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStatePosition_C'AM_Vision_MO1Lugui_Attack:TsAnimNotifyStatePosition_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00101/CommonAnim/AM_Vision_MO1Lugui_Attack.2"
+          },
+          "Duration": 1.0666667,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Vision_MO1Lugui_Attack'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00101/CommonAnim/AM_Vision_MO1Lugui_Attack.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 1.5666667,
+            "SegmentLength": 1.533334,
+            "LinkValue": 1.5666667,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack04'",
+              "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1LuguiMd00201/CommonAnim/Attack04.2"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_MO1Lugui_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00101/CommonAnim/AM_Vision_MO1Lugui_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.5,
+          "SegmentLength": 1.0666667,
+          "LinkValue": 0.5,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1LuguiMd00201/CommonAnim/Attack03.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Vision_MO1Lugui_Attack:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00101/CommonAnim/AM_Vision_MO1Lugui_Attack.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.5000001,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Vision_MO1Lugui_Attack'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00101/CommonAnim/AM_Vision_MO1Lugui_Attack.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.5,
+          "SegmentLength": 1.0666667,
+          "LinkValue": 0.5,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack03'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1LuguiMd00201/CommonAnim/Attack03.1"
+          }
+        }
+      ],
+      "SequenceLength": 3.1000009,
+      "AnimOrigin": "1201",
+      "Skeleton": {
+        "ObjectName": "Skeleton'MO1LuguiMd00201_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1LuguiMd00201/Model/MO1LuguiMd00201_Skeleton.5"
+      }
+    },
+    "SkeletonGuid": "8EBAEAE5-4E5E0777-556DA8B9-D32B4D18"
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_MO1Lugui_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00101/CommonAnim/AM_Vision_MO1Lugui_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "20103301"
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStatePosition_C",
+    "Name": "TsAnimNotifyStatePosition_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePosition.TsAnimNotifyStatePosition_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_MO1Lugui_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00101/CommonAnim/AM_Vision_MO1Lugui_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStatePosition_C'Default__TsAnimNotifyStatePosition_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStatePosition.5"
+    },
+    "Properties": {
+      "移动速度": {
+        "X": 200.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateRotate_C",
+    "Name": "TsAnimNotifyStateRotate_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.TsAnimNotifyStateRotate_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Vision_MO1Lugui_Attack'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00101/CommonAnim/AM_Vision_MO1Lugui_Attack.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateRotate_C'Default__TsAnimNotifyStateRotate_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateRotate.7"
+    },
+    "Properties": {
+      "旋转速度": 240.0,
+      "是否自动朝向目标": true,
+      "是否平滑旋转": true
+    }
+  }
+]

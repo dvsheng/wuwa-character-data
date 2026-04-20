@@ -1,0 +1,59 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_ToFight_Vision",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Binglie/MD00101/CommonAnim/AM_ToFight_Vision",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_ToFight_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Binglie/MD00101/CommonAnim/AM_ToFight_Vision.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 3.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'PatrolToFight_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Binglie/MD00101/CommonAnim/PatrolToFight_2.0"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'PatrolToFight_2'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Binglie/MD00101/CommonAnim/PatrolToFight_2.0"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 3.0,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "SequenceLength": 3.0,
+      "Skeleton": {
+        "ObjectName": "Skeleton'MO1BinglieMd00201_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1BinglieMd00201/Model/MO1BinglieMd00201_Skeleton.5"
+      }
+    },
+    "SkeletonGuid": "B9E4F593-42A7F196-48B3AE8D-716D83BE"
+  }
+]

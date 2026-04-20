@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "KuroBpDataAssetGroup",
+    "Name": "DA_LuguiBurstDrag",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'KuroBpDataAssetGroup'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00201/Data/DA_LuguiBurstDrag",
+    "Properties": {
+      "Data": [
+        {
+          "ObjectName": "LogicDataForce_C'DA_LuguiBurstDrag:LogicDataForce_C_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00201/Data/DA_LuguiBurstDrag.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "LogicDataForce_C",
+    "Name": "LogicDataForce_C_1",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/NewWorld/Bullet/LogicDataClass/LogicDataForce.LogicDataForce_C'",
+    "Outer": {
+      "ObjectName": "KuroBpDataAssetGroup'DA_LuguiBurstDrag'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1Lugui/Md00201/Data/DA_LuguiBurstDrag.0"
+    },
+    "Template": {
+      "ObjectName": "LogicDataForce_C'Default__LogicDataForce_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/NewWorld/Bullet/LogicDataClass/LogicDataForce.1"
+    },
+    "Properties": {
+      "ForceBase": 8.0,
+      "OuterRadius": 1000.0,
+      "LimitWeight": 1000,
+      "ContinueTime": 5.0,
+      "ExecuteStage": "EBulletLogicStage::NewEnumerator1",
+      "NativeClass": {
+        "ObjectName": "TypeScriptGeneratedClass'LogicDataForce_C'",
+        "ObjectPath": "Client/Content/Aki/TypeScript/Game/NewWorld/Bullet/LogicDataClass/LogicDataForce.0"
+      }
+    }
+  }
+]

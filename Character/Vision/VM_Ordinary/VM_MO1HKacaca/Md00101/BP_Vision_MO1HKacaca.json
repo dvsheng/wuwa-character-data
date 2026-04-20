@@ -1,0 +1,302 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Vision_MO1HKacaca",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_MO1HKacaca_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_MO1HKacaca_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.2"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_BaseVision_C:ReceiveTick'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.3"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_BaseVision_C:ReceiveTick'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Vision_MO1HKacaca_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.7"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Vision_MO1HKacaca_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.9"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Vision_MO1HKacaca_C:InheritableComponentHandler'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.6"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Vision_MO1HKacaca_C:ExecuteUbergraph_BP_Vision_MO1HKacaca'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.7"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Vision_MO1HKacaca_C:ReceiveTick'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.1"
+      },
+      {
+        "ObjectName": "Function'BP_Vision_MO1HKacaca_C:ExecuteUbergraph_BP_Vision_MO1HKacaca'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Vision_MO1HKacaca": {
+        "ObjectName": "Function'BP_Vision_MO1HKacaca_C:ExecuteUbergraph_BP_Vision_MO1HKacaca'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.0"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_Vision_MO1HKacaca_C:ReceiveTick'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.1"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Vision_MO1HKacaca_C'Default__BP_Vision_MO1HKacaca_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.3"
+    }
+  },
+  {
+    "Type": "BP_Vision_MO1HKacaca_C",
+    "Name": "Default__BP_Vision_MO1HKacaca_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.BP_Vision_MO1HKacaca_C'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca",
+    "Template": {
+      "ObjectName": "BP_BaseVision_C'Default__BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.8"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "DtHitEffect": {
+        "ObjectName": "DataTable'DT_HitEffect'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/Data/DT_HitEffect.0"
+      },
+      "DtBaseMovementSetting": {
+        "ObjectName": "DataTable'DT_BaseMovementSetting'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1HKacacaMd00101/Data/DT_BaseMovementSetting.0"
+      },
+      "DtNewBulletDataMain": {
+        "ObjectName": "DataTable'DT_ReBulletDataMain'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/Data/DT_ReBulletDataMain.0"
+      },
+      "FkData": {
+        "ObjectName": "FK_Shake_AssestData_C'FK_Shake_Data'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1HKacacaMd00101/Data/FK_Shake_Data.0"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Vision_MO1HKacaca_C:CharacterMesh0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.10"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CharacterMovementComponent'Default__BP_Vision_MO1HKacaca_C:CharMoveComp'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.5"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_MO1HKacaca_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.4"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_MO1HKacaca_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.4"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_MO1HKacaca_C'Default__BP_Vision_MO1HKacaca_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.3"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_BaseVision_C:CollisionCylinder'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.9"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 60.0
+    }
+  },
+  {
+    "Type": "CharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_MO1HKacaca_C'Default__BP_Vision_MO1HKacaca_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.3"
+    },
+    "Template": {
+      "ObjectName": "CharacterMovementComponent'Default__BP_BaseVision_C:CharMoveComp'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.10"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_MO1HKacaca_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.2"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_MO1HKacaca_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision_MO1HKacaca_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Vision_MO1HKacaca_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.7"
+      },
+      "VariableGuid": "B4D21A21-4356AD9A-BD738998-73C06F85",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_MO1HKacaca_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.2"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Vision_MO1HKacaca_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.8"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_MO1HKacaca_C'Default__BP_Vision_MO1HKacaca_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.3"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__BP_BaseVision_C:CharacterMesh0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.15"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_MO1HKacacaMd00101_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1HKacacaMd00101/ABP_MO1HKacacaMd00101.0"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'MO1HKacacaMd00101'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Ordinary/MO1HKacacaMd00101/Model/MO1HKacacaMd00101.0"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_MO1HKacaca_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Ordinary/VM_MO1HKacaca/Md00101/BP_Vision_MO1HKacaca.4"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -60.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  }
+]
