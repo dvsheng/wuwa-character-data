@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_Linren_Vision_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00311/Data/CS_Linren_Vision",
+    "SuperStruct": {
+      "ObjectName": "Class'MatineeCameraShake'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_Linren_Vision_C'Default__CS_Linren_Vision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00311/Data/CS_Linren_Vision.1"
+    }
+  },
+  {
+    "Type": "CS_Linren_Vision_C",
+    "Name": "Default__CS_Linren_Vision_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00311/Data/CS_Linren_Vision.CS_Linren_Vision_C'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00311/Data/CS_Linren_Vision",
+    "Properties": {
+      "OscillationDuration": 0.8,
+      "OscillationBlendInTime": 0.0,
+      "OscillationBlendOutTime": 0.4,
+      "LocOscillation": {
+        "X": {
+          "Amplitude": 2.0,
+          "Frequency": 15.0,
+          "Waveform": "EOscillatorWaveform::PerlinNoise"
+        },
+        "Y": {
+          "Amplitude": 3.0,
+          "Frequency": 15.0,
+          "Waveform": "EOscillatorWaveform::PerlinNoise"
+        },
+        "Z": {
+          "Amplitude": 10.0,
+          "Frequency": 54.0,
+          "InitialOffset": "EOO_OffsetZero"
+        }
+      },
+      "bSingleInstance": true
+    }
+  }
+]

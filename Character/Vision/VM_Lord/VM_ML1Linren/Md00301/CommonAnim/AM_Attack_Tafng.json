@@ -1,0 +1,2131 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Attack_Tafng",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack40'",
+                  "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 5.3333335,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Attack_Tafng:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.26"
+          },
+          "Duration": 5.333333,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 5.3333335,
+            "LinkValue": 5.333333,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack40'",
+              "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 19,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "BP_KuroSpawnBlueprint_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_16'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.117917,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 0.07822237,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyAddMaterialControllerData_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyAddMaterialControllerData_C'AM_Attack_Tafng:AnimNotifyAddMaterialControllerData_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 0.07822237,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Attack_Tafng:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.27"
+          },
+          "Duration": 5.015545,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 5.3333335,
+            "LinkValue": 5.13334,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack40'",
+              "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 17,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 0.11779493,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.03333333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 0.6651867,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.4"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.033333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 0.665187,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.15"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.6666667,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 0.6666667,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Attack_Tafng:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.21"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 18,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 0.733061,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraShake_C'AM_Attack_Tafng:TsAnimNotifyCameraShake_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.22"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 0.78129613,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.13"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.2,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.2,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.14"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.2,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.2,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.16"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.2,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.2,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_6'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.17"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.2,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.2,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_7'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.18"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.2,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.2,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_8'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.19"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.2,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.2,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraShake_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraShake_C'AM_Attack_Tafng:TsAnimNotifyCameraShake_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.23"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 15,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.2415264,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Attack_Tafng:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.24"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 16,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.2793834,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_9'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.20"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.4,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.4,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_10'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.5"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.4,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.4,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_11'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.6"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.4,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.4,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_12'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.7"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.4,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 11,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.4,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_13'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.8"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.5333335,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 12,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.5333335,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_14'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.533334,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 13,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.533334,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_15'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.533334,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 14,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 2.533334,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifySendGamePlayEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySendGamePlayEvent_C'AM_Attack_Tafng:TsAnimNotifySendGamePlayEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.25"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.0,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 15,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 3.3708193,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyAddMaterialControllerDataGroup_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyAddMaterialControllerDataGroup_C'AM_Attack_Tafng:AnimNotifyAddMaterialControllerDataGroup_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 2.76184,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 4.204725,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "BP_KuroSpawnBlueprint_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_Tafng:AnimNotifyEffect_C_17'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.12"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 3.06152,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 5.3333335,
+          "LinkValue": 5.194436,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack40'",
+            "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Attack40.1"
+          }
+        }
+      ],
+      "SequenceLength": 5.3333335,
+      "Skeleton": {
+        "ObjectName": "Skeleton'ML1LinrenMd00301_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/Model/ML1LinrenMd00301_Skeleton.13"
+      }
+    },
+    "SkeletonGuid": "15C1C9E5-40B50647-D08FEEA2-113291D8"
+  },
+  {
+    "Type": "AnimNotifyAddMaterialControllerData_C",
+    "Name": "AnimNotifyAddMaterialControllerData_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyAddMaterialControllerData.AnimNotifyAddMaterialControllerData_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyAddMaterialControllerData_C'Default__AnimNotifyAddMaterialControllerData_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyAddMaterialControllerData.3"
+    },
+    "Properties": {
+      "MaterialAssetData": {
+        "ObjectName": "PD_CharacterControllerData_C'DA_Fx_Lord_Linren_Shanxian_40006'",
+        "ObjectPath": "Client/Content/Aki/Effect/MaterialController/DA_Lord/DA_Fx_Lord_Linren_Shanxian_40006.1"
+      },
+      "exportIndex": 3
+    }
+  },
+  {
+    "Type": "AnimNotifyAddMaterialControllerDataGroup_C",
+    "Name": "AnimNotifyAddMaterialControllerDataGroup_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyAddMaterialControllerDataGroup.AnimNotifyAddMaterialControllerDataGroup_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyAddMaterialControllerDataGroup_C'Default__AnimNotifyAddMaterialControllerDataGroup_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Character/AnimNotify/AnimNotifyAddMaterialControllerDataGroup.3"
+    },
+    "Properties": {
+      "MaterialAssetData": {
+        "ObjectName": "PD_CharacterControllerDataGroup_C'DA_Fx_Lord_Linren2_Group_40001'",
+        "ObjectPath": "Client/Content/Aki/Effect/MaterialController/DA_Lord/DA_Fx_Lord_Linren2_Group_40001.0"
+      },
+      "exportIndex": 26
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Xuli.DA_Fx_Group_MLb_Atk_40_Xuli",
+        "SubPathString": ""
+      },
+      "exportIndex": 5
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Xuli_02.DA_Fx_Group_MLb_Atk_40_Xuli_02",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -0.0,
+        "Y": -2E-06,
+        "Z": 261.7397
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 6
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Huahen.DA_Fx_Group_MLb_Atk_40_Huahen",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -747.81885,
+        "Y": -216.20642,
+        "Z": 206.06046
+      },
+      "Rotation": {
+        "Pitch": 13.392901,
+        "Yaw": -108.60046,
+        "Roll": 21.132801
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Huahen.DA_Fx_Group_MLb_Atk_40_Huahen",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 135.77936,
+        "Y": 809.68524,
+        "Z": 132.57742
+      },
+      "Rotation": {
+        "Pitch": 66.010376,
+        "Yaw": 141.75272,
+        "Roll": -36.794563
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 20
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Huahen.DA_Fx_Group_MLb_Atk_40_Huahen",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 462.55206,
+        "Y": -2.795105,
+        "Z": 523.0077
+      },
+      "Rotation": {
+        "Pitch": -26.209093,
+        "Yaw": -135.26634,
+        "Roll": -191.90048
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 21
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Huahen.DA_Fx_Group_MLb_Atk_40_Huahen",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -837.4918,
+        "Y": -316.54703,
+        "Z": 118.56439
+      },
+      "Rotation": {
+        "Pitch": -10.14233,
+        "Yaw": -156.17062,
+        "Roll": -189.84087
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 22
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Huahen.DA_Fx_Group_MLb_Atk_40_Huahen",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 490.3318,
+        "Y": -761.1268,
+        "Z": 356.66757
+      },
+      "Rotation": {
+        "Pitch": -24.60425,
+        "Yaw": 122.544075,
+        "Roll": 24.75749
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 23
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Huahen.DA_Fx_Group_MLb_Atk_40_Huahen",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -512.2593,
+        "Y": 61.654907,
+        "Z": 627.96185
+      },
+      "Rotation": {
+        "Pitch": -6.456405,
+        "Yaw": -163.76659,
+        "Roll": -29.028372
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 24
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_Shunyi01.DA_Fx_Group_Shunyi01",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 150.0
+      },
+      "Attached": false,
+      "exportIndex": 2
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_Shunyi01.DA_Fx_Group_Shunyi01",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 120.0
+      },
+      "Attached": false,
+      "exportIndex": 27
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Baofa.DA_Fx_Group_MLb_Atk_40_Baofa",
+        "SubPathString": ""
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 10
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Dimian.DA_Fx_Group_MLb_Atk_40_Dimian",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 2.0
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 11
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLa_Atk_01_Xuli.DA_Fx_Group_MLa_Atk_01_Xuli",
+        "SubPathString": ""
+      },
+      "exportIndex": 7
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Huahen.DA_Fx_Group_MLb_Atk_40_Huahen",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -557.32983,
+        "Y": 724.2565,
+        "Z": 350.00726
+      },
+      "Rotation": {
+        "Pitch": 16.680023,
+        "Yaw": -51.567707,
+        "Roll": 30.481524
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 12
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Huahen.DA_Fx_Group_MLb_Atk_40_Huahen",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -248.21826,
+        "Y": -298.23785,
+        "Z": 594.9325
+      },
+      "Rotation": {
+        "Pitch": -1.802915,
+        "Yaw": 50.074894,
+        "Roll": -190.50725
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 13
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Huahen.DA_Fx_Group_MLb_Atk_40_Huahen",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 347.15442,
+        "Y": 584.0089,
+        "Z": 60.45883
+      },
+      "Rotation": {
+        "Pitch": 4.106173,
+        "Yaw": -113.945946,
+        "Roll": -5.337758
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 14
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Huahen.DA_Fx_Group_MLb_Atk_40_Huahen",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 929.4822,
+        "Y": 673.17914,
+        "Z": 135.47534
+      },
+      "Rotation": {
+        "Pitch": -19.569332,
+        "Yaw": -135.99458,
+        "Roll": -154.78745
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 15
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLb_Atk_40_Huahen.DA_Fx_Group_MLb_Atk_40_Huahen",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 750.9821,
+        "Y": -125.35748,
+        "Z": 202.5054
+      },
+      "Rotation": {
+        "Pitch": -20.623358,
+        "Yaw": -76.89388,
+        "Roll": -137.96004
+      },
+      "Attached": false,
+      "SocketName": "Root",
+      "exportIndex": 18
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 1.2,
+      "淡入时间": 1.5,
+      "淡出时间": 0.5,
+      "相机修改配置": {
+        "Priority_101_E74404724F7BCD1A815B9E8ECCEE64EC": 10,
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 500.0,
+        "IsModifiedArmRotation_76_570606324FC53E504274BDA6F59BD5C3": false,
+        "IsModifiedArmRotationRoll_93_6CBBDC9043D8BF5E4EC3AB8E5473C625": false,
+        "IsModifiedCameraFov_53_1A8D869C4A5886B266452BBCB07BA93A": true,
+        "CameraFov_63_A418591F41F5EF0F2D3D19B8F9967FC9": 85.0,
+        "StopModifyOnMontageEnd_61_E5E58E644EDFAC8B5A53C08F375C0567": false
+      },
+      "生效客户端类型": "ECameraAnsEffectiveClientType::NewEnumerator1",
+      "条件": [
+        {
+          "ConditionType_2_E0F00BA5468BDB9A8C3CF4AE18A8BF08": "ECameraModifyConditionType::NewEnumerator8",
+          "AnyTag_39_0ACABC6D492EBAE1BCB46F9BD0EBB013": false,
+          "TagToCheck_40_3C2B224D4B7C9665BBA904B77C8345A1": [],
+          "ArmLengthMin_31_3173378D4E6948F072DBC0A9037F6969": 0.0,
+          "ArmLengthMax_32_892FD925435B4AA5D542CBBD2A975F80": 0.0,
+          "LockTargetDeltaZMin_15_36878833449467F315C532B5A0886D43": 0.0,
+          "LockTargetDeltaZMax_17_2EA446FB4C448A61A53F56BC29C87A15": 0.0,
+          "LockTargetDeltaYawMin_19_1ACE0BEB4A4E368EDFF90B8C492CE2A1": 0.0,
+          "LockTargetDeltaYawMax_21_9D83D1F54964E0709E30BFB4AC27EE2E": 0.0,
+          "LockTargetDeltaPitchMin_23_979B0A624172114862F88F9C19E7B0BD": 0.0,
+          "LockTargetDeltaPitchMax_25_578EC5914A83D5B66426AA82F2D47B0B": 0.0,
+          "Reverse_34_F69E18214C8243456B820E800D538172": false,
+          "MinLockDistance_46_10CED90B4FEB788CDCFFE08B33AA2C8C": 0.0,
+          "MaxLockDistance_45_75B83DDC40FE14620EAB08A1FFF59168": 1000.0,
+          "CameraTraceSocket_50_64F21E424C7DC6D281833882876A4514": "CameraPosition",
+          "CameraTraceRadius_53_D0093E184DA13FE2155BB8BD7EFFFA96": 0.0,
+          "CameraTraceOffset_56_7F0CE49441F258DDFDE48AA51904D00E": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "exportIndex": 8
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraShake_C",
+    "Name": "TsAnimNotifyCameraShake_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.TsAnimNotifyCameraShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraShake_C'Default__TsAnimNotifyCameraShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.3"
+    },
+    "Properties": {
+      "震动配置": {
+        "ObjectName": "BlueprintGeneratedClass'BP_ZP_ML1LinrenMd00301_0431_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/Abilities/BP_ZP_ML1LinrenMd00301_0431.0"
+      },
+      "Radius": 2000.0,
+      "exportIndex": 9
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraShake_C",
+    "Name": "TsAnimNotifyCameraShake_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.TsAnimNotifyCameraShake_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraShake_C'Default__TsAnimNotifyCameraShake_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraShake.3"
+    },
+    "Properties": {
+      "震动配置": {
+        "ObjectName": "BlueprintGeneratedClass'BP_ZP_ML1LinrenMd00301_433_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1LinrenMd00301/Abilities/BP_ZP_ML1LinrenMd00301_433.0"
+      },
+      "Radius": 2000.0,
+      "exportIndex": 16
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "28000410",
+      "exportIndex": 17
+    }
+  },
+  {
+    "Type": "TsAnimNotifySendGamePlayEvent_C",
+    "Name": "TsAnimNotifySendGamePlayEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.TsAnimNotifySendGamePlayEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySendGamePlayEvent_C'Default__TsAnimNotifySendGamePlayEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.3"
+    },
+    "Properties": {
+      "事件Tag": {
+        "TagName": "幻象.变身.正常结束"
+      },
+      "exportIndex": 25
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "功能.逻辑状态标识.无敌.角色闪避"
+      },
+      "exportIndex": 1,
+      "CurrentTimeLength": 4.2862606
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_Tafng'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Linren/Md00301/CommonAnim/AM_Attack_Tafng.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_boss_linren1_attack55.play_boss_linren1_attack55",
+        "SubPathString": ""
+      },
+      "exportIndex": 4,
+      "CurrentTimeLength": 4.0863676
+    }
+  }
+]

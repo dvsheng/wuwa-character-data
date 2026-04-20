@@ -1,0 +1,453 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_DriveUp_Vision",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision",
+    "Properties": {
+      "BlendIn": {
+        "BlendTime": 0.03
+      },
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "1",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666666,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'DriveUp_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/DriveUp_Vision.3"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'DriveUp_Vision'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/DriveUp_Vision.3"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.2,
+                "AnimEndTime": 1.0,
+                "AnimPlayRate": 1.2,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'DriveUp_Vision'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/DriveUp_Vision.3"
+                },
+                "StartPos": 0.6666666,
+                "AnimStartTime": 1.0,
+                "AnimEndTime": 1.5666667,
+                "AnimPlayRate": 0.72,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'DriveLoop_Vision'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/DriveLoop_Vision.8"
+                },
+                "StartPos": 1.4537036,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.8666667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateJumpLandDetect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateJumpLandDetect_C'AM_DriveUp_Vision:TsAnimNotifyStateJumpLandDetect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.5"
+          },
+          "Duration": 1.7103702,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 1.4537036,
+            "SegmentLength": 0.8666667,
+            "LinkValue": 2.3203702,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'DriveLoop_Vision'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/DriveLoop_Vision.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666666,
+          "LinkValue": 0.61,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'DriveUp_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/DriveUp_Vision.3"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_DriveUp_Vision:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.4"
+          },
+          "Duration": 1.6835332,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 1.4537036,
+            "SegmentLength": 0.8666667,
+            "LinkValue": 2.3203702,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'DriveLoop_Vision'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/DriveLoop_Vision.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 0.6666666,
+          "LinkValue": 0.636837,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'DriveUp_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/DriveUp_Vision.3"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_DriveUp_Vision:AnimNotifyStateEffect_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.1"
+          },
+          "Duration": 0.5352904,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.6666666,
+            "SegmentLength": 0.7870371,
+            "LinkValue": 1.4367597,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'DriveUp_Vision'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/DriveUp_Vision.3"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.6666666,
+          "SegmentLength": 0.7870371,
+          "LinkValue": 0.9014693,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'DriveUp_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/DriveUp_Vision.3"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddBuff_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddBuff_C'AM_DriveUp_Vision:TsAnimNotifyStateAddBuff_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.3"
+          },
+          "Duration": 0.6092291,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 2,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 1.4537036,
+            "SegmentLength": 0.8666667,
+            "LinkValue": 1.6203704,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'DriveLoop_Vision'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/DriveLoop_Vision.8"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 1,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.6666666,
+          "SegmentLength": 0.7870371,
+          "LinkValue": 1.0111413,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'DriveUp_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/DriveUp_Vision.3"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifySendGamePlayEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySendGamePlayEvent_C'AM_DriveUp_Vision:TsAnimNotifySendGamePlayEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.72,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 2,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 1.4537036,
+          "SegmentLength": 0.8666667,
+          "LinkValue": 1.72,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'DriveLoop_Vision'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/DriveLoop_Vision.8"
+          }
+        }
+      ],
+      "SequenceLength": 2.3203702,
+      "Skeleton": {
+        "ObjectName": "Skeleton'ML1QiShiMd00001_Body_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1QishiMd00001/Model/ML1QiShiMd00001_Body_Skeleton.18"
+      }
+    },
+    "SkeletonGuid": "A49AB82E-443B5DBA-B35CF7A6-57F8499C"
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator2",
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1QiShiMd00001/Vision/DA_Fx_Group_Qishi_MLa_Tile_None_Star.DA_Fx_Group_Qishi_MLa_Tile_None_Star",
+        "SubPathString": ""
+      },
+      "SocketName": "Root",
+      "exportIndex": 17,
+      "CurrentTimeLength": 0.5511231
+    }
+  },
+  {
+    "Type": "TsAnimNotifySendGamePlayEvent_C",
+    "Name": "TsAnimNotifySendGamePlayEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.TsAnimNotifySendGamePlayEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySendGamePlayEvent_C'Default__TsAnimNotifySendGamePlayEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.3"
+    },
+    "Properties": {
+      "事件Tag": {
+        "TagName": "幻象.怪物.Lord.骑士.跳转动画"
+      },
+      "exportIndex": 19
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddBuff_C",
+    "Name": "TsAnimNotifyStateAddBuff_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.TsAnimNotifyStateAddBuff_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddBuff_C'Default__TsAnimNotifyStateAddBuff_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddBuff.4"
+    },
+    "Properties": {
+      "BuffId": 5008001002,
+      "exportIndex": 18,
+      "CurrentTimeLength": 0.6150881
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "幻象.怪物.Lord.骑士.跳转动画"
+      },
+      "exportIndex": 16,
+      "CurrentTimeLength": 1.0863123
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateJumpLandDetect_C",
+    "Name": "TsAnimNotifyStateJumpLandDetect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateJumpLandDetect.TsAnimNotifyStateJumpLandDetect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_DriveUp_Vision'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/CommonAnim/AM_DriveUp_Vision.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateJumpLandDetect_C'Default__TsAnimNotifyStateJumpLandDetect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateJumpLandDetect.6"
+    },
+    "Properties": {
+      "MaxHeightOffset": 2000.0,
+      "exportIndex": 15,
+      "CurrentTimeLength": 1.1131493
+    }
+  }
+]

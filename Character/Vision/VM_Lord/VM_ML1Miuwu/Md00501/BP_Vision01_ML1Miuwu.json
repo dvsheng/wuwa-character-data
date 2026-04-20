@@ -1,0 +1,1668 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Vision01_ML1Miuwu",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Vision01_ML1Miuwu_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu",
+    "Super": {
+      "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Vision01_ML1Miuwu_C:InheritableComponentHandler'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.17"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Vision01_ML1Miuwu_C:ExecuteUbergraph_BP_Vision01_ML1Miuwu'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Vision01_ML1Miuwu_C:ReceiveBeginPlay'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.1"
+      },
+      {
+        "ObjectName": "Function'BP_Vision01_ML1Miuwu_C:ExecuteUbergraph_BP_Vision01_ML1Miuwu'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "KuroRegionDetect",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'KuroRegionDetectComponent'",
+          "ObjectPath": "/Script/KuroComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "镜头子弹",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'KuroRegionSphereComponent'",
+          "ObjectPath": "/Script/KuroComponent"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherCase1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001RHand",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001LHand",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001RUpperArm",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001LUpperArm",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001RFoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001LFoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001RCalf",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001LCalf",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001Pelvis",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001Neck",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Bip001Head",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'CapsuleComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "变换",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Vision01_ML1Miuwu": {
+        "ObjectName": "Function'BP_Vision01_ML1Miuwu_C:ExecuteUbergraph_BP_Vision01_ML1Miuwu'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_Vision01_ML1Miuwu_C:ReceiveBeginPlay'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.1"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Vision01_ML1Miuwu_C'Default__BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.3"
+    }
+  },
+  {
+    "Type": "BP_Vision01_ML1Miuwu_C",
+    "Name": "Default__BP_Vision01_ML1Miuwu_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.BP_Vision01_ML1Miuwu_C'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu",
+    "Template": {
+      "ObjectName": "TsBaseCharacter_C'Default__TsBaseCharacter_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.12"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "变换": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      },
+      "DtHitEffect": {
+        "ObjectName": "DataTable'DT_HitEffect'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1MiuwuMd00501/Data/DT_HitEffect.0"
+      },
+      "DtBaseMovementSetting": {
+        "ObjectName": "DataTable'DT_BaseMovementSetting'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1MiuwuMd00501/Data/DT_BaseMovementSetting.0"
+      },
+      "DtNewBulletDataMain": {
+        "ObjectName": "DataTable'DT_ReBulletDataMain'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1MiuwuMd00501/Data/DT_ReBulletDataMain.0"
+      },
+      "FkData": {
+        "ObjectName": "FK_Shake_AssestData_C'FK_Shake_Data'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1MiuwuMd00501/Data/FK_Shake_Data.0"
+      },
+      "DtCameraConfig": {
+        "ObjectName": "DataTable'DT_CameraConfig'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1MiuwuMd00501/Data/DT_CameraConfig.0"
+      },
+      "Camp": "ECamp::NewEnumerator1",
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Vision01_ML1Miuwu_C:CharacterMesh0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.38"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CharacterMovementComponent'Default__BP_Vision01_ML1Miuwu_C:CharMoveComp'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.16"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision01_ML1Miuwu_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.15"
+      },
+      "AutoPossessAI": "EAutoPossessAI::PlacedInWorldOrSpawned",
+      "AIControllerClass": null,
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision01_ML1Miuwu_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.15"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Bip001Head_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bCanCharacterStandOn": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 19.999973,
+        "Y": -1.9073505E-06,
+        "Z": 5.722046E-06
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Bip001LCalf_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 70.0,
+      "CapsuleRadius": 45.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bCanCharacterStandOn": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -39.000103,
+        "Y": 3.6795626,
+        "Z": -12.000013
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 355.23633,
+        "Roll": 25.236706
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Bip001LFoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 60.0,
+      "CapsuleRadius": 35.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bCanCharacterStandOn": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -27.807419,
+        "Y": -9.0581045,
+        "Z": 6.675721E-06
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": -79.99872,
+        "Roll": 90.00001
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Bip001LHand_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 57.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bCanCharacterStandOn": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -7.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": -89.99999,
+        "Yaw": 178.97475,
+        "Roll": -178.97461
+      },
+      "RelativeScale3D": {
+        "X": 0.99999994,
+        "Y": 0.9999999,
+        "Z": 0.99999994
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Bip001LUpperArm_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 55.0,
+      "CapsuleRadius": 37.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bCanCharacterStandOn": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11.0,
+        "Y": 0.0,
+        "Z": 9.0
+      },
+      "RelativeRotation": {
+        "Pitch": -79.999954,
+        "Yaw": 4.5776367E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Bip001Neck_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 55.0,
+      "CapsuleRadius": 55.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "ShapeColor": {
+        "B": 255,
+        "G": 0,
+        "R": 164,
+        "A": 255,
+        "Hex": "A400FF"
+      },
+      "bCanCharacterStandOn": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -28.0,
+        "Y": -25.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Bip001Pelvis_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 60.0,
+      "CapsuleRadius": 40.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bCanCharacterStandOn": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeScale3D": {
+        "X": 0.99999994,
+        "Y": 0.9999999,
+        "Z": 0.99999994
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Bip001RCalf_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 70.0,
+      "CapsuleRadius": 45.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bCanCharacterStandOn": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -39.000103,
+        "Y": 3.6795607,
+        "Z": 7.9999866
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 355.23633,
+        "Roll": 25.236706
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Bip001RFoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 60.0,
+      "CapsuleRadius": 35.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bCanCharacterStandOn": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -27.807419,
+        "Y": -9.0581045,
+        "Z": 6.675721E-06
+      },
+      "RelativeRotation": {
+        "Pitch": 6.830189E-06,
+        "Yaw": -79.99872,
+        "Roll": 90.00001
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Bip001RHand_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 57.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bCanCharacterStandOn": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": -7.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": -89.99999,
+        "Yaw": 178.97475,
+        "Roll": -178.97461
+      },
+      "RelativeScale3D": {
+        "X": 0.99999994,
+        "Y": 0.9999999,
+        "Z": 0.99999994
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "Bip001RUpperArm_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 55.0,
+      "CapsuleRadius": 37.0,
+      "AreaClass": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bCanCharacterStandOn": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeLocation": {
+        "X": 11.0,
+        "Y": 0.0,
+        "Z": -13.0
+      },
+      "RelativeRotation": {
+        "Pitch": -79.999954,
+        "Yaw": 4.5776367E-05,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision01_ML1Miuwu_C'Default__BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.3"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__TsBaseCharacter_C:CollisionCylinder'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.13"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 210.0,
+      "CapsuleRadius": 100.0
+    }
+  },
+  {
+    "Type": "CharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision01_ML1Miuwu_C'Default__BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.3"
+    },
+    "Template": {
+      "ObjectName": "CharacterMovementComponent'Default__TsBaseCharacter_C:CharMoveComp'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.14"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    }
+  },
+  {
+    "Type": "KuroRegionDetectComponent",
+    "Name": "KuroRegionDetect_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'KuroRegionDetectComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    }
+  },
+  {
+    "Type": "KuroRegionSphereComponent",
+    "Name": "镜头子弹_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'KuroRegionSphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "Radius": 5000.0
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Vision01_ML1Miuwu_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.20"
+      },
+      "VariableGuid": "1C78C927-4CA98226-2F225B81-8520E03F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Vision01_ML1Miuwu_C:Bip001Head_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.4"
+      },
+      "AttachToName": "Bip001Head",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F5E045C9-45CCB361-6EA0549D-1B33613E",
+      "InternalVariableName": "Bip001Head"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Vision01_ML1Miuwu_C:Bip001LHand_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.7"
+      },
+      "AttachToName": "Bip001LHand",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "36F3133D-446180F3-BEA3D28A-7772873C",
+      "InternalVariableName": "Bip001LHand"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Vision01_ML1Miuwu_C:Bip001RHand_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.13"
+      },
+      "AttachToName": "Bip001RHand",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "13BB2A15-4A3CF9A8-66F4CC8D-D6FFDCA4",
+      "InternalVariableName": "Bip001RHand"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'BP_Vision01_ML1Miuwu_C:OtherCase1_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.37"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8564A254-45847732-A0F2FEB6-19386FE9",
+      "InternalVariableName": "OtherCase1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'KuroRegionSphereComponent'",
+        "ObjectPath": "/Script/KuroComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "KuroRegionSphereComponent'BP_Vision01_ML1Miuwu_C:镜头子弹_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.19"
+      },
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1C87D422-4F4CEA4F-DE9FB6BE-5288648E",
+      "InternalVariableName": "镜头子弹"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Vision01_ML1Miuwu_C:Bip001Neck_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.9"
+      },
+      "AttachToName": "Bip001Neck",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F20FF705-4396BEC8-6139D7AB-DFD1D0B4",
+      "InternalVariableName": "Bip001Neck"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'KuroRegionDetectComponent'",
+        "ObjectPath": "/Script/KuroComponent"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "KuroRegionDetectComponent'BP_Vision01_ML1Miuwu_C:KuroRegionDetect_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.18"
+      },
+      "VariableGuid": "708718A1-49200F8D-16CB65AB-B89B9B18",
+      "InternalVariableName": "KuroRegionDetect"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Vision01_ML1Miuwu_C:Bip001Pelvis_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.10"
+      },
+      "AttachToName": "Bip001Pelvis",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D163F051-4FE09471-331B84B4-9E209633",
+      "InternalVariableName": "Bip001Pelvis"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Vision01_ML1Miuwu_C:Bip001LCalf_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.5"
+      },
+      "AttachToName": "Bip001LCalf",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C3381681-4B138A6F-18A78BB1-622931D7",
+      "InternalVariableName": "Bip001LCalf"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Vision01_ML1Miuwu_C:Bip001RCalf_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.11"
+      },
+      "AttachToName": "Bip001RCalf",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "DD8E87E6-4F042BFD-A79D61BE-6D133F1B",
+      "InternalVariableName": "Bip001RCalf"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Vision01_ML1Miuwu_C:Bip001LFoot_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.6"
+      },
+      "AttachToName": "Bip001LFoot",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9345AF17-44D96B19-06CB6384-CA39F265",
+      "InternalVariableName": "Bip001LFoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Vision01_ML1Miuwu_C:Bip001RFoot_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.12"
+      },
+      "AttachToName": "Bip001RFoot",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "E3F3EDAD-481845AD-20D24BA4-EB6116DE",
+      "InternalVariableName": "Bip001RFoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Vision01_ML1Miuwu_C:Bip001LUpperArm_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.8"
+      },
+      "AttachToName": "Bip001LUpperArm",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "44BBD459-408F82A3-C3FE64A1-0EA82001",
+      "InternalVariableName": "Bip001LUpperArm"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.36"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'CapsuleComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "CapsuleComponent'BP_Vision01_ML1Miuwu_C:Bip001RUpperArm_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.14"
+      },
+      "AttachToName": "Bip001RUpperArm",
+      "ParentComponentOrVariableName": "CharacterMesh0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3239B7D4-4ADAB050-7E7836BC-720CAEA7",
+      "InternalVariableName": "Bip001RUpperArm"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.28"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.22"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.27"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.29"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.30"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.31"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.32"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.33"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_8'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.34"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.35"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.23"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.24"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.25"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.26"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.28"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Vision01_ML1Miuwu_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.21"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "OtherCase1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.2"
+    },
+    "Properties": {
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'ML1MiuwuMd00501_Weapon'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1MiuwuMd00501/Model/Weapon/ML1MiuwuMd00501_Weapon/ML1MiuwuMd00501_Weapon.0"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision01_ML1Miuwu_C'Default__BP_Vision01_ML1Miuwu_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.3"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__TsBaseCharacter_C:CharacterMesh0'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.23"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_ML1MiuwuMd00501_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1MiuwuMd00501/ABP_ML1MiuwuMd00501.13"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'ML1MiuwuMd00501'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1MiuwuMd00501/Model/ML1MiuwuMd00501.0"
+      },
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "ObjectType": "ECC_Pawn",
+        "CollisionEnabled": "ECollisionEnabled::QueryAndPhysics",
+        "CollisionProfileName": "AkiCharacter",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "StraightWall_Deprecated",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AcrossBlock",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "KuroWater",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision01_ML1Miuwu_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.15"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -210.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  }
+]

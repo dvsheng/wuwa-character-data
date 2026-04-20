@@ -1,0 +1,2066 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_Destroy_Bianshen_FeiLian_TafangVision",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "___struct_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_WaitGameplayEvent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 40,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'WaitGameplayTagDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_Tag_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "___struct_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": "RF_Public",
+        "ElementSize": 40,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'WaitGameplayTagDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_Tag",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "ConstParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "___struct_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": "RF_Public",
+        "ElementSize": 40,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'WaitGameplayEventDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_Payload",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "___struct_Variable_3",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_WaitGameplayEvent_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_WaitGameplayEvent'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetOwningActorFromActorInfo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsTs_Base_Character",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_CustomEvent_Payload_1",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Conv_IntToFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+        "Flags": "RF_Public",
+        "ElementSize": 40,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'WaitGameplayEventDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc__________",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AnimMontage'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetDisplayName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "CallFunc_GetObjectClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Class'",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class'AnimMontage'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_StringToText_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_ClassClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_____GA______________",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_StringToText_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+        "Flags": "RF_Public",
+        "ElementSize": 40,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'MontageWaitSimpleDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData_1",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Conv_StringToText_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 64,
+          "Struct": {
+            "ObjectName": "ScriptStruct'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_FormatArgumentData_2",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'FormatArgumentData'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Format_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array_1",
+          "Flags": "RF_Public",
+          "ElementSize": 64,
+          "Struct": {
+            "ObjectName": "ScriptStruct'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_TextToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "TextProperty",
+        "Name": "CallFunc_Format_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 24
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_TextToString_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_NameToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc___________1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AnimMontage'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_5",
+        "Flags": "RF_Public",
+        "ElementSize": 40,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'MontageWaitSimpleDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc___________2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc______________",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_6",
+        "Flags": "RF_Public",
+        "ElementSize": 40,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'MontageWaitSimpleDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc__________SpeedRatio",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "___bool_IsClosed_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreatePlayMontageAndWaitProxy_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_PlayMontageAndWait'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "___bool_Has_Been_Initd_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc___________3",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "___bool_IsClosed_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "___bool_Has_Been_Initd_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_7",
+        "Flags": "RF_Public",
+        "ElementSize": 40,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'MontageWaitSimpleDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc___________4",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc___________5",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_____ID___ID",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc___________6",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetSummonerEntityId_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_____ID_______",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_____ID___________",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc____________",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsTs_Base_Character_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_____ID___ID_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_8",
+        "Flags": "RF_Public",
+        "ElementSize": 40,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'MontageWaitSimpleDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc___________7",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc___________8",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeLiteralGameplayTagContainer_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTagContainer'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_______________1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'GameplayTagAssetInterface'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAnyMatchingGameplayTags_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bWasCancelled",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_____ID___ID_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_WaitGameplayTagAdd_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_WaitGameplayTagAdded'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_WaitGameplayTagAdd_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_WaitGameplayTagAdded'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnEndAbility",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "Super": {
+      "ObjectName": "Function'GA_Base_C:K2_OnEndAbility'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Abilities/GA/GA_Base.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'GA_Base_C:K2_OnEndAbility'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Abilities/GA/GA_Base.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bWasCancelled",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbility",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "Super": {
+      "ObjectName": "Function'GA_Base_C:K2_ActivateAbility'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Abilities/GA/GA_Base.2"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'GA_Base_C:K2_ActivateAbility'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Abilities/GA/GA_Base.2"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EventReceived_18B59F5945020DB23C42FD883FEC113C",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Payload",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Added_21071CB943CD992BF8EFD6A31D9C1B2D",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Tag",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Added_21071CB943CD992BF8EFD6A381CA9974",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Tag",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayTag'",
+          "ObjectPath": "/Script/GameplayTags"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EventReceived_18B59F5945020DB23C42FD88517FCC57",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "Payload",
+        "Flags": "RF_Public",
+        "ElementSize": 184,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'GameplayEventData'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCompleted_5D118C384AE61F1C80292E814255164F",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnBlendOut_5D118C384AE61F1C80292E814255164F",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInterrupted_5D118C384AE61F1C80292E814255164F",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCancelled_5D118C384AE61F1C80292E814255164F",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTick_5D118C384AE61F1C80292E814255164F",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "显示玩家模型",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetIsInGame_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_____ID___ID",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "变身结束_碰撞关系处理",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "根据黑板寻找雷柱",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "黑板值",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "找到对象",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc__________",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_____EntityId__",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "UObjectWrapper"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_____ID_______",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_____ID___________",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "雷柱召唤位置",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TransformDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc__________",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc___________1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_D_GetTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TransformDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_D_GetTransform_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TransformDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_D_TransformLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'VectorDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransformDouble_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'VectorDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransformDouble_Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransformDouble_Scale",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransformDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TransformDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "Function",
+    "Name": "雷柱位置合法性检测",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "雷柱修正后位置",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TransformDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc________ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TransformDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc__________",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc___________1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_D_GetTransform_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TransformDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_D_GetTransform_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TransformDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransformDouble_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'VectorDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransformDouble_Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransformDouble_Scale",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_D_TransformLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'VectorDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc___________2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_D_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'VectorDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc______OutHit",
+        "Flags": "RF_Public",
+        "ElementSize": 148,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "ScriptStruct'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc______ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BreakHitResult_bBlockingHit",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BreakHitResult_bInitialOverlap",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakHitResult_Time",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakHitResult_Distance",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResult_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResult_ImpactPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResult_Normal",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResult_ImpactNormal",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BreakHitResult_PhysMat",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PhysicalMaterial'",
+          "ObjectPath": "/Script/PhysicsCore"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BreakHitResult_HitActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BreakHitResult_HitComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "CallFunc_BreakHitResult_HitBoneName",
+        "Flags": "RF_Public",
+        "ElementSize": 12
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_BreakHitResult_HitItem",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_BreakHitResult_FaceIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResult_TraceStart",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakHitResult_TraceEnd",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Subtract_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Conv_VectorToVectorDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'VectorDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeTransformDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TransformDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "召唤雷柱1",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.18"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_GetDisplayName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc__________________",
+        "Flags": "RF_Public",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "ScriptStruct'TransformDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_____ID_______",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_____ID___________",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetCustomEntityId_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_IntToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc__________",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc___________1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_____ID___ID",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc___________2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_____ID________1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_____ID____________1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc____________",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "UObjectWrapper",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_Conv_BoolToString_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Destroy_Bianshen_FeiLian_TafangVision_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Base_C'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Abilities/GA/GA_Base.94"
+    },
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:ExecuteUbergraph_GA_Destroy_Bianshen_FeiLian_TafangVision'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Base_C'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Abilities/GA/GA_Base.94"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:召唤雷柱1'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.17"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:雷柱位置合法性检测'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.16"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:雷柱召唤位置'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.15"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:根据黑板寻找雷柱'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.14"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:变身结束_碰撞关系处理'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.13"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:显示玩家模型'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.12"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:OnTick_5D118C384AE61F1C80292E814255164F'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.11"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:OnCancelled_5D118C384AE61F1C80292E814255164F'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.10"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:OnInterrupted_5D118C384AE61F1C80292E814255164F'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.9"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:OnBlendOut_5D118C384AE61F1C80292E814255164F'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.8"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:OnCompleted_5D118C384AE61F1C80292E814255164F'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.7"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:EventReceived_18B59F5945020DB23C42FD88517FCC57'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.6"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:Added_21071CB943CD992BF8EFD6A381CA9974'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.5"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:Added_21071CB943CD992BF8EFD6A31D9C1B2D'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.4"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:EventReceived_18B59F5945020DB23C42FD883FEC113C'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.3"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:K2_ActivateAbility'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.2"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:K2_OnEndAbility'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.1"
+      },
+      {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:ExecuteUbergraph_GA_Destroy_Bianshen_FeiLian_TafangVision'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "召唤者ID",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "召唤者",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "幻象BP",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance | UObjectWrapper",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_BaseVision_C'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.7"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "变身结束_粒子特效",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "变身结束_材质特效",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Object'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "主动结束",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "材质Handle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "已结束",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "雷柱1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "雷柱1号",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "TypeScriptGeneratedClass'TsBaseCharacter_C'",
+          "ObjectPath": "Client/Content/Aki/TypeScript/Game/Character/TsBaseCharacter.11"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "渊武",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "修正后雷柱位置",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 64,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "ScriptStruct'TransformDouble'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_Destroy_Bianshen_FeiLian_TafangVision": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:ExecuteUbergraph_GA_Destroy_Bianshen_FeiLian_TafangVision'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.0"
+      },
+      "K2_OnEndAbility": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:K2_OnEndAbility'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.1"
+      },
+      "K2_ActivateAbility": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:K2_ActivateAbility'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.2"
+      },
+      "EventReceived_18B59F5945020DB23C42FD883FEC113C": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:EventReceived_18B59F5945020DB23C42FD883FEC113C'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.3"
+      },
+      "Added_21071CB943CD992BF8EFD6A31D9C1B2D": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:Added_21071CB943CD992BF8EFD6A31D9C1B2D'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.4"
+      },
+      "Added_21071CB943CD992BF8EFD6A381CA9974": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:Added_21071CB943CD992BF8EFD6A381CA9974'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.5"
+      },
+      "EventReceived_18B59F5945020DB23C42FD88517FCC57": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:EventReceived_18B59F5945020DB23C42FD88517FCC57'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.6"
+      },
+      "OnCompleted_5D118C384AE61F1C80292E814255164F": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:OnCompleted_5D118C384AE61F1C80292E814255164F'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.7"
+      },
+      "OnBlendOut_5D118C384AE61F1C80292E814255164F": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:OnBlendOut_5D118C384AE61F1C80292E814255164F'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.8"
+      },
+      "OnInterrupted_5D118C384AE61F1C80292E814255164F": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:OnInterrupted_5D118C384AE61F1C80292E814255164F'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.9"
+      },
+      "OnCancelled_5D118C384AE61F1C80292E814255164F": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:OnCancelled_5D118C384AE61F1C80292E814255164F'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.10"
+      },
+      "OnTick_5D118C384AE61F1C80292E814255164F": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:OnTick_5D118C384AE61F1C80292E814255164F'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.11"
+      },
+      "显示玩家模型": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:显示玩家模型'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.12"
+      },
+      "变身结束_碰撞关系处理": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:变身结束_碰撞关系处理'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.13"
+      },
+      "根据黑板寻找雷柱": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:根据黑板寻找雷柱'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.14"
+      },
+      "雷柱召唤位置": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:雷柱召唤位置'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.15"
+      },
+      "雷柱位置合法性检测": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:雷柱位置合法性检测'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.16"
+      },
+      "召唤雷柱1": {
+        "ObjectName": "Function'GA_Destroy_Bianshen_FeiLian_TafangVision_C:召唤雷柱1'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.17"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Destroy_Bianshen_FeiLian_TafangVision_C'Default__GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.19"
+    }
+  },
+  {
+    "Type": "GA_Destroy_Bianshen_FeiLian_TafangVision_C",
+    "Name": "Default__GA_Destroy_Bianshen_FeiLian_TafangVision_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision.GA_Destroy_Bianshen_FeiLian_TafangVision_C'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1FerLian/Md00101/Ability/GA_Destroy_Bianshen_FeiLian_TafangVision",
+    "Template": {
+      "ObjectName": "GA_Base_C'Default__GA_Base_C'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Abilities/GA/GA_Base.95"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "变身结束_粒子特效": {
+        "ObjectName": "EffectModelGroup_C'DA_Fx_Group_VisionBS_End'",
+        "ObjectPath": "Client/Content/Aki/Effect/EffectGroup/Common/Vision/DA_Fx_Group_VisionBS_End.0"
+      },
+      "变身结束_材质特效": {
+        "ObjectName": "PD_CharacterControllerDataGroup_C'DA_Fx_Group_Vision_Vanish_03'",
+        "ObjectPath": "Client/Content/Aki/Effect/MaterialController/DA_Vision/DA_Fx_Group_Vision_Vanish_03.0"
+      },
+      "修正后雷柱位置": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    }
+  }
+]

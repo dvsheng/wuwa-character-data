@@ -1,0 +1,1138 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "AM_Attack_03",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "Loop",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack_03'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 9.566667,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 1
+              },
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'Attack_03'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+                },
+                "StartPos": 9.566667,
+                "AnimStartTime": 1.5,
+                "AnimEndTime": 1.0,
+                "AnimPlayRate": 1.0,
+                "LoopingCount": 10
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": -0.0001,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'AM_Attack_03:TsAnimNotifyStateAudioEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.13"
+          },
+          "Duration": 8.069654,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 9.566667,
+            "LinkValue": 8.069654,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 9,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'AM_Attack_03:TsAnimNotifyCameraModify_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.9"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.03333333,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 0.03333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyStateAddTag_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAddTag_C'AM_Attack_03:TsAnimNotifyStateAddTag_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.12"
+          },
+          "Duration": 8.470237,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 9.566667,
+            "LinkValue": 8.503571,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 8,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 0.03333333,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_03:AnimNotifyEffect_C_14'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.39,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 1.703941,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_Attack_03:AnimNotifyStateEffect_C_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.8"
+          },
+          "Duration": 4.9063063,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 9.566667,
+            "LinkValue": 6.7892327,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 7,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 1.8829265,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_Attack_03:AnimNotifyStateEffect_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.3"
+          },
+          "Duration": 4.8747206,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 9.566667,
+            "LinkValue": 6.7681756,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 1.8934549,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_Attack_03:AnimNotifyStateEffect_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.4"
+          },
+          "Duration": 4.8747206,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 9.566667,
+            "LinkValue": 6.7681756,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 1.8934549,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_Attack_03:AnimNotifyStateEffect_C_3'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.6"
+          },
+          "Duration": 4.864192,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 9.566667,
+            "LinkValue": 6.757647,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 4,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 1.8934549,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_Attack_03:AnimNotifyStateEffect_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.5"
+          },
+          "Duration": 4.8747206,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 9.566667,
+            "LinkValue": 6.7681756,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 5,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 1.8934549,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyStateEffect_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "AnimNotifyStateEffect_C'AM_Attack_03:AnimNotifyStateEffect_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.7"
+          },
+          "Duration": 4.885249,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'AM_Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 9.566667,
+            "LinkValue": 6.778704,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'Attack_03'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 6,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 1.8934549,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "AnimNotifyEffect_C",
+          "Notify": {
+            "ObjectName": "AnimNotifyEffect_C'AM_Attack_03:AnimNotifyEffect_C_15'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 5.348631,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 1.9671549,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'AM_Attack_03:TsAnimNotifyReSkillEvent_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.10"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.9999999,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 10,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 1.9999999,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifySendGamePlayEvent",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySendGamePlayEvent_C'AM_Attack_03:TsAnimNotifySendGamePlayEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.11"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.8853422,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'AM_Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 9.566667,
+          "LinkValue": 8.491735,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'Attack_03'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/Attack_03.6"
+          }
+        }
+      ],
+      "SequenceLength": 9.566667,
+      "Skeleton": {
+        "ObjectName": "Skeleton'ML1ShiXiangGuiMd00201_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/Lord/ML1ShiXiangGuiMd00201/Model/ML1ShiXiangGuiMd00201_Skeleton.10"
+      }
+    },
+    "SkeletonGuid": "5FACCEC2-4D79734F-321977B1-A915EB71"
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_03'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1ShiXiangGuiMd00201/DA_Fx_Group_MLb05_ShiXiangGui_shenghai_LaserBurst01.DA_Fx_Group_MLb05_ShiXiangGui_shenghai_LaserBurst01",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 10.985779,
+        "Y": 306.54285,
+        "Z": 485.44257
+      },
+      "Scale": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      },
+      "SocketName": "Root",
+      "exportIndex": 9
+    }
+  },
+  {
+    "Type": "AnimNotifyEffect_C",
+    "Name": "AnimNotifyEffect_C_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.AnimNotifyEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_03'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyEffect_C'Default__AnimNotifyEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyEffect.8"
+    },
+    "Properties": {
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1ShiXiangGuiMd00201/DA_Fx_Group_MLb05_ShiXiangGui_shenghai_fanwei.DA_Fx_Group_MLb05_ShiXiangGui_shenghai_fanwei",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -500.0
+      },
+      "Scale": {
+        "X": 0.7,
+        "Y": 0.7,
+        "Z": 1.0
+      },
+      "Attached": false,
+      "exportIndex": 16
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_03'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "FasterStop": false,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1ShiXiangGuiMd00201/DA_Fx_Group_MLa05_ShiXiangGui_Wings_Loop.DA_Fx_Group_MLa05_ShiXiangGui_Wings_Loop",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -194.37753,
+        "Y": 27.52076,
+        "Z": 0.557802
+      },
+      "Rotation": {
+        "Pitch": -2.909988,
+        "Yaw": -91.588646,
+        "Roll": -90.47402
+      },
+      "SocketName": "Bone_Piao017",
+      "exportIndex": 11,
+      "CurrentTimeLength": 2.4228778
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_03'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "FasterStop": false,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1ShiXiangGuiMd00201/DA_Fx_Group_MLa05_ShiXiangGui_Wings_Loop.DA_Fx_Group_MLa05_ShiXiangGui_Wings_Loop",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -193.90306,
+        "Y": 21.958796,
+        "Z": 0.287201
+      },
+      "Rotation": {
+        "Pitch": -2.704289,
+        "Yaw": -83.10984,
+        "Roll": -91.55379
+      },
+      "SocketName": "Bone_Piao011",
+      "exportIndex": 12,
+      "CurrentTimeLength": 2.4228778
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_03'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "FasterStop": false,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1ShiXiangGuiMd00201/DA_Fx_Group_MLa05_ShiXiangGui_Wings_Loop.DA_Fx_Group_MLa05_ShiXiangGui_Wings_Loop",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -193.43585,
+        "Y": -14.161873,
+        "Z": -1.514317
+      },
+      "Rotation": {
+        "Pitch": -2.77745,
+        "Yaw": -81.00623,
+        "Roll": -90.99612
+      },
+      "SocketName": "Bone_Piao008",
+      "exportIndex": 14,
+      "CurrentTimeLength": 2.4228778
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_03'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "FasterStop": false,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1ShiXiangGuiMd00201/DA_Fx_Group_MLa05_ShiXiangGui_Wings_Loop.DA_Fx_Group_MLa05_ShiXiangGui_Wings_Loop",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -193.99762,
+        "Y": 8.00636,
+        "Z": -0.440121
+      },
+      "Rotation": {
+        "Pitch": -2.910897,
+        "Yaw": -83.8777,
+        "Roll": -90.30187
+      },
+      "SocketName": "Bone_Piao007",
+      "exportIndex": 13,
+      "CurrentTimeLength": 2.4228778
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_03'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "FasterStop": false,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1ShiXiangGuiMd00201/DA_Fx_Group_MLa05_ShiXiangGui_Wings_Loop.DA_Fx_Group_MLa05_ShiXiangGui_Wings_Loop",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -194.37758,
+        "Y": 27.520748,
+        "Z": 0.55775
+      },
+      "Rotation": {
+        "Pitch": -2.893619,
+        "Yaw": -89.87538,
+        "Roll": -90.56044
+      },
+      "SocketName": "Bone_Piao018",
+      "exportIndex": 15,
+      "CurrentTimeLength": 2.4228778
+    }
+  },
+  {
+    "Type": "AnimNotifyStateEffect_C",
+    "Name": "AnimNotifyStateEffect_C_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.AnimNotifyStateEffect_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_03'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+    },
+    "Template": {
+      "ObjectName": "AnimNotifyStateEffect_C'Default__AnimNotifyStateEffect_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/Render/Effect/AnimNotify/AnimNotifyStateEffect.11"
+    },
+    "Properties": {
+      "DetachWhenSkillEnd": true,
+      "WhenSkillEnd": "ESkillEffectType::NewEnumerator1",
+      "FasterStop": false,
+      "EffectDataAssetRef": {
+        "AssetPathName": "/Game/Aki/Effect/EffectGroup/ML1ShiXiangGuiMd00201/DA_Fx_Group_MLa05_ShiXiangGui_Wings_Loop.DA_Fx_Group_MLa05_ShiXiangGui_Wings_Loop",
+        "SubPathString": ""
+      },
+      "Location": {
+        "X": -193.7299,
+        "Y": 50.865574,
+        "Z": 1.747772
+      },
+      "Rotation": {
+        "Pitch": -2.885645,
+        "Yaw": -88.919525,
+        "Roll": -90.606445
+      },
+      "SocketName": "Bone_Piao012",
+      "exportIndex": 10,
+      "CurrentTimeLength": 2.4334064
+    }
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_03'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 7.3,
+      "淡入时间": 0.4,
+      "淡出时间": 0.3,
+      "打断淡出时间": 0.3,
+      "相机修改配置": {
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 600.0,
+        "IsModifiedArmRotationRoll_93_6CBBDC9043D8BF5E4EC3AB8E5473C625": false,
+        "IsModifiedArmRotationPitch_94_6C16441D44C806A072B75DA882811D0C": true,
+        "IsModifiedCameraOffset_79_43F688EC4B642A9CB92B0A8548187E16": true,
+        "IsModifiedCameraOffsetY_97_F5766DB146F88618F570C4A1F04A00F7": true,
+        "CameraOffset_80_EB37D424428EBE421F9AAEB064701EAD": {
+          "X": 40.0,
+          "Y": 60.0,
+          "Z": 0.0
+        }
+      },
+      "exportIndex": 7
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_03'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "288201010",
+      "exportIndex": 17
+    }
+  },
+  {
+    "Type": "TsAnimNotifySendGamePlayEvent_C",
+    "Name": "TsAnimNotifySendGamePlayEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.TsAnimNotifySendGamePlayEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_03'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySendGamePlayEvent_C'Default__TsAnimNotifySendGamePlayEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.3"
+    },
+    "Properties": {
+      "事件Tag": {
+        "TagName": "幻象.变身.正常结束"
+      },
+      "exportIndex": 18
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAddTag_C",
+    "Name": "TsAnimNotifyStateAddTag_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.TsAnimNotifyStateAddTag_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_03'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAddTag_C'Default__TsAnimNotifyStateAddTag_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAddTag.4"
+    },
+    "Properties": {
+      "Tag": {
+        "TagName": "行为状态.逻辑状态.隐身.不被子弹命中"
+      },
+      "exportIndex": 8,
+      "CurrentTimeLength": 4.2829995
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'AM_Attack_03'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1ShiXiangGui/Md00101/CommonAnim/AM_Attack_03.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_vision_lord_t_shixianggui_bat_atk03.play_vision_lord_t_shixianggui_bat_atk03",
+        "SubPathString": ""
+      },
+      "exportIndex": 6,
+      "CurrentTimeLength": 4.316433
+    }
+  }
+]

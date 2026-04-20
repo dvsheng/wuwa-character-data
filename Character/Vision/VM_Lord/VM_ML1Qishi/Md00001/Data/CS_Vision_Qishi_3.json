@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "CS_Vision_Qishi_3_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/Data/CS_Vision_Qishi_3",
+    "SuperStruct": {
+      "ObjectName": "Class'MatineeCameraShake'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "CS_Vision_Qishi_3_C'Default__CS_Vision_Qishi_3_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/Data/CS_Vision_Qishi_3.1"
+    }
+  },
+  {
+    "Type": "CS_Vision_Qishi_3_C",
+    "Name": "Default__CS_Vision_Qishi_3_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/Data/CS_Vision_Qishi_3.CS_Vision_Qishi_3_C'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qishi/Md00001/Data/CS_Vision_Qishi_3",
+    "Properties": {
+      "OscillationDuration": 0.5,
+      "OscillationBlendInTime": 0.0,
+      "OscillationBlendOutTime": 0.5,
+      "RotOscillation": {
+        "Pitch": {
+          "Amplitude": -1.0,
+          "Frequency": 54.0,
+          "InitialOffset": "EOO_OffsetZero"
+        }
+      },
+      "LocOscillation": {
+        "Y": {
+          "Waveform": "EOscillatorWaveform::PerlinNoise"
+        },
+        "Z": {
+          "Amplitude": -8.0,
+          "Frequency": 54.0,
+          "InitialOffset": "EOO_OffsetZero"
+        }
+      },
+      "bSingleInstance": true
+    }
+  }
+]

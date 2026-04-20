@@ -1,0 +1,179 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_Qunnie_BulletBoom_Vision",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Qunnie_BulletBoom_Vision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision.3"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 40,
+        "SignatureFunction": {
+          "ObjectName": "DelegateFunction'WaitDelayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_WaitDelay_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_WaitDelay'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbility",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Qunnie_BulletBoom_Vision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision.3"
+    },
+    "Super": {
+      "ObjectName": "Function'Ga_Passive_C:K2_ActivateAbility'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Abilities/GA/Ga_Passive.2"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Ga_Passive_C:K2_ActivateAbility'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Abilities/GA/Ga_Passive.2"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFinish_6094F24D4C8C80E54ADD73A63DCA3FB0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Qunnie_BulletBoom_Vision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision.3"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Qunnie_BulletBoom_Vision_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'Ga_Passive_C'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Abilities/GA/Ga_Passive.3"
+    },
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_Qunnie_BulletBoom_Vision_C:ExecuteUbergraph_GA_Qunnie_BulletBoom_Vision'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'Ga_Passive_C'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Abilities/GA/Ga_Passive.3"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_Qunnie_BulletBoom_Vision_C:OnFinish_6094F24D4C8C80E54ADD73A63DCA3FB0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision.2"
+      },
+      {
+        "ObjectName": "Function'GA_Qunnie_BulletBoom_Vision_C:K2_ActivateAbility'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision.1"
+      },
+      {
+        "ObjectName": "Function'GA_Qunnie_BulletBoom_Vision_C:ExecuteUbergraph_GA_Qunnie_BulletBoom_Vision'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_Qunnie_BulletBoom_Vision": {
+        "ObjectName": "Function'GA_Qunnie_BulletBoom_Vision_C:ExecuteUbergraph_GA_Qunnie_BulletBoom_Vision'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision.0"
+      },
+      "K2_ActivateAbility": {
+        "ObjectName": "Function'GA_Qunnie_BulletBoom_Vision_C:K2_ActivateAbility'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision.1"
+      },
+      "OnFinish_6094F24D4C8C80E54ADD73A63DCA3FB0": {
+        "ObjectName": "Function'GA_Qunnie_BulletBoom_Vision_C:OnFinish_6094F24D4C8C80E54ADD73A63DCA3FB0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision.2"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Qunnie_BulletBoom_Vision_C'Default__GA_Qunnie_BulletBoom_Vision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision.4"
+    }
+  },
+  {
+    "Type": "GA_Qunnie_BulletBoom_Vision_C",
+    "Name": "Default__GA_Qunnie_BulletBoom_Vision_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision.GA_Qunnie_BulletBoom_Vision_C'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_Lord/VM_ML1Qunnie/Md00401/Ability/GA_Qunnie_BulletBoom_Vision",
+    "Template": {
+      "ObjectName": "Ga_Passive_C'Default__Ga_Passive_C'",
+      "ObjectPath": "Client/Content/Aki/Character/BaseCharacter/Abilities/GA/Ga_Passive.4"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "幻象.怪物.Lord.聚械机偶"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  }
+]
