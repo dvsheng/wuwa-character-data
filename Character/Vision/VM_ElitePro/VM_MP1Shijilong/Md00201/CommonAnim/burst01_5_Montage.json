@@ -1,0 +1,491 @@
+[
+  {
+    "Type": "AnimMontage",
+    "Name": "burst01_5_Montage",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AnimMontage'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage",
+    "Properties": {
+      "CompositeSections": [
+        {
+          "SectionName": "Default",
+          "NextSectionName": "None",
+          "MetaData": [],
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'burst01_5_Montage'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.0,
+          "LinkValue": 0.0,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'burst01_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5.5"
+          }
+        }
+      ],
+      "SlotAnimTracks": [
+        {
+          "SlotName": "DefaultSlot",
+          "AnimTrack": {
+            "AnimSegments": [
+              {
+                "AnimReference": {
+                  "ObjectName": "AnimSequence'burst01_5'",
+                  "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5.5"
+                },
+                "StartPos": 0.0,
+                "AnimStartTime": 0.0,
+                "AnimEndTime": 0.8,
+                "AnimPlayRate": 0.4,
+                "LoopingCount": 1
+              }
+            ]
+          }
+        }
+      ],
+      "Notifies": [
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateMontageSpeedChange_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateMontageSpeedChange_C'burst01_5_Montage:TsAnimNotifyStateMontageSpeedChange_C_2'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.6"
+          },
+          "Duration": 0.08935559,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'burst01_5_Montage'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.0,
+            "LinkValue": 0.30052876,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'burst01_5'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'burst01_5_Montage'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.0,
+          "LinkValue": 0.21117318,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'burst01_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyCameraModify_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyCameraModify_C'burst01_5_Montage:TsAnimNotifyCameraModify_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.1"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.017723132,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'burst01_5_Montage'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.0,
+          "LinkValue": 0.251162,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'burst01_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": -0.0001,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateAudioEvent_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateAudioEvent_C'burst01_5_Montage:TsAnimNotifyStateAudioEvent_C_4'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.4"
+          },
+          "Duration": 1.7473404,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'burst01_5_Montage'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.0,
+            "LinkValue": 2.0,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'burst01_5'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 3,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'burst01_5_Montage'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.0,
+          "LinkValue": 0.25265956,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'burst01_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifyReSkillEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifyReSkillEvent_C'burst01_5_Montage:TsAnimNotifyReSkillEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.2"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 0.28838882,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 1,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'burst01_5_Montage'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.0,
+          "LinkValue": 0.28838882,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'burst01_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 0.0,
+          "NotifyName": "TsAnimNotifyStateMontageSpeedChange_C",
+          "Notify": null,
+          "NotifyStateClass": {
+            "ObjectName": "TsAnimNotifyStateMontageSpeedChange_C'burst01_5_Montage:TsAnimNotifyStateMontageSpeedChange_C_1'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.5"
+          },
+          "Duration": 0.70345813,
+          "EndLink": {
+            "LinkedMontage": {
+              "ObjectName": "AnimMontage'burst01_5_Montage'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+            },
+            "SlotIndex": 0,
+            "SegmentIndex": 0,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 2.0,
+            "LinkValue": 0.99925786,
+            "LinkedSequence": {
+              "ObjectName": "AnimSequence'burst01_5'",
+              "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5.5"
+            }
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 2,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'burst01_5_Montage'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.0,
+          "LinkValue": 0.29579973,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'burst01_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5.5"
+          }
+        },
+        {
+          "TriggerTimeOffset": 0.0,
+          "EndTriggerTimeOffset": 0.0,
+          "TriggerWeightThreshold": 1E-05,
+          "NotifyName": "TsAnimNotifySendGamePlayEvent_C",
+          "Notify": {
+            "ObjectName": "TsAnimNotifySendGamePlayEvent_C'burst01_5_Montage:TsAnimNotifySendGamePlayEvent_C_0'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.3"
+          },
+          "NotifyStateClass": null,
+          "Duration": 0.0,
+          "EndLink": {
+            "LinkedMontage": null,
+            "SlotIndex": 0,
+            "SegmentIndex": -1,
+            "LinkMethod": "EAnimLinkMethod::Absolute",
+            "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+            "SegmentBeginTime": 0.0,
+            "SegmentLength": 0.0,
+            "LinkValue": 1.7007047,
+            "LinkedSequence": null
+          },
+          "bConvertedFromBranchingPoint": false,
+          "MontageTickType": "EMontageNotifyTickType::Queued",
+          "bEnabled": true,
+          "NotifyTriggerChance": 1.0,
+          "NotifyFilterType": "ENotifyFilterType::NoFiltering",
+          "NotifyFilterLOD": 0,
+          "bTriggerOnDedicatedServer": true,
+          "bTriggerOnFollower": false,
+          "bForceTriggerOnState": false,
+          "TrackIndex": 0,
+          "LinkedMontage": {
+            "ObjectName": "AnimMontage'burst01_5_Montage'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+          },
+          "SlotIndex": 0,
+          "SegmentIndex": 0,
+          "LinkMethod": "EAnimLinkMethod::Absolute",
+          "CachedLinkMethod": "EAnimLinkMethod::Absolute",
+          "SegmentBeginTime": 0.0,
+          "SegmentLength": 2.0,
+          "LinkValue": 1.1666669,
+          "LinkedSequence": {
+            "ObjectName": "AnimSequence'burst01_5'",
+            "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5.5"
+          }
+        }
+      ],
+      "SequenceLength": 2.0,
+      "Skeleton": {
+        "ObjectName": "Skeleton'MP1ShijilongMd00101_Skeleton'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/ElitePro/MP1ShijilongMd00101/Model/MP1ShijilongMd00101_Skeleton.3"
+      }
+    },
+    "SkeletonGuid": "CF3D3F0E-4A0030CD-04680EBD-D23BABBF"
+  },
+  {
+    "Type": "TsAnimNotifyCameraModify_C",
+    "Name": "TsAnimNotifyCameraModify_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.TsAnimNotifyCameraModify_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'burst01_5_Montage'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyCameraModify_C'Default__TsAnimNotifyCameraModify_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyCameraModify.3"
+    },
+    "Properties": {
+      "持续时间": 0.5,
+      "淡入时间": 0.2,
+      "淡出时间": 0.6,
+      "打断淡出时间": 0.3,
+      "相机修改配置": {
+        "ArmLengthAdditional_75_3ED4AAB647CA6863AC2F9F9C1D48D229": 200.0,
+        "IsModifiedArmRotation_76_570606324FC53E504274BDA6F59BD5C3": false
+      },
+      "exportIndex": 6
+    }
+  },
+  {
+    "Type": "TsAnimNotifyReSkillEvent_C",
+    "Name": "TsAnimNotifyReSkillEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.TsAnimNotifyReSkillEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'burst01_5_Montage'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyReSkillEvent_C'Default__TsAnimNotifyReSkillEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifyReSkillEvent.3"
+    },
+    "Properties": {
+      "子弹数据名": "200098101",
+      "exportIndex": 8
+    }
+  },
+  {
+    "Type": "TsAnimNotifySendGamePlayEvent_C",
+    "Name": "TsAnimNotifySendGamePlayEvent_C_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.TsAnimNotifySendGamePlayEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'burst01_5_Montage'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifySendGamePlayEvent_C'Default__TsAnimNotifySendGamePlayEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotify/TsAnimNotifySendGamePlayEvent.3"
+    },
+    "Properties": {
+      "事件Tag": {
+        "TagName": "幻象.变身.正常结束"
+      },
+      "exportIndex": 10
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateAudioEvent_C",
+    "Name": "TsAnimNotifyStateAudioEvent_C_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.TsAnimNotifyStateAudioEvent_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'burst01_5_Montage'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateAudioEvent_C'Default__TsAnimNotifyStateAudioEvent_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateAudioEvent.4"
+    },
+    "Properties": {
+      "AudioEvent": {
+        "AssetPathName": "/Game/Aki/WwiseAudio/Events/play_role_vision_elite_shijilong_attack_burst01_5_montage.play_role_vision_elite_shijilong_attack_burst01_5_montage",
+        "SubPathString": ""
+      },
+      "FadeDuration": 300,
+      "exportIndex": 7,
+      "CurrentTimeLength": 1.7473404
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateMontageSpeedChange_C",
+    "Name": "TsAnimNotifyStateMontageSpeedChange_C_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateMontageSpeedChange.TsAnimNotifyStateMontageSpeedChange_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'burst01_5_Montage'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateMontageSpeedChange_C'Default__TsAnimNotifyStateMontageSpeedChange_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateMontageSpeedChange.4"
+    },
+    "Properties": {
+      "MontagePlayRate": 1.5,
+      "exportIndex": 9,
+      "CurrentTimeLength": 0.7126132
+    }
+  },
+  {
+    "Type": "TsAnimNotifyStateMontageSpeedChange_C",
+    "Name": "TsAnimNotifyStateMontageSpeedChange_C_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "TypeScriptGeneratedClass'Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateMontageSpeedChange.TsAnimNotifyStateMontageSpeedChange_C'",
+    "Outer": {
+      "ObjectName": "AnimMontage'burst01_5_Montage'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Shijilong/Md00201/CommonAnim/burst01_5_Montage.0"
+    },
+    "Template": {
+      "ObjectName": "TsAnimNotifyStateMontageSpeedChange_C'Default__TsAnimNotifyStateMontageSpeedChange_C'",
+      "ObjectPath": "Client/Content/Aki/TypeScript/Game/AnimNotifyState/TsAnimNotifyStateMontageSpeedChange.4"
+    },
+    "Properties": {
+      "MontagePlayRate": 0.5,
+      "exportIndex": 5,
+      "CurrentTimeLength": 0.21348622
+    }
+  }
+]

@@ -1,0 +1,281 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Vision_MP1Bingmengma_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.7"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Vision_MP1Bingmengma_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.9"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Vision_MP1Bingmengma_C:InheritableComponentHandler'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.7"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_SnowTrailComponent_NPC",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_SnowTrailComponent_NPC_C'",
+          "ObjectPath": "Client/Content/Aki/Render/RuntimeBP/SnowCoverInteraction/BluePrints/BP_SnowTrailComponent_NPC.8"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Vision_MP1Bingmengma_C'Default__BP_Vision_MP1Bingmengma_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.1"
+    }
+  },
+  {
+    "Type": "BP_Vision_MP1Bingmengma_C",
+    "Name": "Default__BP_Vision_MP1Bingmengma_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.BP_Vision_MP1Bingmengma_C'",
+    "Package": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma",
+    "Template": {
+      "ObjectName": "BP_BaseVision_C'Default__BP_BaseVision_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.8"
+    },
+    "Properties": {
+      "DtHitEffect": {
+        "ObjectName": "DataTable'DT_HitEffect'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/Data/DT_HitEffect.0"
+      },
+      "DtBaseMovementSetting": {
+        "ObjectName": "DataTable'DT_BaseMovementSetting'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/ElitePro/MP1BingmengmaMd00201/Data/DT_BaseMovementSetting.0"
+      },
+      "DtNewBulletDataMain": {
+        "ObjectName": "DataTable'DT_ReBulletDataMain'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/Data/DT_ReBulletDataMain.0"
+      },
+      "FkData": {
+        "ObjectName": "FK_Shake_AssestData_C'FK_Shake_Data'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/ElitePro/MP1BingmengmaMd00201/Data/FK_Shake_Data.0"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Vision_MP1Bingmengma_C:CharacterMesh0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.10"
+      },
+      "CharacterMovement": {
+        "ObjectName": "CharacterMovementComponent'Default__BP_Vision_MP1Bingmengma_C:CharMoveComp'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.4"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_MP1Bingmengma_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_MP1Bingmengma_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.3"
+      }
+    }
+  },
+  {
+    "Type": "BP_SnowTrailComponent_NPC_C",
+    "Name": "BP_SnowTrailComponent_NPC_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Client/Content/Aki/Render/RuntimeBP/SnowCoverInteraction/BluePrints/BP_SnowTrailComponent_NPC.BP_SnowTrailComponent_NPC_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_MP1Bingmengma_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.0"
+    },
+    "Template": {
+      "ObjectName": "BP_SnowTrailComponent_NPC_C'Default__BP_SnowTrailComponent_NPC_C'",
+      "ObjectPath": "Client/Content/Aki/Render/RuntimeBP/SnowCoverInteraction/BluePrints/BP_SnowTrailComponent_NPC.9"
+    },
+    "Properties": {
+      "UseActorPos": true
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_MP1Bingmengma_C'Default__BP_Vision_MP1Bingmengma_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_BaseVision_C:CollisionCylinder'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.9"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 150.0,
+      "CapsuleRadius": 150.0
+    }
+  },
+  {
+    "Type": "CharacterMovementComponent",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CharacterMovementComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_MP1Bingmengma_C'Default__BP_Vision_MP1Bingmengma_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.1"
+    },
+    "Template": {
+      "ObjectName": "CharacterMovementComponent'Default__BP_BaseVision_C:CharMoveComp'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.10"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_MP1Bingmengma_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_MP1Bingmengma_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision_MP1Bingmengma_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Vision_MP1Bingmengma_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.6"
+      },
+      "VariableGuid": "7EF488E7-4EB0E0EB-800F00A9-4CA42640",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Vision_MP1Bingmengma_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.9"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_SnowTrailComponent_NPC_C'",
+        "ObjectPath": "Client/Content/Aki/Render/RuntimeBP/SnowCoverInteraction/BluePrints/BP_SnowTrailComponent_NPC.8"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_SnowTrailComponent_NPC_C'BP_Vision_MP1Bingmengma_C:BP_SnowTrailComponent_NPC_GEN_VARIABLE'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.2"
+      },
+      "VariableGuid": "BAF61AC0-4EE5611D-BE84DD92-D2ED88C1",
+      "InternalVariableName": "BP_SnowTrailComponent_NPC"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Vision_MP1Bingmengma_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Vision_MP1Bingmengma_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.8"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Vision_MP1Bingmengma_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.8"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Vision_MP1Bingmengma_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.7"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_Vision_MP1Bingmengma_C'Default__BP_Vision_MP1Bingmengma_C'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__BP_BaseVision_C:CharacterMesh0'",
+      "ObjectPath": "Client/Content/Aki/Character/Vision/BP_BaseVision.15"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_MP1BingmengmaMd00201_Vision_C'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/ABP_MP1BingmengmaMd00201_Vision.0"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'MP1BingmengmaMd00201'",
+        "ObjectPath": "Client/Content/Aki/Character/Monster/ElitePro/MP1BingmengmaMd00201/Model/MP1BingmengmaMd00201.0"
+      },
+      "bRenderKuroTrail": true,
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Vision_MP1Bingmengma_C:CollisionCylinder'",
+        "ObjectPath": "Client/Content/Aki/Character/Vision/VM_ElitePro/VM_MP1Bingmengma/Md00101/BP_Vision_MP1Bingmengma.3"
+      },
+      "RelativeLocation": {
+        "X": -110.0,
+        "Y": 2.3841867E-06,
+        "Z": -150.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99999,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 0.7,
+        "Y": 0.7,
+        "Z": 0.7
+      }
+    }
+  }
+]
